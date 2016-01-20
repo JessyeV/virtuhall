@@ -3,25 +3,46 @@
 /*/////// UNDER 480px //////////*/
 @media screen and (max-width: 480px) {
 	body{
-		font-size: 1.4em;
-		background-color: @bckgd;
+		font-size: 1.3em;
+		font-family: "SegoeRegular", "arial", sans-serif; 
+		background: @coalgrey;
+		color: @footerTxt;
 	}
-
-	.vh-links{
+	
+	.container{
+		padding-left: .8em;
+		padding-right: .8em;
 		ul{
-			li{
-				.right{
-					float: right;
-					width: 0.9rem;
-					margin-top: 0.4rem;
-				}
-			}
+				list-style: none;
 		}
 	}
 
 	#accordions{
 		ul{
-			display: none; 
+			background-color: #474644;
+			/*display: none; */ /*Appelé direct dans html => fonctionne .. ? */
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
 		}
+	}
+
+	.sections{
+		cursor: pointer;
+		border-bottom: solid 1px rgba(142, 142, 142, 0.2);
+		padding-bottom: 0.1em;
+		padding-top: 0.3em;
+	}
+
+	.sectTitles{
+		color: @footerSect;
+		font-family: "SegoeSemibold";
+		margin-top: 1.4em;
+		margin-bottom: .5em;
+	}
+
+	.wn-rights{
+		color: @footerSect;
+		padding-top: 1.6em;
+		font-size: .6em;
 	}
 }	
