@@ -1,0 +1,107 @@
+@import "_library";
+
+/*/////// UNDER 480px //////////*/
+@media screen and (max-width: 480px) {
+	body{
+		font-size: 1.4em;
+		background-color: @bckgd;
+	}
+
+	.navbar{
+		background-image: @arches;
+		font-family: "Candela", "SegoeRegular", sans-serif;
+
+		.nav-icons{
+			padding: .8rem 0 0 .8rem;
+
+			.vh-icon{
+				width: 40px;
+			}
+
+			#burger-icon{
+				float: right;
+				padding: .6rem .8rem 0 0;
+			}
+		}
+
+		ul{
+			padding-left: 0;
+			li{
+				display: inline-block; 
+				list-style: none;
+				:hover{
+					color: @blue;
+				}
+				a{
+					text-decoration: none;
+					color: @coalgrey;
+				}
+			}
+		}
+
+		.log{
+			text-align: center;
+			ul{
+				margin: .5rem 0 1.3rem 0;
+				li{
+					padding: 0 .8rem 0 .8rem;
+					a{
+						padding: .2rem .1rem .2rem .1rem;
+					}
+				}
+			}
+		}
+
+		.lang{
+			text-align: center;
+			font-family: "SegoeRegular", "arial", sans-serif;
+			font-variant: small-caps;
+
+			ul{
+				margin: 0;
+				padding-bottom: 1.4rem;
+				li{
+					&:first-child{
+						margin-right: 1rem;
+						margin-left: .8rem; 
+					}
+					a{
+						padding: .3rem 1rem .5rem 1rem;
+					}
+				}
+			}
+		}
+
+		.burger-menu{
+			display: none;
+			background-color: @bckgd;
+			border-top: .2rem solid @coalgrey;
+
+			.inside-burger{
+				text-align: center;
+				margin: 0;
+				padding: .5rem 0 .5rem 0;
+
+				li{
+					display: block;
+					line-height: 2.5rem;
+				}
+			}
+		}
+
+		.container-md-lg{
+			display: none;
+		}
+	}
+
+	.banner-container{
+		.banner-md, .banner-lg{
+			display: none;
+		}
+		.banner-sm{
+			position: absolute;
+			margin-top: -1.5rem;
+			width: 100%;
+		}
+	}
+}

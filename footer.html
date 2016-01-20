@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+<html lang="fr">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Footer</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/footer-small.css">
+	<link rel="stylesheet" href="dev/foundation-6/css/foundation.min.css">
+</head>
+<body>
+	<nav class="navbar" role="navigation">
+	<!-- Responsive <480px -->
+		<div class="vh-links">
+			<p>VirtuHall, le site</p>
+			<ul id="accordions" class="nested">
+				<li id="home">Accueil
+					<ul id="home-ctnt" class="menu vertical">
+						<li><a href="#">Actualités</a></li>
+					</ul>
+				</li>		
+
+				<li id="game"><img id ="arr" src="assets/icons/arrow-rgt.png" class="right" alt=""><span>Le Jeu</span>
+					<ul id="game-ctnt" class="menu vertical">
+						<li><a href="#">Présentation</a></li>
+						<li><a href="#">Histoire</a></li>
+						<li><a href="#">Téléchargement</a></li>
+					</ul>
+				</li>	
+
+				<li id="media">Média
+					<ul id="media-ctnt" class="menu vertical">
+						<li><a href="#">Captures d'écran</a></li>
+						<li><a href="#">Vidéos</a></li>
+						<li><a href="#">Fonds d'écran</a></li>
+					</ul>
+				</li>	
+
+				<li id="com">Communauté
+					<ul id="com-ctnt" class="menu vertical">
+						<li><a href="#">Réseaux Sociaux</a></li>
+					</ul>
+				</li>	
+
+				<li id="help">Aide
+					<ul id="help-ctnt" class="menu vertical">
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</li>			
+			</ul>
+		</div>
+
+		<div class="wn-links">
+			<p>Wrong Number, l'agence</p>
+				<ul>
+					<li><a href="#">Site internet</a></li>
+					<li><a href="#">Mentions légales</a></li>
+					<li><a href="#">Donations</a></li>
+				</ul>
+
+				<ul class="sn-links">
+					<li><a href="#"><img src="" alt="">Facebook</a></li>
+					<li><a href="#"><img src="" alt="">Twitter</a></li>
+					<li><a href="#"><img src="" alt="">Reddit</a></li>
+					<li><a href="#"><img src="" alt="">YouTube</a></li>
+				</ul>
+
+			<p class="wn-rights">© 2015-2016 Wrong Number. VirtuHall est une marque de Wrong Number.</p>
+		</div>
+	</nav>
+	
+	<script src="dev/foundation-6/js/jquery/jquery.min.js"></script>
+	<script src="dev/foundation-6/js/accordion.js"></script>
+	<script>
+	
+		$('#home').on('click',function(){
+			$('#home-ctnt').slideToggle('300');
+			$('#game-ctnt, #media-ctnt, #com-ctnt, #help-ctnt').slideUp();
+		});
+
+		$('#game').on('click',function(){
+			$('#game-ctnt').slideToggle('300');
+			$('#home-ctnt, #media-ctnt, #com-ctnt, #help-ctnt').slideUp();
+		});
+
+		$('#media').on('click',function(){
+			$('#media-ctnt').slideToggle('300');
+			$('#home-ctnt, #game-ctnt, #com-ctnt, #help-ctnt').slideUp();
+		});
+
+		$('#com').on('click',function(){
+			$('#com-ctnt').slideToggle('300');
+			$('#home-ctnt, #game-ctnt, #media-ctnt, #help-ctnt').slideUp();
+		});
+
+		$('#help').on('click',function(){
+			$('#help-ctnt').slideToggle('300');
+			$('#home-ctnt, #game-ctnt, #media-ctnt, #com-ctnt').slideUp();
+		});
+	</script>
+</body>
+</html>

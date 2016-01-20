@@ -1,0 +1,92 @@
+@import "_library";
+
+/*///////// 481px TO 559px ///////////*/
+@media screen and (min-width: 481px) and (max-width: 566px) {
+	body{
+		font-size: 1.3em;
+		background-color: @bckgd;
+	}
+
+	.container-sm, #burger-icon{
+		display: none;
+	}
+
+	.navbar{
+		background-image: @arches;
+		font-family: "Candela", "SegoeRegular", sans-serif;
+		
+		ul{
+			padding-left: 0;
+			li{
+				display: inline-block; 
+				list-style: none;
+				:hover{
+					color: @blue;
+				}
+				a{
+					text-decoration: none;
+					color: @coalgrey;
+				}
+			}
+		}
+
+		.top-nav{
+			padding: .8rem 0 0 .8rem;
+			ul{
+				float: right;
+				margin: 0;
+				padding: .5rem .8rem 0 0;
+				li{
+					&:nth-child(-n+2){
+						padding-right: 2rem;
+					}
+					&:nth-child(n+3){
+						font-family: "SegoeRegular", "arial", sans-serif;
+						font-variant: small-caps;
+						font-size: 1.3rem;
+						padding: 0 .5rem 0 .5rem;
+					}
+				}
+			}
+		}
+
+		.mid-nav{
+			text-align: center;
+			ul{
+				li{
+				padding: .7rem .8rem 1rem .8rem;
+
+					&:last-child{
+						font-family: "ZinHena", "Candela", sans-serif;
+						font-size: 1.4rem;
+						margin-bottom: .5rem;
+						a{
+							text-decoration: none;
+							background-color: @red;
+							color: white;
+							padding: .5rem .8rem .5rem .8rem;
+							transition: all .4s ease-in;
+
+							&:hover{
+								transition: all .3s ease-in;
+								background-color: transparent;
+								color: @red;
+							}
+						}
+					}
+				}				
+			}
+		}	
+	}
+
+	.banner-container{
+		.banner-sm, .banner-lg{
+			display: none;
+		}
+		.banner-md{
+			position: absolute;
+			margin-top: -3rem;
+			width: 100%;
+		}
+	}	
+}
