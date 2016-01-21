@@ -23,6 +23,12 @@
 			/*display: none; */ /*Appelé direct dans html => fonctionne .. ? */
 			padding-top: 0.5em;
 			padding-bottom: 0.5em;
+			a{
+				color: @blue;
+					&:focus{
+						text-decoration: underline;
+					}
+			}
 		}
 	}
 
@@ -38,6 +44,19 @@
 		font-family: "SegoeSemibold";
 		margin-top: 1.4em;
 		margin-bottom: .5em;
+	}
+
+	.wn-links{
+		ul{
+			li{
+				a{
+					color: @footerTxt;
+						&:focus{
+							text-decoration: underline;
+						}
+				}
+			}
+		}
 	}
 
 	.wn-rights{
