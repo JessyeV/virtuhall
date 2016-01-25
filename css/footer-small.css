@@ -73,10 +73,10 @@
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
-  #accordions ul a {
+  #accordions ul li a {
     color: #2a8ebb;
   }
-  #accordions ul a:focus {
+  #accordions ul li a:hover {
     text-decoration: underline;
   }
   .sections {
@@ -94,7 +94,8 @@
   .wn-links ul li a {
     color: #cbcbcb;
   }
-  .wn-links ul li a:focus {
+  .wn-links ul li a:hover,
+  .wn-links ul li a :focus {
     text-decoration: underline;
   }
   .wn-rights {
