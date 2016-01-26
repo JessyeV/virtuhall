@@ -6,11 +6,44 @@
 	<title>Footer</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="dev/foundation-6/css/foundation.min.css">
-	<link rel="stylesheet" href="css/footer-small.css">
+	<link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-	<div class="container">
-	<nav class="navbar" role="navigation">
+	<footer class="container" role="contentinfo">
+		<div class="row">
+	<div class="vh-menu">
+		<ul class="columns large-2">
+			<span>Accueil</span>
+			<li>Actualités</li>
+		</ul>
+
+		<ul class="columns large-2">
+			<p>Le Jeu</p>
+			<li>Présentation</li>
+			<li>Histoire</li>
+			<li>Téléchargement</li>
+		</ul>
+
+		<ul class="columns large-2">
+			<p>Média</p>
+			<li>Captures d'écran</li>
+			<li>Vidéos</li>
+			<li>Fonds d'écran</li>
+		</ul>
+		
+		<ul class="columns large-2">	
+			<p>Communauté</p>
+			<li>Réseaux Sociaux</li>
+		</ul>
+
+		<ul>
+			<p>Aide</p>
+			<li>FAQ</li>
+			<li>Support</li>
+		</ul>
+	</div>
+	</div>
+
 	<!-- Responsive <480px -->
 		<div class="vh-links">
 			<p class="sectTitles">VirtuHall, le site</p>
@@ -21,7 +54,7 @@
 					</ul>
 				</li>		
 
-				<li id="game"  class="sections"><span>Le Jeu</span><img src="assets/icons/arrow-rgt.png" class="right" alt="">
+				<li id="game"  class="sections"><span>Le Jeu</span><img id="arrow" src="assets/icons/arrow-rgt.png" class="right" alt="">
 					<ul id="game-ctnt" class="menu vertical" style="display:none;">
 						<li><a href="header.html">Présentation</a></li>
 						<li><a href="#">Histoire</a></li>
@@ -51,8 +84,10 @@
 				</li>			
 			</ul>
 		</div>
+		<!-- FIN RESP -->
 
-		<div class="wn-links">
+		<div class="row">
+		<div class="wn-links columns large-6">
 			<p class="sectTitles">Wrong Number, l'agence</p>
 				<ul>
 					<li><a href="#">Site internet</a></li>
@@ -69,8 +104,8 @@
 
 			<p class="wn-rights">© 2015-2016 Wrong Number. VirtuHall est une marque de Wrong Number.</p>
 		</div>
-	</nav>
-	</div>
+		</div>
+	</footer>
 	
 	<script src="dev/foundation-6/js/jquery/jquery.min.js"></script>
 	<script src="dev/foundation-6/js/accordion.js"></script>

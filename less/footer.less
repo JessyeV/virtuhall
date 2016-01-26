@@ -1,0 +1,17 @@
+@import "_library";
+
+/*///// REUSABLE CLASSES ////////*/
+.disabled{
+	color: #999;				
+}
+.underlined{
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+/*/////////UNDER 480px///////////////*/
+@import "footer-small";
+
+/*/////////Above 560px/////////*/
+@import "footer-large";

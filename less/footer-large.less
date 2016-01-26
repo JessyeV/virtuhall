@@ -1,0 +1,48 @@
+@import "_library";
+
+/*////////// 481px to 559px ///////////////*/
+@media screen and (min-width: 560px){
+	body{
+		font-size: 1.2em;
+		font-family: "SegoeRegular", "arial", sans-serif; 
+		background: @coalgrey;
+		color: @footerTxt;
+	}
+	
+	.container{
+		padding-left: .8em;
+		padding-right: .8em;
+		ul{
+			list-style: none;
+		}
+	}	
+
+/*	.vh-menu{
+		display: inline-flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}*/
+
+	.vh-links{
+		display: none;
+	}
+
+	.wn-links{
+		ul{
+			li{
+				a{
+					color: @footerTxt;
+						&:hover, :focus{
+							text-decoration: underline;
+						}
+				}
+			}
+		}
+	}
+
+	.wn-rights{
+		color: @footerSect;
+		padding-top: 1.6em;
+		font-size: .6em;
+	}
+}	
