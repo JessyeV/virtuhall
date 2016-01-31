@@ -60,7 +60,7 @@
 }
 /*/////////UNDER 480px///////////////*/
 /*/////// UNDER 559px //////////*/
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 714px) {
   body {
     font-size: 1.2em;
     font-family: "SegoeRegular", "arial", sans-serif;
@@ -109,6 +109,9 @@
   .wn-links ul li a :focus {
     text-decoration: underline;
   }
+  .columns {
+    padding-left: 0;
+  }
   .wn-rights {
     color: #8e8e8e;
     padding-top: 1.6em;
@@ -117,7 +120,7 @@
 }
 /*/////////Above 560px/////////*/
 /*////////// 481px to 559px ///////////////*/
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 715px) {
   body {
     font-size: 1.2em;
     font-family: "SegoeRegular", "arial", sans-serif;
@@ -125,19 +128,43 @@
     color: #cbcbcb;
   }
   .container {
-    padding-left: .8em;
-    padding-right: .8em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
   }
   .container ul {
     list-style: none;
   }
-  /*	.vh-menu{
-		display: inline-flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-	}*/
+  .margin {
+    margin-left: -0.1em;
+    margin-right: -0.2em;
+  }
+  .vh-menu {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .vh-menu > ul {
+    padding-right: 1.2em;
+    padding-top: 1em;
+  }
+  .vh-menu > ul span {
+    color: #8e8e8e;
+    font-family: "SegoeSemibold";
+  }
+  .vh-menu > ul li a {
+    color: #cbcbcb;
+  }
+  .vh-menu > ul li a:hover,
+  .vh-menu > ul li a :focus {
+    text-decoration: underline;
+  }
   .vh-links {
     display: none;
+  }
+  .wn-links {
+    float: right;
+    padding-top: 1em;
+    text-align: right;
   }
   .wn-links ul li a {
     color: #cbcbcb;
@@ -147,8 +174,15 @@
     text-decoration: underline;
   }
   .wn-rights {
+    text-align: center;
     color: #8e8e8e;
     padding-top: 1.6em;
     font-size: .6em;
+  }
+}
+@media screen and (max-width: 926px) {
+  .wn-links {
+    float: left;
+    text-align: left;
   }
 }

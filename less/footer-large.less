@@ -1,7 +1,7 @@
 @import "_library";
 
 /*////////// 481px to 559px ///////////////*/
-@media screen and (min-width: 560px){
+@media screen and (min-width: 715px){
 	body{
 		font-size: 1.2em;
 		font-family: "SegoeRegular", "arial", sans-serif; 
@@ -10,24 +10,51 @@
 	}
 	
 	.container{
-		padding-left: .8em;
-		padding-right: .8em;
+		padding-left: 1.3em;
+		padding-right: 1.3em;
 		ul{
 			list-style: none;
 		}
 	}	
 
-/*	.vh-menu{
+	.margin{
+		margin-left: -0.1em;
+		margin-right: -0.2em;
+	}
+
+	.vh-menu{
 		display: inline-flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-	}*/
 
+		&>ul{
+			padding-right: 1.2em;
+			padding-top: 1em;
+
+			span{
+				color: @footerSect;
+				font-family: "SegoeSemibold";
+			}
+
+			li{
+				a{
+					color: @footerTxt;
+					&:hover, :focus{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+  
 	.vh-links{
 		display: none;
 	}
 
 	.wn-links{
+		float: right;
+		padding-top: 1em;
+		text-align: right;
 		ul{
 			li{
 				a{
@@ -41,8 +68,16 @@
 	}
 
 	.wn-rights{
+		text-align: center;
 		color: @footerSect;
 		padding-top: 1.6em;
 		font-size: .6em;
 	}
 }	
+
+@media screen and (max-width: 926px){
+	.wn-links{
+		float: left;
+		text-align: left;
+	}
+}
