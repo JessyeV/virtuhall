@@ -52,7 +52,7 @@
   font-weight: bold;
 }
 /*/////// UNDER 559px //////////*/
-@media screen and (max-width: 714px) {
+@media screen and (max-width: 729px) {
   body {
     font-size: 1.2em;
     font-family: "SegoeRegular", "arial", sans-serif;
@@ -94,6 +94,12 @@
     margin-top: 1.4em;
     margin-bottom: .5em;
   }
+  .wn-links {
+    margin-top: 1.2em;
+  }
+  .wn-links img {
+    display: none;
+  }
   .wn-links ul li a {
     color: #cbcbcb;
   }
@@ -105,6 +111,7 @@
     padding-left: 0;
   }
   .wn-rights {
+    clear: both;
     color: #8e8e8e;
     padding-top: 1.6em;
     font-size: .6em;
