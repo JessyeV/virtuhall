@@ -28,7 +28,7 @@
 
 <!-- MAIN -->
 <h2>Rejoignez-nous en vous inscrivant !</h2>
-<p>Pour jouer à VirtuHall, il vous faut créer un compte qui vous permettra d'accéder au téléchargement du client. <br>
+<p>Pour jouer à VirtuHall, il vous faut créer un compte qui vous permettra d'accéder au téléchargement du client du jeu. <br>
 L’inscription est rapide et facile, alors n’attendez plus ! <br>
 <span class="info">Les champs marqués d’une * sont obligatoires.</span></p>
 
