@@ -1,0 +1,137 @@
+/* CANDELA */
+@font-face {
+  font-family: "Candela";
+  src: url('../assets/fonts/candela/CandelaBook.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CandelaBold";
+  src: url('../assets/fonts/candela/CandelaBold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "CandelaItalic";
+  src: url('../assets/fonts/candela/CandelaItalic.otf');
+  font-weight: italic;
+}
+/* ZIN HENA BOKURYU */
+@font-face {
+  font-family: "ZinHena";
+  src: url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.otf'), url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.ttf');
+  font-weight: normal;
+}
+/* SEGOE UI */
+@font-face {
+  font-family: "SegoeRegular";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeLight";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_light.ttf');
+  font-weight: light;
+}
+@font-face {
+  font-family: "SegoeBold";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_bold.ttf'), url('../assets/fonts/segoe_ui/segoe_ui_bold.eot'), url('../assets/fonts/segoe_ui/segoe_ui_bold.woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "SegoeItalic";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_italic.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeSemibold";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_semibold.ttf');
+  font-weight: semibold;
+}
+@font-face {
+  font-family: "SegoeBoldItalic";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
+  font-weight: bold;
+}
+/*////////// 481px to 559px ///////////////*/
+@media screen and (min-width: 730px) {
+  body {
+    font-size: 1.2em;
+    font-family: "SegoeRegular", "arial", sans-serif;
+    background: #403e3c;
+    color: #cbcbcb;
+  }
+  .container {
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+  }
+  .container ul {
+    list-style: none;
+  }
+  .vh-menu {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .vh-menu > ul {
+    padding-right: 1.2em;
+    padding-top: 1em;
+  }
+  .vh-menu > ul span {
+    color: #8e8e8e;
+    font-family: "SegoeSemibold";
+  }
+  .vh-menu > ul li a {
+    color: #cbcbcb;
+  }
+  .vh-menu > ul li a:hover,
+  .vh-menu > ul li a :focus {
+    text-decoration: underline;
+  }
+  .vh-links {
+    display: none;
+  }
+  .sn-links {
+    display: inline-flex;
+  }
+  .sn-links > li {
+    padding-left: .8em;
+  }
+  .sn-links > li:first-child {
+    padding-left: 0;
+  }
+  .sn-links > li span {
+    display: none;
+  }
+  .sn-links > li div:hover {
+    border-radius: 100px;
+    background-color: #cf0202;
+    transition: all .2s ease;
+  }
+  .wn-links {
+    float: right;
+    padding-top: .7em;
+    text-align: right;
+  }
+  .wn-links .sectTitles {
+    display: none;
+  }
+  .wn-links ul li a {
+    color: #cbcbcb;
+  }
+  .wn-links ul li a:hover,
+  .wn-links ul li a :focus {
+    text-decoration: underline;
+  }
+  .wn-rights {
+    clear: both;
+    text-align: center;
+    color: #8e8e8e;
+    padding-top: 1.6em;
+    font-size: .6em;
+  }
+}
+@media screen and (max-width: 940px) {
+  .wn-links {
+    float: left;
+    text-align: left;
+  }
+}

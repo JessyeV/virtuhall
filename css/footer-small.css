@@ -51,10 +51,10 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
-/*/////// UNDER 480px //////////*/
-@media screen and (max-width: 480px) {
+/*/////// UNDER 559px //////////*/
+@media screen and (max-width: 729px) {
   body {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: "SegoeRegular", "arial", sans-serif;
     background: #403e3c;
     color: #cbcbcb;
@@ -66,12 +66,21 @@
   .container ul {
     list-style: none;
   }
+  .vh-menu {
+    display: none;
+  }
   #accordions ul {
     background-color: #474644;
     /*display: none; */
     /*Appelé direct dans html => fonctionne .. ? */
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+  }
+  #accordions ul li a {
+    color: #2a8ebb;
+  }
+  #accordions ul li a:hover {
+    text-decoration: underline;
   }
   .sections {
     cursor: pointer;
@@ -85,7 +94,24 @@
     margin-top: 1.4em;
     margin-bottom: .5em;
   }
+  .wn-links {
+    margin-top: 1.2em;
+  }
+  .wn-links img {
+    display: none;
+  }
+  .wn-links ul li a {
+    color: #cbcbcb;
+  }
+  .wn-links ul li a:hover,
+  .wn-links ul li a :focus {
+    text-decoration: underline;
+  }
+  .columns {
+    padding-left: 0;
+  }
   .wn-rights {
+    clear: both;
     color: #8e8e8e;
     padding-top: 1.6em;
     font-size: .6em;

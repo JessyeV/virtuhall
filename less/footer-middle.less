@@ -1,0 +1,70 @@
+@import "_library";
+
+/*////////// 481px to 559px ///////////////*/
+@media screen and (min-width: 481px) and (max-width: 559px) {
+	body{
+		font-size: 1.2em;
+		font-family: "SegoeRegular", "arial", sans-serif; 
+		background: @coalgrey;
+		color: @footerTxt;
+	}
+	
+	.container{
+		padding-left: .8em;
+		padding-right: .8em;
+		ul{
+				list-style: none;
+		}
+	}
+
+	#accordions{
+		ul{
+			background-color: #474644;
+			/*display: none; */ /*Appelé direct dans html => fonctionne .. ? */
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
+
+			li{
+				a{
+				color: @blue;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+
+	.sections{
+		cursor: pointer;
+		border-bottom: solid 1px rgba(142, 142, 142, 0.2);
+		padding-bottom: 0.1em;
+		padding-top: 0.3em;
+	}
+
+	.sectTitles{
+		color: @footerSect;
+		font-family: "SegoeSemibold";
+		margin-top: 1.4em;
+		margin-bottom: .5em;
+	}
+
+	.wn-links{
+		ul{
+			li{
+				a{
+					color: @footerTxt;
+						&:hover, :focus{
+							text-decoration: underline;
+						}
+				}
+			}
+		}
+	}
+
+	.wn-rights{
+		color: @footerSect;
+		padding-top: 1.6em;
+		font-size: .6em;
+	}
+}	
