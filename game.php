@@ -7,11 +7,11 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="dev/foundation-6/css/foundation.min.css">
 		<link rel="stylesheet" href="css/game.css">
+		<link rel="stylesheet" href="css/header.css">
 	</head>
 	<body>
 		<!-- NAVIGATION -->
-		<div id="menu-nav">
-		</div>
+			<div><?php include('header.inc.php'); ?></div>
 		<!-- MENU -->
 		<header class="title-box">
 			<h1>Le Jeu</h1>
@@ -56,11 +56,6 @@
 			</div>
 		</div>
 		<script src="dev/foundation-6/js/jquery/jquery.min.js">
-		</script>
-		<script>
-		$(document).ready(function() {
-       			$('#menu-nav').load('header.html');
-			});
 		</script>
 	</body>
 </html>

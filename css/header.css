@@ -61,7 +61,7 @@
 /*/////////UNDER 480px///////////////*/
 /*/////// UNDER 480px //////////*/
 @media screen and (max-width: 480px) {
-  body {
+  #main-header {
     font-size: 1.4em;
     background-color: #f9f9f9;
   }
@@ -151,7 +151,7 @@
 /*///////// 481px TO 559px ///////////*/
 /*///////// 481px TO 559px ///////////*/
 @media screen and (min-width: 481px) and (max-width: 566px) {
-  body {
+  #main-header {
     font-size: 1.3em;
     background-color: #f9f9f9;
   }
@@ -230,7 +230,7 @@
 /*/////////480px AND 730px/////////*/
 /*////////// FIX 584px to 744px //////////////////*/
 @media screen and (min-width: 567px) and (max-width: 797px) {
-  body {
+  #main-header {
     font-size: 1.3em;
     background-color: #f9f9f9;
   }
@@ -308,7 +308,7 @@
 }
 /*/////////480px AND 730px/////////*/
 @media screen and (min-width: 798px) {
-  body {
+  #main-header {
     font-size: 1.5em;
     background-color: #f9f9f9;
   }

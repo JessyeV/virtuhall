@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Header</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/header.css">
-	</head>
-	<body>
 		<div id="main-header">
 		<nav class="navbar" role="navigation">		
 <!-- Responsive <480px -->
@@ -89,6 +79,4 @@
 		  $('#burger-icon').on('click',function(){
 			$('.burger-menu').slideToggle('200');
 			});
-		</script>	
-	</body>
-</html>
+		</script>

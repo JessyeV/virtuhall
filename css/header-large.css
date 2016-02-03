@@ -53,7 +53,7 @@
 }
 /*////////// FIX 584px to 744px //////////////////*/
 @media screen and (min-width: 567px) and (max-width: 797px) {
-  body {
+  #main-header {
     font-size: 1.3em;
     background-color: #f9f9f9;
   }
@@ -131,7 +131,7 @@
 }
 /*/////////480px AND 730px/////////*/
 @media screen and (min-width: 798px) {
-  body {
+  #main-header {
     font-size: 1.5em;
     background-color: #f9f9f9;
   }
