@@ -51,3 +51,36 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
+body {
+  font-size: 1.1em;
+  font-family: "SegoeRegular", sans-serif;
+  background-color: #f9f9f9;
+}
+.title-box {
+  background-image: url('../assets/patterns/arches.png');
+  padding: .5em 0 .5em 0;
+}
+h1 {
+  font-family: "Candela", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+}
+.main .breadcrumbs {
+  margin-left: 1em;
+}
+.main .breadcrumbs li {
+  font-size: .9em;
+  text-transform: capitalize;
+  margin: 1em 0 1em 0;
+}
+.main h2 {
+  font-size: 1.5em;
+  font-family: "Candela", sans-serif;
+}
+.main .pres > article {
+  margin-bottom: .8em;
+}
+.main .story > article {
+  margin-top: .5em;
+}
