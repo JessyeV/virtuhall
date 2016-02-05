@@ -60,14 +60,12 @@
 }
 /*/////////UNDER 480px///////////////*/
 /*/////// UNDER 559px //////////*/
-@media screen and (max-width: 729px) {
-  body {
+@media screen and (max-width: 824px) {
+  .container {
     font-size: 1.2em;
     font-family: "SegoeRegular", "arial", sans-serif;
     background: #403e3c;
     color: #cbcbcb;
-  }
-  .container {
     padding-left: .8em;
     padding-right: .8em;
   }
@@ -101,6 +99,7 @@
     font-family: "SegoeSemibold";
     margin-top: 1.4em;
     margin-bottom: .5em;
+    padding-top: 1em;
   }
   .wn-links {
     margin-top: 1.2em;
@@ -124,17 +123,19 @@
     padding-top: 1.6em;
     font-size: .6em;
   }
+  .wn-rights p {
+    margin-bottom: 0;
+    padding-bottom: 1.2em;
+  }
 }
 /*/////////Above 560px/////////*/
 /*////////// 481px to 559px ///////////////*/
-@media screen and (min-width: 730px) {
-  body {
+@media screen and (min-width: 824px) {
+  .container {
     font-size: 1.2em;
     font-family: "SegoeRegular", "arial", sans-serif;
     background: #403e3c;
     color: #cbcbcb;
-  }
-  .container {
     padding-left: 1.3em;
     padding-right: 1.3em;
   }
@@ -202,6 +203,10 @@
     color: #8e8e8e;
     padding-top: 1.6em;
     font-size: .6em;
+  }
+  .wn-rights p {
+    margin-bottom: 0;
+    padding-bottom: 1.2em;
   }
 }
 @media screen and (max-width: 940px) {

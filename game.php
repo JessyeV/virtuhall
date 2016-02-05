@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="dev/foundation-6/css/foundation.min.css">
 		<link rel="stylesheet" href="css/game.css">
 		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
 	</head>
 	<body>
 		<!-- NAVIGATION -->
@@ -55,6 +56,9 @@
 				</aside>
 			</div>
 		</div>
+		<!-- FOOTER -->
+		<span class="space"><?php include('footer.inc.php'); ?></span>
+
 		<script src="dev/foundation-6/js/jquery/jquery.min.js">
 		</script>
 	</body>
