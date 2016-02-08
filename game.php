@@ -12,7 +12,8 @@
 	</head>
 	<body>
 		<!-- NAVIGATION -->
-			<div><?php include('header.inc.php'); ?></div>
+		<?php include('header.inc.php'); ?>
+		
 		<!-- MENU -->
 		<header class="title-box">
 			<h1>Le Jeu</h1>
@@ -51,15 +52,24 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, doloribus inventore sint animi placeat mollitia libero itaque autem, et earum explicabo accusamus architecto. Quam placeat cum, dolore molestias impedit quis.</p>
 					</article>
 				</section>
+
 				<aside class="ad large-2 column">
-					Advertizing
+					<ins class="adsbygoogle"
+					style="display:inline-block;width:160px;height:600px"
+					data-ad-client="ca-pub-8371934832180859"
+					data-ad-slot="8348896925"></ins>
 				</aside>
 			</div>
 		</div>
+
 		<!-- FOOTER -->
 		<span class="space"><?php include('footer.inc.php'); ?></span>
 
-		<script src="dev/foundation-6/js/jquery/jquery.min.js">
+		<!-- SCRIPTS -->
+		<script src="dev/foundation-6/js/jquery/jquery.min.js"></script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
 	</body>
 </html>

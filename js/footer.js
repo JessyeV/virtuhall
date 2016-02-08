@@ -1,12 +1,21 @@
  $(document).ready(function() {
 
-	 	var $game = $('#game-ctnt').data('toggled','true');
-	 	var $categories = $('#home-ctnt', '#game-ctnt');
+	 	var $sections = $('.sections').data('toggled');
 
-	 		if ($categories.is('toggled')){
-	 			$('.right').css({"transform" : "rotate(360deg)"});
+	 	if ($sections === true){
+	 		$('.right').css({"transform" : "rotate(90deg)"});
 	 	}
 
+		else if ($sections != true){
+	 		$('.right').css({"transform" : "rotate(180deg)"});
+	 	}
+
+// if($('#game-ctnt').css('display') === 'none'){
+// 	 		$('.right').css({"transform" : "rotate(180deg)"});
+// 		}
+
+
+	 	//SLIDING NAVS
 		$('#home').on('click',function(){
 			 $('#home-ctnt').slideToggle('300');
 			$('#game-ctnt, #media-ctnt, #com-ctnt, #help-ctnt').slideUp();

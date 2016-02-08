@@ -51,10 +51,10 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
-/*/////// UNDER 480px //////////*/
-@media screen and (max-width: 480px) {
+/*/////// UNDER 630px //////////*/
+@media screen and (max-width: 630px) {
   #main-header {
-    font-size: 1.4em;
+    font-size: 1.3em;
     background-color: #f9f9f9;
   }
   .navbar {
@@ -130,12 +130,12 @@
   .navbar .container-md-lg {
     display: none;
   }
-  .banner-container .banner-md,
+  .banner-container .banner-sm,
   .banner-container .banner-lg {
     display: none;
   }
-  .banner-container .banner-sm {
-    position: absolute;
+  .banner-container .banner-md {
+    position: relative;
     margin-top: -1.5rem;
     width: 100%;
   }
