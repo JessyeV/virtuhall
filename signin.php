@@ -7,10 +7,14 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="dev/foundation-6/css/foundation.min.css">
 		<link rel="stylesheet" href="css/signin.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	</head>
 	<body>
+		<!-- NAVIGATION -->
+		<?php include('header.inc.php'); ?>
 		
 		<!-- MENU -->
 		<header class="title-box">
@@ -60,6 +64,10 @@
 					</form>
 				</div>
 			</div>
+
+			<!-- FOOTER -->
+			<span class="space"><?php include('footer.inc.php'); ?></span>
+
 			<script src="dev/foundation-6/js/jquery/jquery.min.js"></script>
 			<script src="js/signin.js"></script>
 		</body>
