@@ -1,0 +1,128 @@
+@import "_library";
+
+@media screen and (min-width: 741px) {
+
+	body{
+		font-size: 1.1em;
+		font-family: "SegoeRegular", sans-serif;
+		background-color: @bckgd;
+	}
+
+	.title-box{
+		background-image: @arches;
+		padding: .5em 0 .5em 0;
+	}
+
+	h1{
+		font-family: "Candela", sans-serif;
+		font-size: 2em;
+		text-align: center;
+		margin: 0;
+	}
+
+	.main{
+		.breadcrumbs{
+			li{
+				font-size: .9em;
+				text-transform: capitalize;
+				margin: 1em 0 1em 0;
+			}
+		}
+
+		h2{
+			font-size: 1.5em;
+			font-family: "Candela", sans-serif;
+		}
+
+		.info{
+			font-style: italic;
+			color: grey;
+		}
+
+		.form-head{
+			text-align: center;
+			background-image: @darkarches;
+			width: 55%;
+			margin: auto;
+			margin-top: 3em;
+			padding: .5em;
+			font-size: 1.2em;
+			color: @whiteTxt;
+			border-top-left-radius: .5em;
+			border-top-right-radius: .5em;
+		}
+
+		form{
+			background-color: @lightgrey;
+			padding: 2em 4em 2em 4em;
+			width: 55%;
+			min-width: 55%;
+			margin: auto;
+			margin-bottom: 3em;
+			border-bottom-left-radius: .5em;
+			border-bottom-right-radius: .5em;
+
+			input, textarea{
+				border-radius: .6em;
+				margin-bottom: 1.6em;
+				padding-left: 3em;
+				&:focus{
+					border: 1px solid rgba(42, 142, 187, 0.8);
+				}
+			}
+
+			.user{
+				background-image: url('../assets/icons/form/user.png');
+				background-repeat: no-repeat;
+				background-position: 12px;
+				&:focus{
+					background-image: url('../assets/icons/form/user-foc-b.png');
+					background-repeat: no-repeat;
+					background-position: 12px;
+					transition: background-image .2s ease;
+				}
+			}
+			.subject{
+				background-image: url('../assets/icons/form/question.png');
+				background-repeat: no-repeat;
+				background-position: 12px;
+				&:focus{
+					background-image: url('../assets/icons/form/question-foc-b.png');
+					background-repeat: no-repeat;
+					background-position: 12px;
+					transition: background-image .2s ease;
+				}
+			}
+			.mail{
+				background-image: url('../assets/icons/form/mail.png');
+				background-repeat: no-repeat;
+				background-position: 9px;
+				&:focus{
+					background-image: url('../assets/icons/form/mail-foc-b.png');
+					background-repeat: no-repeat;
+					background-position: 9px;
+					transition: background-image .2s ease;
+				}
+			}
+			.msg{
+	
+			}
+
+			button{
+				display: block;
+				margin: auto;
+				margin-top: 1.6em;
+				padding: .8em;
+				border-radius: em;
+				background-color: @coalgrey;
+				color: @whiteTxt;
+				transition: border-radius .5s ease, background-color .5s ease;
+				&:hover{
+					border-radius: .6em;
+					transition: border-radius .3s ease, background-color .3s ease;
+					background-color: @blue;
+				}
+			}
+		}
+	}
+}

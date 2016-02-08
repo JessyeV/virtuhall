@@ -64,6 +64,9 @@
   .container ul {
     list-style: none;
   }
+  .breadcrumbs a {
+    color: #2a8ebb;
+  }
   .vh-menu {
     display: inline-flex;
     flex-direction: row;

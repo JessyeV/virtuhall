@@ -1,0 +1,163 @@
+/* CANDELA */
+@font-face {
+  font-family: "Candela";
+  src: url('../assets/fonts/candela/CandelaBook.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CandelaBold";
+  src: url('../assets/fonts/candela/CandelaBold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "CandelaItalic";
+  src: url('../assets/fonts/candela/CandelaItalic.otf');
+  font-weight: italic;
+}
+/* ZIN HENA BOKURYU */
+@font-face {
+  font-family: "ZinHena";
+  src: url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.otf'), url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.ttf');
+  font-weight: normal;
+}
+/* SEGOE UI */
+@font-face {
+  font-family: "SegoeRegular";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeLight";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_light.ttf');
+  font-weight: light;
+}
+@font-face {
+  font-family: "SegoeBold";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_bold.ttf'), url('../assets/fonts/segoe_ui/segoe_ui_bold.eot'), url('../assets/fonts/segoe_ui/segoe_ui_bold.woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "SegoeItalic";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_italic.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeSemibold";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_semibold.ttf');
+  font-weight: semibold;
+}
+@font-face {
+  font-family: "SegoeBoldItalic";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
+  font-weight: bold;
+}
+@media screen and (min-width: 741px) {
+  body {
+    font-size: 1.1em;
+    font-family: "SegoeRegular", sans-serif;
+    background-color: #f9f9f9;
+  }
+  .title-box {
+    background-image: url('../assets/patterns/arches.png');
+    padding: .5em 0 .5em 0;
+  }
+  h1 {
+    font-family: "Candela", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+  }
+  .main .breadcrumbs li {
+    font-size: .9em;
+    text-transform: capitalize;
+    margin: 1em 0 1em 0;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-family: "Candela", sans-serif;
+  }
+  .main .info {
+    font-style: italic;
+    color: grey;
+  }
+  .main .form-head {
+    text-align: center;
+    background-image: url('../assets/patterns/darkarches.png');
+    width: 55%;
+    margin: auto;
+    margin-top: 3em;
+    padding: .5em;
+    font-size: 1.2em;
+    color: #f4f4f4;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+  }
+  .main form {
+    background-color: #ECECEC;
+    padding: 2em 4em 2em 4em;
+    width: 55%;
+    min-width: 55%;
+    margin: auto;
+    margin-bottom: 3em;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+  }
+  .main form input,
+  .main form textarea {
+    border-radius: .6em;
+    margin-bottom: 1.6em;
+    padding-left: 3em;
+  }
+  .main form input:focus,
+  .main form textarea:focus {
+    border: 1px solid rgba(42, 142, 187, 0.8);
+  }
+  .main form .user {
+    background-image: url('../assets/icons/form/user.png');
+    background-repeat: no-repeat;
+    background-position: 12px;
+  }
+  .main form .user:focus {
+    background-image: url('../assets/icons/form/user-foc-b.png');
+    background-repeat: no-repeat;
+    background-position: 12px;
+    transition: background-image 0.2s ease;
+  }
+  .main form .subject {
+    background-image: url('../assets/icons/form/question.png');
+    background-repeat: no-repeat;
+    background-position: 12px;
+  }
+  .main form .subject:focus {
+    background-image: url('../assets/icons/form/question-foc-b.png');
+    background-repeat: no-repeat;
+    background-position: 12px;
+    transition: background-image 0.2s ease;
+  }
+  .main form .mail {
+    background-image: url('../assets/icons/form/mail.png');
+    background-repeat: no-repeat;
+    background-position: 9px;
+  }
+  .main form .mail:focus {
+    background-image: url('../assets/icons/form/mail-foc-b.png');
+    background-repeat: no-repeat;
+    background-position: 9px;
+    transition: background-image 0.2s ease;
+  }
+  .main form button {
+    display: block;
+    margin: auto;
+    margin-top: 1.6em;
+    padding: .8em;
+    border-radius: em;
+    background-color: #403e3c;
+    color: #f4f4f4;
+    transition: border-radius 0.5s ease, background-color 0.5s ease;
+  }
+  .main form button:hover {
+    border-radius: .6em;
+    transition: border-radius 0.3s ease, background-color 0.3s ease;
+    background-color: #2a8ebb;
+  }
+}
