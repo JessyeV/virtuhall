@@ -7,8 +7,8 @@
 
 		<ul>
 			<span>Le Jeu</span>
-			<li><a>Présentation</a></li>
-			<li><a>Histoire</a></li>
+			<li><a href="game.php#intro">Présentation</a></li>
+			<li><a href="game.php#story">Histoire</a></li>
 			<li><a>Téléchargement</a></li>
 		</ul>
 
@@ -27,7 +27,7 @@
 		<ul>
 			<span>Aide</span>
 			<li><a>FAQ</a></li>
-			<li><a>Support</a></li>
+			<li><a href="support.php">Support</a></li>
 		</ul>
 	</div>
 	
@@ -44,8 +44,8 @@
 
 				<li id="game"  class="sections"><span>Le Jeu</span><img src="assets/icons/arrow-rgt.png" class="right" alt="">
 					<ul id="game-ctnt" class="menu vertical" >
-						<li><a href="header.html">Présentation</a></li>
-						<li><a href="#">Histoire</a></li>
+						<li><a href="game.php#intro">Présentation</a></li>
+						<li><a href="game.php#story">Histoire</a></li>
 						<li><a href="#">Téléchargement</a></li>
 					</ul>
 				</li>	
@@ -67,7 +67,7 @@
 				<li id="help" class="sections"><span>Aide</span>
 					<ul id="help-ctnt" class="menu vertical" >
 						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Support</a></li>
+						<li><a href="support.php">Support</a></li>
 					</ul>
 				</li>			
 			</ul>

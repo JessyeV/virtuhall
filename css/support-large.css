@@ -101,6 +101,10 @@
     margin-bottom: 3em;
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em;
+    /*textarea[rows]{
+				height: 180px;
+			}
+*/
   }
   .main form input,
   .main form textarea {
@@ -143,6 +147,17 @@
     background-image: url('../assets/icons/form/mail-foc-b.png');
     background-repeat: no-repeat;
     background-position: 9px;
+    transition: background-image 0.2s ease;
+  }
+  .main form .msg {
+    background-image: url('../assets/icons/form/pen.png');
+    background-repeat: no-repeat;
+    background-position: 10px 2px;
+  }
+  .main form .msg:focus {
+    background-image: url('../assets/icons/form/pen-foc-b.png');
+    background-repeat: no-repeat;
+    background-position: 10px 2px;
     transition: background-image 0.2s ease;
   }
   .main form button {

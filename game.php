@@ -33,7 +33,7 @@
 
 				<!-- SECTIONS -->
 				<section class="pres">
-					<article class="large-8 column">
+					<article class="large-8 column" id="intro">
 						<h2>Présentation</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ducimus repellendus sequi soluta suscipit consequatur quibusdam eos quam aspernatur, veniam, expedita impedit! Eius aut modi doloribus cumque? Molestias saepe, magni.</p>
 					</article>
@@ -43,7 +43,7 @@
 				</section>
 				<hr>
 				
-				<section class="story large-10 column">
+				<section class="story large-10 column" id="story">
 					<span class="large-2 column">
 						<img src="" alt="">
 					</span>

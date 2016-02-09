@@ -105,9 +105,21 @@
 				}
 			}
 			.msg{
-	
+				background-image: url('../assets/icons/form/pen.png');
+				background-repeat: no-repeat;
+				background-position: 10px 2px; 
+				&:focus{
+					background-image: url('../assets/icons/form/pen-foc-b.png');
+					background-repeat: no-repeat;
+					background-position: 10px 2px;
+					transition: background-image .2s ease;
+				}
 			}
 
+			/*textarea[rows]{
+				height: 180px;
+			}
+*/
 			button{
 				display: block;
 				margin: auto;

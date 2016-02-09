@@ -53,7 +53,7 @@
 						<label for="" class="show-for-sr">Sujet</label>
 						<input type="text" name="subject" placeholder="Un sujet intéressant (ou pas)*" class="subject" required/>
 
-						<label for="" class="show-for-sr">E-mail</label>
+						<label for="" class="show-for-sr">Message</label>
 						<textarea name="message" class="msg" cols="30" rows="10" placeholder="Votre gentil message ici*"></textarea>
 
 						<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>

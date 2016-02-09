@@ -12,7 +12,7 @@
 			</div>
 			<div class="log">
 				<ul>
-					<li><a href="#">Inscription</a></li>
+					<li><a href="signin.php">Inscription</a></li>
 					<li><a href="#">Connexion</a></li>
 				</ul>
 			</div>
@@ -27,11 +27,11 @@
 			<nav class="burger-menu" role="navigation">
 				<ul class="inside-burger">
 					<li><a href="#">Accueil</a></li>
-					<li><a href="#">Le jeu</a></li>
+					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
 					<li><a href="#">Communauté</a></li>
-					<li><a href="#">Aide</a></li>
-					<li><a href="#">Jouez !</a></li>
+					<li><a href="support.php">Aide</a></li>
+					<li><a href="signin.php">Jouez !</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -41,7 +41,7 @@
 					<img src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil">
 				</a>
 				<ul>
-					<li><a href="#">Inscription</a></li>
+					<li><a href="signin.php">Inscription</a></li>
 					<li><a href="#">Connexion</a></li>
 					<li class="disabled">fr</li>
 					<span>|</span>
@@ -55,7 +55,7 @@
 					<li><a href="#">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
 					<li><a href="#">Communauté</a></li>
-					<li><a href="#">Aide</a></li>
+					<li><a href="support.php">Aide</a></li>
 					<li><a href="#">Jouez!</a></li>
 				</ul>
 			</div>
