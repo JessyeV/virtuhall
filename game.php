@@ -19,7 +19,8 @@
 			<h1>Le Jeu</h1>
 		</header>
 		<div class="row" role="main">
-			<div class="main column">
+			<div class="main column large-12">
+
 				<!-- BREADCRUMB -->
 				<nav aria-label="Vous êtes ici:" role="navigation">
 					<ul class="breadcrumbs">
@@ -29,6 +30,7 @@
 						</li>
 					</ul>
 				</nav>
+
 				<!-- SECTIONS -->
 				<section class="pres">
 					<article class="large-8 column" id="intro">
@@ -45,7 +47,7 @@
 				</section>
 				<hr>
 				
-				<section class="story large-10 column" id="story">
+				<section class="story" id="story">
 					<span class="large-2 column">
 						<img src="" alt="">
 					</span>
@@ -62,10 +64,12 @@
 						Mais en plus de sa rivale Kata, d'autres ennemis plus féroces encore guettent dans l'ombre, prêts à tout pour remporter le concours !</p>
 					</article>
 				</section>
-					<ins class="adsbygoogle large-2 column"
+				<aside class="large-2 column">
+					<ins class="adsbygoogle"
 					style="display:inline-block;width:160px;height:600px"
 					data-ad-client="ca-pub-8371934832180859"
 					data-ad-slot="8348896925"></ins>
+				</aside>	
 			</div>
 		</div>
 		<!-- FOOTER -->

@@ -52,27 +52,27 @@
   font-weight: bold;
 }
 .accordeon {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 .accordeon h3 {
   font-size: 1em;
   padding: .8em;
   margin-bottom: 0;
+  font-family: "SegoeRegular", sans-serif;
+  cursor: pointer;
 }
-.accordeon h3 a {
-  font-family: "SegoeSemibold", sans-serif;
-  color: black;
-  padding: .7em 0em .7em 0;
+.accordeon h3:hover {
+  color: #f4f4f4;
+  background-color: #2a8ebb;
+  transition: all 0.2s ease-in;
 }
 .accordeon article {
-  border-radius: .5em;
   background-color: #ECECEC;
   margin-bottom: .8em;
-  /*	border-bottom: solid 2px @coalgrey;*/
 }
 .accordeon article div {
   background-color: #f3f3f3;
-  padding: .8em 0 .8em 1.8em;
+  padding: 1em;
   border-bottom-right-radius: .5em;
   border-bottom-left-radius: .5em;
 }

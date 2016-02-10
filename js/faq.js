@@ -1,6 +1,6 @@
 $(document).ready(function(){
 function openFirstPanel(){
-	$('.accordeon > article:first-child > h3:first-child').next().addClass('active').slideDown();
+	$('.accordeon > article:first-child > h3:first-child').addClass('active').slideDown();
 	}
 	(function($) {
 	
@@ -8,9 +8,9 @@ function openFirstPanel(){
 	
 	openFirstPanel();
 	
-	$('.accordeon > article > h3 > a').click(function() {
+	$('.accordeon > article > h3').click(function() {
 	$this = $(this);
-	$target =  $this.parent().next();
+	$target =  $this.next();
 	
 	
 	if($target.hasClass('active')){

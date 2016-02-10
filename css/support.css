@@ -58,9 +58,6 @@
     font-family: "SegoeRegular", sans-serif;
     background-color: #f9f9f9;
   }
-  .column:last-child:not(:first-child) {
-    float: none;
-  }
   .title-box {
     background-image: url('../assets/patterns/arches.png');
     padding: .5em 0 .5em 0;
@@ -184,9 +181,6 @@
     font-family: "SegoeRegular", sans-serif;
     background-color: #f9f9f9;
   }
-  .column:last-child:not(:first-child) {
-    float: none;
-  }
   .title-box {
     background-image: url('../assets/patterns/arches.png');
     padding: .5em 0 .5em 0;
@@ -214,7 +208,7 @@
   .main .form-head {
     text-align: center;
     background-image: url('../assets/patterns/darkarches.png');
-    width: 55%;
+    width: 75%;
     margin: auto;
     margin-top: 3em;
     padding: .5em;
@@ -226,7 +220,7 @@
   .main form {
     background-color: #ECECEC;
     padding: 2em 4em 2em 4em;
-    width: 55%;
+    width: 75%;
     min-width: 55%;
     margin: auto;
     margin-bottom: 3em;

@@ -58,9 +58,6 @@
     font-family: "SegoeRegular", sans-serif;
     background-color: #f9f9f9;
   }
-  .column:last-child:not(:first-child) {
-    float: none;
-  }
   .title-box {
     background-image: url('../assets/patterns/arches.png');
     padding: .5em 0 .5em 0;
