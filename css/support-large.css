@@ -57,6 +57,9 @@
     font-family: "SegoeRegular", sans-serif;
     background-color: #f9f9f9;
   }
+  .column:last-child:not(:first-child) {
+    float: none;
+  }
   .title-box {
     background-image: url('../assets/patterns/arches.png');
     padding: .5em 0 .5em 0;
@@ -73,8 +76,9 @@
     margin: 1em 0 1em 0;
   }
   .main h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-family: "Candela", sans-serif;
+    margin-bottom: .7em;
   }
   .main .info {
     font-style: italic;
@@ -101,10 +105,6 @@
     margin-bottom: 3em;
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em;
-    /*textarea[rows]{
-				height: 180px;
-			}
-*/
   }
   .main form input,
   .main form textarea {
@@ -152,13 +152,16 @@
   .main form .msg {
     background-image: url('../assets/icons/form/pen.png');
     background-repeat: no-repeat;
-    background-position: 10px 2px;
+    background-position: 10px 4px;
   }
   .main form .msg:focus {
     background-image: url('../assets/icons/form/pen-foc-b.png');
     background-repeat: no-repeat;
-    background-position: 10px 2px;
+    background-position: 10px 4px;
     transition: background-image 0.2s ease;
+  }
+  .main form textarea[rows] {
+    height: 185px;
   }
   .main form button {
     display: block;

@@ -5,10 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Inscription - Virtuhall</title>
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="dev/foundation-6/css/foundation.min.css">
-		<link rel="stylesheet" href="css/signin.css">
+		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/signin.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	</head>
@@ -68,7 +68,7 @@
 			<!-- FOOTER -->
 			<span class="space"><?php include('footer.inc.php'); ?></span>
 
-			<script src="dev/foundation-6/js/jquery/jquery.min.js"></script>
+			<script src="js/jquery.min.js"></script>
 			<script src="js/signin.js"></script>
 		</body>
 	</html>

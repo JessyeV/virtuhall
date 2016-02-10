@@ -70,7 +70,7 @@
 		alt="">
 	</span>
 </div>
-<script src="dev/foundation-6/js/jquery/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script>
 $('#burger-icon').on('click',function(){
 	$('.burger-menu').slideToggle('200');

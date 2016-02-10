@@ -8,6 +8,10 @@
 		background-color: @bckgd;
 	}
 
+	.column:last-child:not(:first-child){
+		float: none;
+	}
+
 	.title-box{
 		background-image: @arches;
 		padding: .5em 0 .5em 0;
@@ -30,8 +34,9 @@
 		}
 
 		h2{
-			font-size: 1.5em;
+			font-size: 1.6em;
 			font-family: "Candela", sans-serif;
+			margin-bottom: .7em;
 		}
 
 		.info{
@@ -107,19 +112,19 @@
 			.msg{
 				background-image: url('../assets/icons/form/pen.png');
 				background-repeat: no-repeat;
-				background-position: 10px 2px; 
+				background-position: 10px 4px; 
 				&:focus{
 					background-image: url('../assets/icons/form/pen-foc-b.png');
 					background-repeat: no-repeat;
-					background-position: 10px 2px;
+					background-position: 10px 4px;
 					transition: background-image .2s ease;
 				}
 			}
 
-			/*textarea[rows]{
-				height: 180px;
+			textarea[rows]{
+				height: 185px;
 			}
-*/
+
 			button{
 				display: block;
 				margin: auto;

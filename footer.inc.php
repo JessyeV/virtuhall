@@ -93,6 +93,5 @@
 				<div class="wn-rights"><p>© 2015-2016 Wrong Number. VirtuHall est une marque de Wrong Number.</p></div>
 		</div>
 </footer>
-	<script src="dev/foundation-6/js/jquery/jquery.min.js"></script>
-	<script src="dev/foundation-6/js/accordion.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/footer.js"></script>

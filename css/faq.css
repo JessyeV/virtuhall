@@ -51,39 +51,32 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
-body {
-  font-size: 1.1em;
-  font-family: "SegoeRegular", sans-serif;
-  background-color: #f9f9f9;
+.accordeon {
+  margin-bottom: 4em;
 }
-.title-box {
-  background-image: url('../assets/patterns/arches.png');
-  padding: .5em 0 .5em 0;
+.accordeon h3 {
+  font-size: 1em;
+  padding: .8em;
+  margin-bottom: 0;
 }
-h1 {
-  font-family: "Candela", sans-serif;
-  font-size: 1.8em;
-  text-align: center;
-  margin: 0;
+.accordeon h3 a {
+  font-family: "SegoeSemibold", sans-serif;
+  color: black;
+  padding: .7em 0em .7em 0;
 }
-.main .breadcrumbs {
-  margin-left: 1em;
-}
-.main .breadcrumbs li {
-  font-size: .9em;
-  text-transform: capitalize;
-  margin: 1em 0 1em 0;
-}
-.main h2 {
-  font-size: 1.5em;
-  font-family: "Candela", sans-serif;
-}
-.main .pres > article {
+.accordeon article {
+  border-radius: .5em;
+  background-color: #ECECEC;
   margin-bottom: .8em;
+  /*	border-bottom: solid 2px @coalgrey;*/
 }
-.main .strike {
-  text-decoration: line-through;
+.accordeon article div {
+  background-color: #f3f3f3;
+  padding: .8em 0 .8em 1.8em;
+  border-bottom-right-radius: .5em;
+  border-bottom-left-radius: .5em;
 }
-.main .story > article {
-  margin-top: .5em;
+.accordeon article div p {
+  padding: 0;
+  margin: 0;
 }

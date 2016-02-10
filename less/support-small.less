@@ -9,6 +9,10 @@
 		background-color: @bckgd;
 	}
 
+	.column:last-child:not(:first-child){
+		float: none;
+	}
+
 	.title-box{
 		background-image: @arches;
 		padding: .5em 0 .5em 0;
@@ -62,12 +66,12 @@
 			border-bottom-left-radius: .5em;
 			border-bottom-right-radius: .5em;
 
-						input{
+				input, textarea{
 				border-radius: .6em;
 				margin-bottom: 1.6em;
 				padding-left: 3em;
 				&:focus{
-					border: 1px solid rgba(238, 130, 14, 0.8);
+					border: 1px solid rgba(42, 142, 187, 0.8);
 				}
 			}
 
@@ -76,18 +80,18 @@
 				background-repeat: no-repeat;
 				background-position: 12px;
 				&:focus{
-					background-image: url('../assets/icons/form/user-foc.png');
+					background-image: url('../assets/icons/form/user-foc-b.png');
 					background-repeat: no-repeat;
 					background-position: 12px;
 					transition: background-image .2s ease;
 				}
 			}
-			.pwd{
-				background-image: url('../assets/icons/form/lock.png');
+			.subject{
+				background-image: url('../assets/icons/form/question.png');
 				background-repeat: no-repeat;
 				background-position: 12px;
 				&:focus{
-					background-image: url('../assets/icons/form/lock-foc.png');
+					background-image: url('../assets/icons/form/question-foc-b.png');
 					background-repeat: no-repeat;
 					background-position: 12px;
 					transition: background-image .2s ease;
@@ -98,21 +102,27 @@
 				background-repeat: no-repeat;
 				background-position: 9px;
 				&:focus{
-					background-image: url('../assets/icons/form/mail-foc.png');
+					background-image: url('../assets/icons/form/mail-foc-b.png');
 					background-repeat: no-repeat;
 					background-position: 9px;
 					transition: background-image .2s ease;
 				}
 			}
-			.gndr{
-				padding-left: 12px;
-			}
-		
-			.radio{
-				padding-right: 1em;
+
+			.msg{
+				background-image: url('../assets/icons/form/pen.png');
+				background-repeat: no-repeat;
+				background-position: 10px 4px; 
+				&:focus{
+					background-image: url('../assets/icons/form/pen-foc-b.png');
+					background-repeat: no-repeat;
+					background-position: 10px 4px;
+					transition: background-image .2s ease;
+				}
 			}
 
-			.g-recaptcha{
+			textarea[rows]{
+				height: 185px;
 			}
 
 			button{
@@ -127,25 +137,9 @@
 				&:hover{
 					border-radius: .6em;
 					transition: border-radius .3s ease, background-color .3s ease;
-					background-color: @orange;
+					background-color: @blue;
 				}
 			}
 		}
-	}
-}
-
-/* RADIO BUTTON FIX*/
-@media screen and (max-width: 368px) {
-	.radio{
-	  position: relative;
-	  left: 1.1em;
-	}
-	.radiobr{
-		position: relative;
-		margin-left: 3.8em;
-	}	
-
-	.rc-anchor, .rc-anchor-normal{
-		width: 70px;
 	}
 }

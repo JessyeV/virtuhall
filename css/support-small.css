@@ -58,6 +58,9 @@
     font-family: "SegoeRegular", sans-serif;
     background-color: #f9f9f9;
   }
+  .column:last-child:not(:first-child) {
+    float: none;
+  }
   .title-box {
     background-image: url('../assets/patterns/arches.png');
     padding: .5em 0 .5em 0;
@@ -102,13 +105,15 @@
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em;
   }
-  .main form input {
+  .main form input,
+  .main form textarea {
     border-radius: .6em;
     margin-bottom: 1.6em;
     padding-left: 3em;
   }
-  .main form input:focus {
-    border: 1px solid rgba(238, 130, 14, 0.8);
+  .main form input:focus,
+  .main form textarea:focus {
+    border: 1px solid rgba(42, 142, 187, 0.8);
   }
   .main form .user {
     background-image: url('../assets/icons/form/user.png');
@@ -116,18 +121,18 @@
     background-position: 12px;
   }
   .main form .user:focus {
-    background-image: url('../assets/icons/form/user-foc.png');
+    background-image: url('../assets/icons/form/user-foc-b.png');
     background-repeat: no-repeat;
     background-position: 12px;
     transition: background-image 0.2s ease;
   }
-  .main form .pwd {
-    background-image: url('../assets/icons/form/lock.png');
+  .main form .subject {
+    background-image: url('../assets/icons/form/question.png');
     background-repeat: no-repeat;
     background-position: 12px;
   }
-  .main form .pwd:focus {
-    background-image: url('../assets/icons/form/lock-foc.png');
+  .main form .subject:focus {
+    background-image: url('../assets/icons/form/question-foc-b.png');
     background-repeat: no-repeat;
     background-position: 12px;
     transition: background-image 0.2s ease;
@@ -138,16 +143,24 @@
     background-position: 9px;
   }
   .main form .mail:focus {
-    background-image: url('../assets/icons/form/mail-foc.png');
+    background-image: url('../assets/icons/form/mail-foc-b.png');
     background-repeat: no-repeat;
     background-position: 9px;
     transition: background-image 0.2s ease;
   }
-  .main form .gndr {
-    padding-left: 12px;
+  .main form .msg {
+    background-image: url('../assets/icons/form/pen.png');
+    background-repeat: no-repeat;
+    background-position: 10px 4px;
   }
-  .main form .radio {
-    padding-right: 1em;
+  .main form .msg:focus {
+    background-image: url('../assets/icons/form/pen-foc-b.png');
+    background-repeat: no-repeat;
+    background-position: 10px 4px;
+    transition: background-image 0.2s ease;
+  }
+  .main form textarea[rows] {
+    height: 185px;
   }
   .main form button {
     display: block;
@@ -162,21 +175,6 @@
   .main form button:hover {
     border-radius: .6em;
     transition: border-radius 0.3s ease, background-color 0.3s ease;
-    background-color: #ee820e;
-  }
-}
-/* RADIO BUTTON FIX*/
-@media screen and (max-width: 368px) {
-  .radio {
-    position: relative;
-    left: 1.1em;
-  }
-  .radiobr {
-    position: relative;
-    margin-left: 3.8em;
-  }
-  .rc-anchor,
-  .rc-anchor-normal {
-    width: 70px;
+    background-color: #2a8ebb;
   }
 }

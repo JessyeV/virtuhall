@@ -42,6 +42,3 @@
 			$('#home-ctnt, #game-ctnt, #media-ctnt, #com-ctnt').slideUp();
 		});
 	});	
-
-
- //Pour les flèches de l'accordion => faire une variable qui vérifie si la flèche is toggled (referme l'arrow), sinon l'inverse ?
