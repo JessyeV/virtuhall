@@ -69,6 +69,7 @@
 .accordeon article {
   background-color: #ECECEC;
   margin-bottom: .8em;
+  width: 80%;
 }
 .accordeon article div {
   background-color: #f3f3f3;
