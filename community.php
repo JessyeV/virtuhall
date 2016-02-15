@@ -3,7 +3,7 @@
 	<html lang="fr">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Inscription - Virtuhall</title>
+		<title>Communauté - Virtuhall</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">
@@ -40,13 +40,13 @@
 
 					<!-- LEFT -->
 					<section class="column large-5">
-						<div>
-							<span class="fb">FB</span>
-							<img src="assets/icons/VH-icon.png" alt="">
+						<div class="cat">
+							<div class="fb">FB</div>
+							<div class="img">Image</div>
 						</div>
 
 						<div>
-							<span class="fb">FB</span>
+							<div class="fb">FB</div>
 							<img src="assets/icons/VH-icon.png" alt="">
 						</div>
 					</section>
@@ -54,18 +54,20 @@
 					<!-- RIGHT -->
 					<section class="column large-5">
 						<div>
-							<span class="fb">FB</span>
+							<div class="fb">FB</div>
 							<img src="assets/icons/VH-icon.png" alt="">
 						</div>
-						
+
 						<div>
-							<span class="fb">FB</span>
+							<div class="fb">FB</div>
 							<img src="assets/icons/VH-icon.png" alt="">
 						</div>
 					</section>
 
 					<!-- ADVERTIZING -->
-					<aside class="ad column large-2"></aside>
+					<aside class="ad column large-2">
+						<p>Je suis une pub yay ;D</p>
+					</aside>
 
 
 				</div>
