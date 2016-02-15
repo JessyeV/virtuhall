@@ -31,7 +31,7 @@
 					<li><a href="#">Média</a></li>
 					<li><a href="#">Communauté</a></li>
 					<li><a href="support.php">Aide</a></li>
-					<li><a href="signin.php">Jouez !</a></li>
+					<li><a href="signin.php">Télécharger!</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -56,7 +56,7 @@
 					<li><a href="#">Média</a></li>
 					<li><a href="#">Communauté</a></li>
 					<li><a href="support.php">Aide</a></li>
-					<li><a href="#">Jouez!</a></li>
+					<li><a href="#">Telecharger!</a></li>
 				</ul>
 			</div>
 		</div>

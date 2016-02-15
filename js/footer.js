@@ -1,20 +1,4 @@
  $(document).ready(function() {
-
-	 	var $sections = $('.sections').data('toggled');
-
-	 	if ($sections === true){
-	 		$('.right').css({"transform" : "rotate(90deg)"});
-	 	}
-
-		else if ($sections != true){
-	 		$('.right').css({"transform" : "rotate(180deg)"});
-	 	}
-
-// if($('#game-ctnt').css('display') === 'none'){
-// 	 		$('.right').css({"transform" : "rotate(180deg)"});
-// 		}
-
-
 	 	//SLIDING NAVS
 		$('#home').on('click',function(){
 			 $('#home-ctnt').slideToggle('300');

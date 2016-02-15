@@ -133,7 +133,6 @@
 }
 @media screen and (max-width: 940px) {
   .wn-links {
-    float: left;
     text-align: left;
   }
 }
