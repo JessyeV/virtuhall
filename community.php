@@ -39,28 +39,24 @@
 
 
 					<!-- LEFT -->
-					<section class="column large-5">
-						<div class="cat">
-							<div class="fb">FB</div>
-							<div class="img">Image</div>
+					<section class="sn-divs column large-5">
+						<div>
+							<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><img src="assets/images/commu/fb-page-no-border.png" alt="Lien vers la page facebook de VirtuHall"></a>
 						</div>
 
 						<div>
-							<div class="fb">FB</div>
-							<img src="assets/icons/VH-icon.png" alt="">
+							<img src="assets/images/commu/snap-page-no-border.png" alt="Rechercher le nom Virtuhall pour l'ajouter à vos contacts Snapchat">
 						</div>
 					</section>
 
 					<!-- RIGHT -->
-					<section class="column large-5">
+					<section class="sn-divs column large-5">
 						<div>
-							<div class="fb">FB</div>
-							<img src="assets/icons/VH-icon.png" alt="">
+							<a href="https://twitter.com/virtuhall_game"><img src="assets/images/commu/twitter-page-no-border.png" alt="Lien vers la page Twitter de VirtuHall"></a>
 						</div>
 
 						<div>
-							<div class="fb">FB</div>
-							<img src="assets/icons/VH-icon.png" alt="">
+							<img src="assets/images/commu/twitter-page.png" alt="">
 						</div>
 					</section>
 

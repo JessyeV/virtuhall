@@ -51,6 +51,12 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
+/* FORTE */
+@font-face {
+  font-family: "Forte";
+  src: url('../assets/fonts/forte/FORTE.TTF');
+  font-weight: normal;
+}
 body {
   font-size: 1.1em;
   font-family: "SegoeRegular", sans-serif;

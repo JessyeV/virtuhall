@@ -29,7 +29,7 @@
 					<li><a href="#">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
-					<li><a href="#">Communauté</a></li>
+					<li><a href="community.php">Communauté</a></li>
 					<li><a href="support.php">Aide</a></li>
 					<li><a href="signin.php">Télécharger!</a></li>
 				</ul>
@@ -56,14 +56,12 @@
 					<li><a href="#">Média</a></li>
 					<li><a href="#">Communauté</a></li>
 					<li><a href="support.php">Aide</a></li>
-					<li><a href="#">Telecharger!</a></li>
+					<li><a href="#">T<span class="forte">é</span>l<span class="forte">é</span>charg<span class="forte">e</span>r!</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<span class="banner-container">
- 		<!-- <img class="banner-sm" src="assets/images/banner-sm.png"
-		alt=""> -->
 		<img class="banner-md" src="assets/images/banner-md.png"
 		alt="">
 		<img class="banner-lg" src="assets/images/banner-lg.png"

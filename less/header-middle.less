@@ -1,7 +1,7 @@
 @import "_library";
 
 /*///////// 631px TO 842px ///////////*/
-@media screen and (min-width: 631px) and (max-width: 842px) {
+@media screen and (min-width: 631px) and (max-width: 870px) {
 	#main-header{
 		font-size: 1.2em;
 		background-color: @bckgd;
@@ -20,12 +20,12 @@
 			li{
 				display: inline-block; 
 				list-style: none;
-				:hover{
-					color: @blue;
-				}
 				a{
 					text-decoration: none;
 					color: @coalgrey;
+					&:hover{
+						color: @blue;
+					}
 				}
 			}
 		}
@@ -54,13 +54,14 @@
 			text-align: center;
 			ul{
 				li{
-				padding: .7rem .8rem 1rem .8rem;
-				margin-bottom: 2rem;
+				padding: .7rem .8rem 0rem .8rem;
+				margin-bottom: 0.2rem;
 				margin-top: 1rem;
 
 					&:last-child{
 						font-family: "ZinHena", "Candela", sans-serif;
 						font-size: 1.4rem;
+						margin-bottom: 2rem;
 						a{
 							text-decoration: none;
 							background-color: @red;
