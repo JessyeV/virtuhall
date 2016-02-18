@@ -54,7 +54,8 @@
 					<div>
 						<h3>Je télécharge VirtuHall</h3>
 						<button class="dl-btn">
-							<p>Télécharger le jeu<br>Version Windows</p>
+							<p>Télécharger le jeu</p>
+							<p>Version Windows (x64)</p>
 						</button>
 
 						<button class="dl-btn-vsn">

@@ -78,9 +78,6 @@
   .container ul {
     list-style: none;
   }
-  .breadcrumbs a {
-    color: #2a8ebb;
-  }
   .vh-menu {
     display: none;
   }
@@ -109,6 +106,13 @@
     margin-bottom: .5em;
     padding-top: 1em;
   }
+  .vh-links li {
+    transition: all .6s ease;
+  }
+  .vh-links li:hover {
+    text-indent: .9em;
+    transition: all .6s ease;
+  }
   .sn-links {
     display: inline-flex;
     flex-shrink: 0;
@@ -125,6 +129,13 @@
     border-radius: 100px;
     background-color: #cf0202;
     transition: all .2s ease;
+  }
+  .ext-links li {
+    transition: all .6s ease;
+  }
+  .ext-links li:hover {
+    text-indent: .9em;
+    transition: all .6s ease;
   }
   .wn-links {
     margin-top: 1.2em;
@@ -232,10 +243,5 @@
   .wn-rights p {
     margin-bottom: 0;
     padding-bottom: 1.2em;
-  }
-}
-@media screen and (max-width: 940px) {
-  .wn-links {
-    text-align: left;
   }
 }

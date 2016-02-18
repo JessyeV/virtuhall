@@ -137,8 +137,3 @@
     padding-bottom: 1.2em;
   }
 }
-@media screen and (max-width: 940px) {
-  .wn-links {
-    text-align: left;
-  }
-}

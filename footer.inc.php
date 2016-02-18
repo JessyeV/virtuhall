@@ -77,7 +77,7 @@
 		<div class="wn-links">
 			<span class="sectTitles">Wrong Number, l'agence</span>
 			<img src="assets/icons/WN_light2.png" class="wn-img" alt="Logo de l'agence Wrong Number">
-				<ul>
+				<ul class="ext-links">
 					<li><a href="#">Site internet</a></li>
 					<li><a href="#">Mentions légales</a></li>
 					<li><a href="#">Donations</a></li>

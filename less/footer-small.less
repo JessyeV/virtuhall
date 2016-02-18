@@ -14,10 +14,6 @@
 		}
 	}
 
-	.breadcrumbs a{
-		color: @blue;
-	}
-
 	.vh-menu{
 		display: none;
 	}
@@ -55,6 +51,16 @@
 		padding-top: 1em;
 	}
 
+	.vh-links{
+		li{
+			transition: all .6s ease;
+			&:hover{
+				text-indent: .9em;
+				transition: all .6s ease;
+			}
+		}
+	}
+
 	.sn-links{
 		display: inline-flex;
 		flex-shrink: 0;
@@ -69,6 +75,16 @@
 				border-radius: 100px;
 				background-color: @red;
 				transition: all .2s ease;
+			}
+		}
+	}
+	
+	.ext-links{
+		li{
+			transition: all .6s ease;
+			&:hover{
+				text-indent: .9em;
+				transition: all .6s ease;
 			}
 		}
 	}
@@ -89,6 +105,8 @@
 			}
 		}
 	}
+
+
 
 	.columns{
 		padding-left: 0;
