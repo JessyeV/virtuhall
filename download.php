@@ -34,7 +34,7 @@
 
 				<!-- MAIN -->
 				<h2>Télécharger VirtuHall</h2>
-				<p>Parce que c'est facile et gratuit (et qu'on sait que vous en mourrez d'envie), voici comment télécharger VirtuHall !</p>
+				<p>Parce que c'est facile et gratuit (et qu'on sait que vous en mourrez d'envie), voici tout le nécessaire pour télécharger VirtuHall !</p>
 				<!-- LEFT -->
 				<section class="column large-5">
 					<div class="steps">
@@ -53,14 +53,19 @@
 				<section class="column large-5">
 					<div>
 						<h3>Je télécharge VirtuHall</h3>
-						<button href="" class="dl-btn">
-							<p>Télécharger le jeu</p>
-							<p>Version Windows (x64)</p>
-						</button>
-
-						<button href="" class="dl-btn-vsn">
-							<p>Télécharger une autre version</p>
-						</button>
+						<a href="#">
+							<button class="dl-btn">
+								<img src="assets/icons/dl-32.png" alt="">
+								<p>Télécharger le jeu</p>
+								<p>Version Windows (x64)</p>
+							</button>
+						</a>
+						
+						<a href="#">
+							<button class="dl-btn-vsn">
+								<p>Télécharger une autre version</p>
+							</button>
+						</a>
 					</div>
 
 				</section>
