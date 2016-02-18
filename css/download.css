@@ -112,9 +112,15 @@ h1 {
   height: 5em;
   border-radius: .5em;
   padding-top: 10px;
+  margin-bottom: 1em;
+}
+.main .dl-btn p:first-child {
+  text-transform: uppercase;
+  color: #f4f4f4;
+  font-family: "SegoeSemibold", sans-serif;
 }
 .main .dl-btn-vsn {
-  background-color: #ECECEC;
+  background-color: #D1D1D1;
   width: 20em;
   height: 3em;
   border-radius: .5em;
