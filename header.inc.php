@@ -30,7 +30,7 @@
 					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
-					<li><a href="support.php">Aide</a></li>
+					<li><a href="help.php">Aide</a></li>
 					<li><a href="signin.php">Télécharger!</a></li>
 				</ul>
 			</nav>
@@ -52,11 +52,11 @@
 			<div class="mid-nav">
 				<ul>
 					<li><a href="#">Accueil</a></li>
-					<li><a href="#">Le jeu</a></li>
+					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
-					<li><a href="#">Communauté</a></li>
+					<li><a href="community.php">Communauté</a></li>
 					<li><a href="support.php">Aide</a></li>
-					<li><a href="#">T<span class="forte">é</span>l<span class="forte">é</span>charg<span class="forte">e</span>r!</a></li>
+					<li><a href="download.php">T<span class="forte">é</span>l<span class="forte">é</span>charg<span class="forte">e</span>r!</a></li>
 				</ul>
 			</div>
 		</div>
