@@ -74,6 +74,9 @@
     text-align: center;
     margin: 0;
   }
+  .main {
+    margin: auto;
+  }
   .main .breadcrumbs li {
     font-size: .9em;
     text-transform: capitalize;
@@ -179,6 +182,11 @@
     border-radius: .6em;
     transition: border-radius 0.3s ease, background-color 0.3s ease;
     background-color: #2a8ebb;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .ad-vertical {
+    display: none !important;
   }
 }
 @media screen and (min-width: 741px) {
@@ -304,5 +312,16 @@
     border-radius: .6em;
     transition: border-radius 0.3s ease, background-color 0.3s ease;
     background-color: #2a8ebb;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .aside {
+    height: 600px;
+  }
+  .ad-vertical {
+    position: relative;
+  }
+  .ad-horizontal {
+    display: none !important;
   }
 }

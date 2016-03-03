@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
-		<link rel="stylesheet" href="css/support.css">
+		<link rel="stylesheet" href="css/help.css">
 		<link rel="stylesheet" href="css/faq.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
@@ -35,7 +35,7 @@
 
 				<!-- MAIN -->
 				<!-- FAQ PART -->
-				<section class="accordeon column large-10">
+				<section id="faq" class="accordeon column large-10">
 					<h2>Foire Aux Questions (FAQ)</h2>
 					<article>
 						<h3>Wrong Number, qu'est-ce que c'est ?</h3>
@@ -61,13 +61,13 @@
 				<article>
 					<h3>Est-ce que je dois payer pour jouer à VirtuHall ?</h3>
 					<div><p>Non, VirtuHall est un jeu entièrement gratuit et indépendant. Nous privilégions l’accessibilité de notre jeu en misant sur la gratuité, mais sans oublier la qualité !<br>
-						Nos seuls revenus sont ceux générés grâce aux quelques publicités présentes sur le site, alors si vous utilisez un programme qui bloque les publicités (ex : AdBlock ), nous vous serions très reconnaissants si vous le désactiviez, merci !
+						Nos seuls revenus sont ceux générés grâce aux quelques publicités présentes sur le site, alors si vous utilisez un programme qui bloque les publicités (ex : AdBlock, uBlock), nous vous serions très reconnaissants si vous le désactiviez, merci !
 					</p></div>
 				</article>
 			</section>
 			
 			<!-- SUPPORT PART -->
-			<section class="column large-10">
+			<section id="supp" class="column large-10">
 				<h2>Support</h2>
 				<p>Un problème, une question, une information ? Envoyez-nous un message ici, nous tâcherons de vous répondre dans les plus brefs délais !<br>
 					Avant d'envoyer un message au support, merci de vérifier si la réponse à votre question ne se trouve pas déjà dans la Foire Aux Questions (FAQ), on est jamais trop prudents ;).<br>
@@ -94,28 +94,45 @@
 					</form>
 				</section>
 
-				<!-- ADVERTIZING -->
-				<aside class="ad column large-2">
-					<!-- Virtuhall-verti -->
-					<ins class="adsbygoogle"
-    					style="display:inline-block;width:160px;height:600px"
+				<aside class="aside">
+					<ins class="ad-vertical adsbygoogle"
+    					style="display:inline-block;width:160px;height:100%;border:solid 5px red;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
+
+					<ins class="ad-horizontal adsbygoogle"
+    					style="display:inline-block;width:100%;height:100px;border:solid 5px red;"
+   						data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="5008479721"></ins>
 				</aside>
+
+				<!-- ADVERTIZING -->
+		 		<!-- <aside class="ad column large-2">
+					<ins class="ad-vertical adsbygoogle"
+    					style="display:inline-block;width:160px;height:100%;border:solid 5px red;"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="1415884923">
+    				</ins>
+
+					<ins class="ad-horizontal adsbygoogle"
+    					style="display:inline-block;width:100%;height:100px;border:solid 5px red;"
+   						data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="5008479721"></ins>
+				</aside> -->
 			</div>
 		</div>
 
 		<!-- FOOTER -->
-		<span class="space"><?php include('footer.inc.php'); ?></span>
+		<span><?php include('footer.inc.php'); ?></span>
 
 		<!--SCRIPTS-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/signin.js"></script>
-		<script src="js/faq.js"></script>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/signin.js"></script>
+		<script src="js/faq.js"></script>
 	</body>
 </html>

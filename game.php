@@ -65,10 +65,8 @@
 					</article>
 				</section>
 				<aside class="large-2 column">
-					<ins class="adsbygoogle"
-					style="display:inline-block;width:160px;height:600px"
-					data-ad-client="ca-pub-8371934832180859"
-					data-ad-slot="8348896925"></ins>
+					<!-- Virtuhall-verti -->
+					<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-8371934832180859" data-ad-slot="1415884923"></ins>
 				</aside>	
 			</div>
 		</div>
@@ -80,5 +78,7 @@
 		<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
+
+
 	</body>
 </html>

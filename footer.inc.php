@@ -9,7 +9,7 @@
 			<span>Le Jeu</span>
 			<li><a href="game.php#intro">Présentation</a></li>
 			<li><a href="game.php#story">Histoire</a></li>
-			<li><a>Téléchargement</a></li>
+			<li><a href="download.php">Téléchargement</a></li>
 		</ul>
 
 		<ul>
@@ -21,13 +21,13 @@
 		
 		<ul>	
 			<span>Communauté</span>
-			<li><a>Réseaux Sociaux</a></li>
+			<li><a href="community.php">Réseaux Sociaux</a></li>
 		</ul>
 
 		<ul>
 			<span>Aide</span>
-			<li><a>FAQ</a></li>
-			<li><a href="support.php">Support</a></li>
+			<li><a href="help.php#faq">FAQ</a></li>
+			<li><a href="help.php#supp">Support</a></li>
 		</ul>
 	</div>
 	
@@ -46,7 +46,7 @@
 					<ul id="game-ctnt" class="menu vertical" >
 						<li><a href="game.php#intro">Présentation</a></li>
 						<li><a href="game.php#story">Histoire</a></li>
-						<li><a href="#">Téléchargement</a></li>
+						<li><a href="download.php">Téléchargement</a></li>
 					</ul>
 				</li>	
 
@@ -60,14 +60,14 @@
 
 				<li id="com" class="sections"><span>Communauté</span>
 					<ul id="com-ctnt" class="menu vertical" >
-						<li><a href="#">Réseaux Sociaux</a></li>
+						<li><a href="community.php">Réseaux Sociaux</a></li>
 					</ul>
 				</li>	
 
 				<li id="help" class="sections"><span>Aide</span>
 					<ul id="help-ctnt" class="menu vertical" >
-						<li><a href="#">FAQ</a></li>
-						<li><a href="support.php">Support</a></li>
+						<li><a href="help.php#faq">FAQ</a></li>
+						<li><a href="help.php#supp">Support</a></li>
 					</ul>
 				</li>			
 			</ul>
@@ -86,7 +86,6 @@
 				<ul class="sn-links">
 					<li><a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><div><img src="assets/icons/sn/facebook3.png" alt="Accéder à la page Facebook"></div><span class="show-for-sr">Facebook</span></a></li>
 					<li><a href="https://twitter.com/virtuhall_game"><div><img src="assets/icons/sn/twitter.png" alt="Accéder à la page Twitter"></div><span class="show-for-sr">Twitter</span></a></li>
-					<li><a href="#"><div><img src="assets/icons/sn/reddit9.png" alt="Accéder à la page Reddit"><span class="show-for-sr">Reddit</span></div></a></li>
 					<li><a href="#"><div><img src="assets/icons/sn/youtube30.png" alt="Accéder à la chaîne YouTube"><span class="show-for-sr">YouTube</span></div></a></li>
 				</ul>
 		</div>

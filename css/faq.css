@@ -73,9 +73,10 @@
   transition: all 0.2s ease-in;
 }
 .accordeon article {
-  background-color: #ECECEC;
-  margin-bottom: .8em;
   width: 80%;
+  background-color: #ECECEC;
+  margin: auto;
+  margin-bottom: .8em;
 }
 .accordeon article div {
   background-color: #f3f3f3;

@@ -182,3 +182,14 @@
     background-color: #2a8ebb;
   }
 }
+@media screen and (min-width: 1024px) {
+  .aside {
+    height: 600px;
+  }
+  .ad-vertical {
+    position: relative;
+  }
+  .ad-horizontal {
+    display: none !important;
+  }
+}
