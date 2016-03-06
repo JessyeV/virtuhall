@@ -102,7 +102,6 @@
   .sectTitles {
     color: #8e8e8e;
     font-family: "SegoeSemibold";
-    margin-top: 1.4em;
     margin-bottom: .5em;
     padding-top: 1em;
   }
@@ -168,6 +167,7 @@
 /*////////// 481px to 559px ///////////////*/
 @media screen and (min-width: 825px) {
   .container {
+    max-width: 1920px;
     font-size: .9em;
     font-family: "SegoeRegular", "arial", sans-serif;
     background: #403e3c;

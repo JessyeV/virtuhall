@@ -17,7 +17,7 @@
 		<?php include('header.inc.php'); ?>
 		
 		<!-- MENU -->
-		<header class="title-box">
+		<header id="title-box" class="title-box">
 			<h1>Aide</h1>
 		</header>
 		<div class="row" role="main">
@@ -51,9 +51,9 @@
 
 					<article>
 						<h3>Comment jouer à VirtuHall ?</h3>
-						<div><p>Pour jouer à VirtuHall, il faut tout d'abord créer un compte pour pouvoir télécharger le jeu : <a href="signin.php">Créer un compte</a>.<br>
-						Une fois le compté créé, le page de téléchargement s'affichera et vous pourrez télécharger le client du jeu.<br>
-						Vous pouvez également télécharger le jeu sur la page de téléchargement : <a href="">Télécharger le jeu</a>.<br>
+						<div><p>Pour jouer à VirtuHall, il faut tout d'abord <a href="signin.php">créer un compte</a> afin de pouvoir télécharger le jeu.<br>
+						Une fois le compte créé, le page de téléchargement s'affichera et vous pourrez télécharger le client du jeu.<br>
+						Vous pouvez également télécharger le jeu sur la <a href="download.php">page de téléchargement</a>.<br>
 						Une fois téléchargé, il suffit de se rendre dans le dossier de destination du téléchargement et d’installer le jeu grâce au client exécutable (.exe).
 					</p></div>
 				</article>
@@ -96,13 +96,18 @@
 
 				<aside class="aside">
 					<ins class="ad-vertical adsbygoogle"
-    					style="display:inline-block;width:160px;height:100%;border:solid 5px red;"
+    					style="display:inline-block;width:160px;height:100%;"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="1415884923">
+    				</ins>
+    				<ins class="ad-vertical adsbygoogle"
+    					style="display:inline-block;width:160px;height:100%;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:100px;border:solid 5px red;"
+    					style="display:inline-block;width:100%;height:100px;"
    						data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="5008479721"></ins>
 				</aside>

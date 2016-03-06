@@ -164,6 +164,7 @@
   #main-header {
     font-size: 1.2em;
     background-color: #f9f9f9;
+    max-width: 1920px;
   }
   .container-sm,
   #burger-icon {
@@ -245,6 +246,7 @@
   #main-header {
     font-size: 1.3em;
     background-color: #f9f9f9;
+    max-width: 1920px;
   }
   .container-sm,
   #burger-icon {

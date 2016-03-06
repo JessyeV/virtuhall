@@ -76,10 +76,6 @@ h1{
 		border-radius: .5em;
 		padding-top: 10px;
 		margin-bottom: 1em;
-		transform: translateZ(0);
-		&:hover{
-			transform: translateY(-8px);
-		}
 
 		p:first-of-type{
 			margin-top: 0.5em;
@@ -93,14 +89,62 @@ h1{
 		}
 	}
 
-	.dl-btn-vsn{
-		display: block;
-		background-color: #D1D1D1;
-		width: 20em;
-		border-radius: .5em;
-		padding-top: 10px;	
+		.floating{
+    		-webkit-animation-name: Floating;
+    		-webkit-animation-duration: .7s;
+    		-webkit-animation-iteration-count: infinite;
+    		-webkit-animation-timing-function: linear;
+		}
+
+		@-webkit-keyframes Floating{
+    		from {-webkit-transform:translate(0, 0px);}
+    		65% {-webkit-transform:translate(0, 8px);}
+    		to {-webkit-transform: translate(0, -0px);}    
+		}
+
+		.dl-btn-vsn{
+			display: block;
+			background-color: #D1D1D1;
+			width: 20em;
+			border-radius: .5em;
+			padding-top: 10px;	
+		}
+
+		#dl-versions{
+			display: none;
+			text-align: left;
+			margin-left: 4.2em;
+			li{
+				list-style: none;
+				img{
+					margin-bottom: .4em;
+				}
+				a{
+					padding-left: .5em;
+					color: @blue;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}	
+}
+
+@media screen and (min-width: 1024px) {
+	.aside{
+		height: 600px;
+		margin-bottom: 40px;
 	}
-}	
+
+	.ad-vertical{
+		position: relative;
+	}
+
+	.ad-horizontal{
+		display: none !important;
+		margin-bottom: 20px;
+	}
 }
 
 

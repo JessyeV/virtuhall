@@ -124,12 +124,56 @@
   .main .dl-btn p:nth-of-type(2) {
     margin-top: -0.8em;
   }
+  .main .floating {
+    -webkit-animation-name: Floating;
+    -webkit-animation-duration: .7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  @-webkit-keyframes Floating {
+    from {
+      -webkit-transform: translate(0, 0px);
+    }
+    65% {
+      -webkit-transform: translate(0, 8px);
+    }
+    to {
+      -webkit-transform: translate(0, 0px);
+    }
+  }
   .main .dl-btn-vsn {
     display: block;
     background-color: #D1D1D1;
     width: 100%;
     border-radius: .5em;
     padding-top: 10px;
+  }
+  .main #dl-versions {
+    display: none;
+    text-align: left;
+    margin: 0 10% 1em 20%;
+  }
+  .main #dl-versions li {
+    list-style: none;
+  }
+  .main #dl-versions li img {
+    margin-bottom: .4em;
+  }
+  .main #dl-versions li a {
+    padding-left: .5em;
+    color: #2a8ebb;
+  }
+  .main #dl-versions li a:hover {
+    text-decoration: underline;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .ad-vertical {
+    display: none !important;
+  }
+  .ad-horizontal {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 456px) {
@@ -195,10 +239,6 @@
     border-radius: .5em;
     padding-top: 10px;
     margin-bottom: 1em;
-    transform: translateZ(0);
-  }
-  .main .dl-btn:hover {
-    transform: translateY(-8px);
   }
   .main .dl-btn p:first-of-type {
     margin-top: 0.5em;
@@ -209,11 +249,59 @@
   .main .dl-btn p:nth-of-type(2) {
     margin-top: -0.8em;
   }
+  .main .floating {
+    -webkit-animation-name: Floating;
+    -webkit-animation-duration: .7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  @-webkit-keyframes Floating {
+    from {
+      -webkit-transform: translate(0, 0px);
+    }
+    65% {
+      -webkit-transform: translate(0, 8px);
+    }
+    to {
+      -webkit-transform: translate(0, 0px);
+    }
+  }
   .main .dl-btn-vsn {
     display: block;
     background-color: #D1D1D1;
     width: 20em;
     border-radius: .5em;
     padding-top: 10px;
+  }
+  .main #dl-versions {
+    display: none;
+    text-align: left;
+    margin-left: 4.2em;
+  }
+  .main #dl-versions li {
+    list-style: none;
+  }
+  .main #dl-versions li img {
+    margin-bottom: .4em;
+  }
+  .main #dl-versions li a {
+    padding-left: .5em;
+    color: #2a8ebb;
+  }
+  .main #dl-versions li a:hover {
+    text-decoration: underline;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .aside {
+    height: 600px;
+    margin-bottom: 40px;
+  }
+  .ad-vertical {
+    position: relative;
+  }
+  .ad-horizontal {
+    display: none !important;
+    margin-bottom: 20px;
   }
 }

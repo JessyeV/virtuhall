@@ -7,8 +7,7 @@
 
 		$('#game').on('click',function(){
 			$('#game-ctnt').slideToggle('300');
-			$('#home-ctnt, #media-ctnt, #com-ctnt, #help-ctnt').slideUp();
-			$('.right').css({"transform" : "rotate(90deg)"});		
+			$('#home-ctnt, #media-ctnt, #com-ctnt, #help-ctnt').slideUp();	
 		});
 
 		$('#media').on('click',function(){

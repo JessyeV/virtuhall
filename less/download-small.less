@@ -82,14 +82,57 @@ h1{
 		}
 	}
 
-	.dl-btn-vsn{
-		display: block;
-		background-color: #D1D1D1;
-		width: 100%;
-		border-radius: .5em;
-		padding-top: 10px;	
+		.floating{
+    		-webkit-animation-name: Floating;
+    		-webkit-animation-duration: .7s;
+    		-webkit-animation-iteration-count: infinite;
+    		-webkit-animation-timing-function: linear;
+		}
+
+		@-webkit-keyframes Floating{
+    		from {-webkit-transform:translate(0, 0px);}
+    		65% {-webkit-transform:translate(0, 8px);}
+    		to {-webkit-transform: translate(0, -0px);    }    
+		}
+
+		.dl-btn-vsn{
+			display: block;
+			background-color: #D1D1D1;
+			width: 100%;
+			border-radius: .5em;
+			padding-top: 10px;	
+		}
+
+		#dl-versions{
+			display: none;
+			text-align: left;
+			margin: 0 10% 1em 20%;
+			li{
+				list-style: none;
+				img{
+					margin-bottom: .4em;
+				}
+				a{
+					padding-left: .5em;
+					color: @blue;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}	
+}
+
+@media screen and (max-width: 1023px){
+	.ad-vertical{
+		display: none !important;
 	}
-}	
+
+	.ad-horizontal{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
 }
 
 
