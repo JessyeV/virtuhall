@@ -26,7 +26,7 @@
 
 		<ul>
 			<span>Aide</span>
-			<li><a href="help.php#faq">FAQ</a></li>
+			<li><a href="help.php#title-box">FAQ</a></li>
 			<li><a href="help.php#supp">Support</a></li>
 		</ul>
 	</div>
@@ -66,7 +66,7 @@
 
 				<li id="help" class="sections"><span>Aide</span>
 					<ul id="help-ctnt" class="menu vertical" >
-						<li><a href="help.php#faq">FAQ</a></li>
+						<li><a href="help.php#title-box">FAQ</a></li>
 						<li><a href="help.php#supp">Support</a></li>
 					</ul>
 				</li>			
