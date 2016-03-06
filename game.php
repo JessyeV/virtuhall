@@ -33,7 +33,10 @@
 
 				<!-- SECTIONS -->
 				<section class="pres">
-					<article class="large-8 column" id="intro">
+					<article class="large-9 column">
+						<span class="column large-3">
+							<img src="assets/images/commu/fb-page.png" style="height:400px;" alt="">
+						</span>
 						<h2>Présentation</h2>
 						<p>VirtuHall est un jeu d’action-aventure en 3D au style chibi, où vous incarnerez Thomas, le héros de ce jeu.
 							À travers de nombreuses quêtes qui feront appel à votre habileté, votre réflexion et votre persévérance, VirtuHall vous transportera dans les couloirs d’une convention atypique et déjantée, où règne l’univers original du Japon féodal.
@@ -41,17 +44,13 @@
 							<br>
 						Laissez vous embarquer dans cette unique aventure au son des taïko et préparez-vous à vous confronter à Furasu-sensei qui mettra vos neurones à l’épreuve, ou encore à affronter les terribles free huggers qui errent dans les allées de l’évènement !</p>
 					</article>
-					<span class="large-2 column">
-						<img src="" alt="">
-					</span>
 				</section>
-				<hr>
-				
-				<section class="story" id="story">
-					<span class="large-2 column">
-						<img src="" alt="">
-					</span>
-					<article class="large-8 column">
+
+				<section class="story">
+					<article class="large-9 column">
+						<span class="column large-3">
+							<img src="assets/images/commu/fb-page.png" style="height:400px;" alt="">
+						</span>
 						<h2>Histoire</h2>
 						<p>Thomas est un jeune étudiant, passionné par le japon d’antan et amateur de mangas qui s’y réfèrent. Ce qu’il aime par dessus tout dans ces histoires, ce sont les <span class="strike" aria-hidden="true">jolies Geisha</span> samouraïs et les ninjas.<br>
 							Rêveur, il s’imagine souvent, lors de ses nombreuses siestes durant le cours de philosophie, dans la peau d’un samouraï aguerri, bravant tous les dangers qui se hissent sur son chemin pour sauver les ravissantes princesses des différentes contrées du Japon !
@@ -64,11 +63,20 @@
 						Mais en plus de sa rivale Kata, d'autres ennemis plus féroces encore guettent dans l'ombre, prêts à tout pour remporter le concours !</p>
 					</article>
 				</section>
-				<aside class="large-2 column">
-					<!-- Virtuhall-verti -->
-					<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-8371934832180859" data-ad-slot="1415884923"></ins>
-				</aside>	
-			</div>
+
+				<aside class="aside">
+					<ins class="ad-vertical adsbygoogle"
+    					style="display:inline-block;width:160px;height:100%;border:5px solid red;"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="1415884923">
+    				</ins>
+
+					<ins class="ad-horizontal adsbygoogle"
+    					style="display:inline-block;width:100%;height:100px;border:5px solid red;"
+   						data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="5008479721"></ins>
+				</aside>
+			</div>	
 		</div>
 		<!-- FOOTER -->
 		<span class="space"><?php include('footer.inc.php'); ?></span>
@@ -78,7 +86,5 @@
 		<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-
-
 	</body>
 </html>

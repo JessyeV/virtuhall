@@ -72,6 +72,9 @@ h1 {
   text-align: center;
   margin: 0;
 }
+.main {
+  margin-bottom: 40px;
+}
 .main .breadcrumbs {
   margin-left: 1em;
 }
@@ -86,10 +89,31 @@ h1 {
 }
 .main .pres > article {
   margin-bottom: .8em;
+  border-bottom: 2px solid lightgrey;
 }
 .main .strike {
   text-decoration: line-through;
 }
 .main .story > article {
   margin-top: .5em;
+}
+@media screen and (min-width: 1024px) {
+  .aside {
+    height: 600px;
+    margin-bottom: 40px;
+  }
+  .ad-vertical {
+    position: relative;
+  }
+  .ad-horizontal {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .ad-vertical {
+    display: none !important;
+  }
+  .ad-horizontal {
+    margin-top: 30px;
+  }
 }

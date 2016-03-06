@@ -89,7 +89,7 @@
   .main .form-head {
     text-align: center;
     background-image: url('../assets/patterns/darkarches.png');
-    width: 55%;
+    width: 70%;
     margin: auto;
     margin-top: 3em;
     padding: .5em;
@@ -101,7 +101,7 @@
   .main form {
     background-color: #ECECEC;
     padding: 2em 4em 2em 4em;
-    width: 55%;
+    width: 70%;
     min-width: 55%;
     margin: auto;
     margin-bottom: 3em;
@@ -169,5 +169,18 @@
     border-radius: .6em;
     transition: border-radius 0.3s ease, background-color 0.3s ease;
     background-color: #ee820e;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .aside {
+    height: 600px;
+    margin-bottom: 40px;
+  }
+  .ad-vertical {
+    position: relative;
+  }
+  .ad-horizontal {
+    display: none !important;
+    margin-bottom: 20px;
   }
 }

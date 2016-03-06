@@ -21,7 +21,7 @@
 			<h1>Inscription</h1>
 		</header>
 		<div class="row" role="main">
-			<div class="main column">
+			<div class="main column large-12">
 
 				<!-- BREADCRUMB -->
 				<nav aria-label="Vous êtes ici:" role="navigation">
@@ -34,12 +34,13 @@
 				</nav>
 
 				<!-- MAIN -->
+				<div class="column large-10">
 				<h2>Rejoignez-nous en vous inscrivant !</h2>
 				<p>Pour jouer à VirtuHall, il vous faut créer un compte qui vous permettra d'accéder au téléchargement du client du jeu. <br>
 					L’inscription est rapide et facile, alors n’attendez plus ! <br>
 					<span class="info">Les champs marqués d’une * sont obligatoires.</span></p>
 
-					<!-- FORMULAIRE -->
+					<!-- FORM -->
 					<div class="form-head">C'est par ici !</div>
 
 					<form action="" method="POST">
@@ -62,6 +63,21 @@
 
 						<button type="submit" name="" value="valider">Valider l'inscription</button>
 					</form>
+					</div>
+
+					<!-- ADVERTIZING -->
+					<aside class="aside">
+					<ins class="ad-vertical adsbygoogle"
+    					style="display:inline-block;width:160px;height:100%;"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="1415884923">
+    				</ins>
+
+					<ins class="ad-horizontal adsbygoogle"
+    					style="display:inline-block;width:100%;height:100px;border:5px solid red;"
+   						data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="5008479721"></ins>
+					</aside>
 				</div>
 			</div>
 
@@ -70,5 +86,9 @@
 
 			<script src="js/jquery.min.js"></script>
 			<script src="js/signin.js"></script>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 		</body>
 	</html>
