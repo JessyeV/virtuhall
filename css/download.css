@@ -253,7 +253,7 @@
     -webkit-animation-name: Floating;
     -webkit-animation-duration: .7s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear:;
   }
   @-webkit-keyframes Floating {
     from {
