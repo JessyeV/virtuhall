@@ -85,6 +85,25 @@ h1 {
   margin-top: 1.5em;
   margin-bottom: 3em;
 }
+.main .sn-divs .sn-container {
+  display: inline-block;
+}
+.main .sn-divs .fb {
+  background-image: url('../assets/images/commu/fb-page.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 370px;
+  height: 199px;
+  display: inherit;
+}
+.main .sn-divs .img-hov {
+  position: relative;
+  background-color: dimgray;
+  width: 370px;
+  height: 199px;
+  display: none;
+}
 .main .sn-divs > div {
   margin-bottom: 2.1em;
   padding-right: 1.5em;

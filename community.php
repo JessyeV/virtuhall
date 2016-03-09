@@ -35,21 +35,31 @@
 				<h2>Réseaux sociaux</h2>
 				<!-- LEFT -->
 				<section class="sn-divs column large-5">
-					<div>
-						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><img src="assets/images/commu/fb-page-no-border.png" alt="Lien vers la page facebook de VirtuHall"></a>
+					<div class="sn-container">
+						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
+						<div class="img-hov"><p>Accéder à la page FB</p></div>
+					</a>
 					</div>
-					<div>
-						<img src="assets/images/commu/snap-page-no-border.png" alt="Rechercher le nom Virtuhall pour l'ajouter à vos contacts Snapchat">
+
+					<div class="sn-container">
+						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
+						<div class="img-hov"><p>Accéder à la page FB</p></div>
+					</a>
 					</div>
 				</section>
 
 				<!-- RIGHT -->
-				<section class="sn-divs column large-5">
-					<div>
-						<a href="https://twitter.com/virtuhall_game"><img src="assets/images/commu/twitter-page-no-border.png" alt="Lien vers la page Twitter de VirtuHall"></a>
+				 <section class="sn-divs column large-5">
+					<div class="sn-container">
+						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
+						<div class="img-hov"><p>Accéder à la page FB</p></div>
+					</a>
 					</div>
-					<div>
-						<img src="assets/images/commu/twitter-page.png" alt="">
+					
+					<div class="sn-container">
+						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
+						<div class="img-hov"><p>Accéder à la page FB</p></div>
+					</a>
 					</div>
 				</section>
 
