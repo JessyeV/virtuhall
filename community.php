@@ -34,44 +34,57 @@
 				<!-- MAIN -->
 				<h2>Réseaux sociaux</h2>
 				<!-- LEFT -->
-				<section class="sn-divs column large-5">
-					<div class="sn-container">
-						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
-						<div class="img-hov"><p>Accéder à la page FB</p></div>
-					</a>
-					</div>
-
-					<div class="sn-container">
-						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
-						<div class="img-hov"><p>Accéder à la page FB</p></div>
-					</a>
-					</div>
-				</section>
-
-				<!-- RIGHT -->
-				 <section class="sn-divs column large-5">
-					<div class="sn-container">
-						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
-						<div class="img-hov"><p>Accéder à la page FB</p></div>
-					</a>
+				<section class="sn-divs column large-10">
+					<div class="left">
+					<div>
+						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><img src="assets/images/commu/fb-page.png" alt=""></a>
+						<p class="column">Accéder à la page Facebook</p>
 					</div>
 					
-					<div class="sn-container">
-						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts" class="fb">
-						<div class="img-hov"><p>Accéder à la page FB</p></div>
-					</a>
+					<div>
+						<a href="https://www.youtube.com/channel/UCNzNSFP1D69-F2sG7sDnVTA"><img src="assets/images/commu/youtube-page.png" alt=""></a>
+						<p class="column">Accéder à la chaîne YouTube</p>
+					</div>	
 					</div>
-				</section>
 
+					<div class="right">
+					<div>
+						<a href="https://twitter.com/virtuhall_game"><img src="assets/images/commu/twitter-page.png" alt=""></a>
+						<p class="column">Accéder à la page Twitter</p>
+					</div>
+					
+					<div>
+						<a href=""><img src="assets/images/commu/snap-page.png" alt=""></a>
+						<p class="column">Ajoutez Virtuhall sur Snapchat</p>
+					</div>
+					</div>
+			
 				<!-- ADVERTIZING -->
-				<aside class="ad column large-2">
-					<p>Je suis une pub yay ;D</p>
+				<aside class="aside column large-2">
+					<ins class="ad-vertical adsbygoogle"
+    					style="display:inline-block;width:160px;height:100%;"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="1415884923">
+    				</ins>
+
+					<ins class="ad-horizontal adsbygoogle"
+    					style="display:inline-block;width:100%;height:100px;border:5px solid red;"
+   						data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="5008479721"></ins>
 				</aside>
+				</section>
 			</div>
 		</div>
-		
+
 		<!-- FOOTER -->
 		<span class="space"><?php include('footer.inc.php'); ?></span>
+
+		<!-- SCRIPT -->
 		<script src="js/jquery.min.js"></script>
+		<script src="js/community.js"></script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 	</body>
 </html>
