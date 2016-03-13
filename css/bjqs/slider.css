@@ -10,7 +10,7 @@ ul.bjqs-controls.v-centered li:nth-child(1) a{
 }
 
 ul.bjqs-controls.v-centered li:nth-child(1) a:hover{
-	border-color: transparent #403e3c transparent transparent;
+	border-color: transparent #2a8ebb transparent transparent;
 }
 
 ul.bjqs-controls.v-centered li:nth-child(2) a{
@@ -25,7 +25,7 @@ ul.bjqs-controls.v-centered li:nth-child(2) a{
 }
 
 ul.bjqs-controls.v-centered li:nth-child(2) a:hover{
-	border-color: transparent transparent transparent #403e3c;
+	border-color: transparent transparent transparent #2a8ebb;
 }
 
 ol.bjqs-markers li a{
@@ -39,7 +39,7 @@ ol.bjqs-markers li a{
 
 ol.bjqs-markers li.active-marker a,
 ol.bjqs-markers li a:hover{
-	background: lightgrey;
+	background: #2a8ebb;
 }
 
 p.bjqs-caption{
