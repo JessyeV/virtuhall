@@ -57,15 +57,20 @@
   src: url('../assets/fonts/forte/FORTE.TTF');
   font-weight: normal;
 }
-.main {
-  /*margin: auto;*/
-  position: relative;
+body {
+  background-color: #f9f9f9;
+  font-size: 2em;
 }
-.slider {
-  /*min-width: 200px;
-	min-height: 150px;*/
-  width: 50%;
+.main {
+  position: relative;
+  max-width: 1920px;
+}
+.wrapslide {
+  margin: 10px;
+}
+#vh-slider {
   margin: auto;
+  margin-bottom: 5%;
 }
 .VH-brand {
   display: block;
@@ -75,25 +80,104 @@
 }
 .buttons {
   text-align: center;
-  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .buttons > li {
   display: inline-block;
-  margin-right: 5%;
+  margin: 0 3% 0 3%;
+  border-radius: 5px;
+  margin-top: 3%;
+  padding: .5em;
 }
-.buttons > a {
-  text-decoration: none;
+.buttons > li > a {
+  color: lightgrey;
+  font-family: "ZinHena";
+  font-size: 1.8em;
+  padding: 1.5em;
+  transition: color 0.2s ease-in-out;
 }
-.buttons > li:first-child {
-  background-color: #cf0202;
-  padding: 2%;
+.buttons > li > a:hover {
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+  color: #fff;
 }
-.buttons > li:last-child {
+.buttons > li > a:active {
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+  color: #fff;
+}
+.forte {
+  font-family: "Forte", sans-serif;
+  letter-spacing: 2px;
+}
+.buttons > li {
+  background-color: #403e3c;
+  transition: box-shadow 0.7s ease;
+}
+.bluehov {
+  -webkit-box-shadow: inset 0 0rem #2a8ebb;
+  box-shadow: inset 0 0rem #2a8ebb;
+}
+.bluehov:hover {
+  box-shadow: inset 25rem 0rem #2a8ebb;
+}
+.bluehov:active {
   background-color: #2a8ebb;
-  padding: 2%;
 }
-.rad {
-  width: 500px;
-  background-image: url('../assets/patterns/arches-rad.png');
-  background-attachment: cover;
+.greenhov {
+  -webkit-box-shadow: inset 0 0rem #a9c627;
+  box-shadow: inset 0 0rem #a9c627;
+}
+.greenhov:hover {
+  box-shadow: inset 25rem 0rem #a9c627;
+}
+.greenhov:active {
+  background-color: #a9c627;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 440px) and (max-width: 550px) {
+  #vh-slider {
+    margin-bottom: 12%;
+    margin-top: 6%;
+  }
+  .buttons > li {
+    display: block;
+    margin-bottom: 5%;
+    margin-top: 8%;
+  }
+  .buttons > li > a {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 439px) {
+  #vh-slider {
+    margin-bottom: 25%;
+    margin-top: 6%;
+  }
+  .buttons > li {
+    display: block;
+    margin-bottom: 5%;
+    margin-top: 9%;
+  }
+  .buttons > li > a {
+    font-size: 1.4em;
+    padding: 0;
+  }
 }
