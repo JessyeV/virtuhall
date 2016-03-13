@@ -1,17 +1,23 @@
 @import '_library';
 
+html{
+	width: 100%;
+}
 body{
-	background-color: @bckgd;
+	background-image: url('../assets/images/land-bckgd-1.png') !important;
+	background-repeat: no-repeat !important;
+	background-color:  #e8eff4 !important;
 	font-size: 2em;
 }
 
 .main{
-	position: relative;
-	max-width: 1920px;
+	margin: 0;
 }
 
 .wrapslide{
-	margin: 10px;
+	position: relative;
+	max-width: 1920px;
+	margin: 0 5% 0 5%;
 }
 
 #vh-slider{
@@ -72,8 +78,8 @@ body{
 }
 
 .bluehov {
-  -webkit-box-shadow: inset 0 0rem @blue;
-  box-shadow: inset 0 0rem @blue;
+  -webkit-box-shadow: inset 0 0rem @green;
+  box-shadow: inset 0 0rem @green;
 }
 
 .bluehov:hover {
@@ -85,8 +91,8 @@ body{
 }
 
 .greenhov {
-  -webkit-box-shadow: inset 0 0rem @green;
-  box-shadow: inset 0 0rem @green;
+  -webkit-box-shadow: inset 0 0rem @blue;
+  box-shadow: inset 0 0rem @blue;
 }
 
 .greenhov:hover{
@@ -115,7 +121,7 @@ body{
 
 @media screen and (min-width: 440px) and (max-width: 550px) {
 	#vh-slider{
-		margin-bottom: 12%;
+		margin-bottom: 16%;
 		margin-top: 6%;
 	}
 	.buttons>li{
@@ -130,7 +136,7 @@ body{
 
 @media screen and (max-width: 439px) {
 	#vh-slider{
-		margin-bottom: 25%;
+		margin-bottom: 20%;
 		margin-top: 6%;
 	}
 	.buttons>li{

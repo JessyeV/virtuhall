@@ -48,10 +48,10 @@ p.bjqs-caption{
 
 @media screen and (min-width: 440px) and (max-width: 550px) {
 	ul.bjqs-controls.v-centered li a{
-		margin-top: 20px;
+		margin-top: 45px;
 	}
 	ol.bjqs-markers li a{
-		padding: 7px 7px;
+		padding: 9px 9px;
 		border-radius: 10px;
 		margin: 12px;
 	}
@@ -65,7 +65,7 @@ p.bjqs-caption{
 		border-width: 20px 0 20px 33.2px;
 	}
 	ul.bjqs-controls.v-centered li a{
-		margin-top: 24px;
+		margin-top: 40px;
 	}
 	ol.bjqs-markers li a{
 		padding: 10px 10px;

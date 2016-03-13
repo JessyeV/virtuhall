@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="css/bjqs/slider.css">
 	</head>
 	<body>
-		<div class="main row">
+		<div class="main">
 			<div class="wrapslide">
 			<img class="VH-brand" src="assets/icons/VH.png" alt="">
 			
@@ -28,7 +28,6 @@
 				<li class="greenhov"><a href="">Acc<span class="forte">é</span>der au site...</a></li>
 			</ul>
 			</div>
-		<footer class="rad"></footer>
 	</div>
 </body>
 <!-- SCRIPT -->

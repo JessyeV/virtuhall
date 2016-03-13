@@ -57,16 +57,22 @@
   src: url('../assets/fonts/forte/FORTE.TTF');
   font-weight: normal;
 }
+html {
+  width: 100%;
+}
 body {
-  background-color: #f9f9f9;
+  background-image: url('../assets/images/land-bckgd-1.png') !important;
+  background-repeat: no-repeat !important;
+  background-color: #e8eff4 !important;
   font-size: 2em;
 }
 .main {
-  position: relative;
-  max-width: 1920px;
+  margin: 0;
 }
 .wrapslide {
-  margin: 10px;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 5% 0 5%;
 }
 #vh-slider {
   margin: auto;
@@ -117,8 +123,8 @@ body {
   transition: box-shadow 0.7s ease;
 }
 .bluehov {
-  -webkit-box-shadow: inset 0 0rem #2a8ebb;
-  box-shadow: inset 0 0rem #2a8ebb;
+  -webkit-box-shadow: inset 0 0rem #a9c627;
+  box-shadow: inset 0 0rem #a9c627;
 }
 .bluehov:hover {
   box-shadow: inset 25rem 0rem #2a8ebb;
@@ -127,8 +133,8 @@ body {
   background-color: #2a8ebb;
 }
 .greenhov {
-  -webkit-box-shadow: inset 0 0rem #a9c627;
-  box-shadow: inset 0 0rem #a9c627;
+  -webkit-box-shadow: inset 0 0rem #2a8ebb;
+  box-shadow: inset 0 0rem #2a8ebb;
 }
 .greenhov:hover {
   box-shadow: inset 25rem 0rem #a9c627;
@@ -154,7 +160,7 @@ body {
 }
 @media screen and (min-width: 440px) and (max-width: 550px) {
   #vh-slider {
-    margin-bottom: 12%;
+    margin-bottom: 16%;
     margin-top: 6%;
   }
   .buttons > li {
@@ -168,7 +174,7 @@ body {
 }
 @media screen and (max-width: 439px) {
   #vh-slider {
-    margin-bottom: 25%;
+    margin-bottom: 20%;
     margin-top: 6%;
   }
   .buttons > li {
