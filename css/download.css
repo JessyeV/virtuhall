@@ -149,9 +149,9 @@
     padding-top: 10px;
   }
   .main #dl-versions {
-    display: none;
     text-align: left;
     margin: 0 10% 1em 20%;
+    padding-bottom: .8em;
   }
   .main #dl-versions li {
     list-style: none;
@@ -268,15 +268,16 @@
   }
   .main .dl-btn-vsn {
     display: block;
+    text-align: center;
     background-color: #D1D1D1;
     width: 20em;
     border-radius: .5em;
     padding-top: 10px;
   }
   .main #dl-versions {
-    display: none;
     text-align: left;
     margin-left: 4.2em;
+    padding-bottom: .8em;
   }
   .main #dl-versions li {
     list-style: none;

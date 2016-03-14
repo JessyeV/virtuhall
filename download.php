@@ -60,15 +60,15 @@
 							<p>Version Windows (x64)</p>
 						</button>
 						
-						<button class="dl-btn-vsn">
+						<div class="dl-btn-vsn">
 							<p>Télécharger une autre version</p>
-						</button>	
+							
 							<ul id="dl-versions">
 								<li><img src="assets/icons/dl/windows.png" alt=""><a href="#">Version Windows (x32)</a></li>
 								<li><img src="assets/icons/dl/apple.png" alt=""><a href="#">Version Mac</a></li>
 								<li><img src="assets/icons/dl/linux.png" alt=""><a href="#">Version Linux</a></li>
 							</ul>
-						
+						</div>
 					</div>
 				</section>
 

@@ -149,9 +149,9 @@
     padding-top: 10px;
   }
   .main #dl-versions {
-    display: none;
     text-align: left;
     margin: 0 10% 1em 20%;
+    padding-bottom: .8em;
   }
   .main #dl-versions li {
     list-style: none;
