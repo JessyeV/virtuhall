@@ -3,7 +3,8 @@
 	<html lang="fr">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Aide - Virtuhall</title>
+		<meta name="description" content="Un problème, une question, une information ? Envoyez-nous un message ici, nous tâcherons de vous répondre dans les plus brefs délais !">
+		<title>VirtuHall le jeu - Aide</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">
@@ -51,9 +52,9 @@
 
 					<article>
 						<h3>Comment jouer à VirtuHall ?</h3>
-						<div><p>Pour jouer à VirtuHall, il faut tout d'abord <a href="signin.php">créer un compte</a> afin de pouvoir télécharger le jeu.<br>
-						Une fois le compte créé, le page de téléchargement s'affichera et vous pourrez télécharger le client du jeu.<br>
-						Vous pouvez également télécharger le jeu sur la <a href="download.php">page de téléchargement</a>.<br>
+						<div><p>Pour jouer à VirtuHall, il faut tout d'abord créer un compte pour pouvoir télécharger le jeu : <a href="signin.php">Créer un compte</a>.<br>
+						Une fois le compté créé, le page de téléchargement s'affichera et vous pourrez télécharger le client du jeu.<br>
+						Vous pouvez également télécharger le jeu sur la page de téléchargement : <a href="">Télécharger le jeu</a>.<br>
 						Une fois téléchargé, il suffit de se rendre dans le dossier de destination du téléchargement et d’installer le jeu grâce au client exécutable (.exe).
 					</p></div>
 				</article>
@@ -75,7 +76,7 @@
 					<span class="info">Les champs marqués d’une * sont obligatoires.</span></p>
 					<!-- FORM -->
 					<div class="form-head">Besoin d'aide ?</div>
-					<form action="" method="POST">
+					<form action="post.php" method="POST">
 						<label for="" class="show-for-sr">Pseudo</label>
 						<input type="text" name="pseudo" placeholder="Votre super pseudo*" class="user" required/>
 
@@ -90,7 +91,7 @@
 
 						<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>
 
-						<button type="submit" name="" value="envoyer">Envoyer le message !</button>
+						<button type="submit" name="submit" value="envoyer">Envoyer le message !</button>
 					</form>
 				</section>
 

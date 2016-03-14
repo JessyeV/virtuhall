@@ -1,3 +1,75 @@
+<?php
+include('connect.php');
+if (isset($_COOKIE['pseudo'])) {
+      header('Location: index.php');
+    }
+function check_input($data, $problem='')
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    if ($problem && strlen($data) == 0)
+    {
+        show_error($problem);
+    }
+    return $data;
+}
+//Connexion à la BDD
+  try
+  {
+  
+   $bdd = new PDO ('mysql:host=virtuhaldv80085.mysql.db;dbname=virtuhaldv80085', 'virtuhaldv80085', 'Wrongnumber7');
+  
+    }
+  
+  catch(Exception $e)
+  {
+   die('Erreur :'.$e->getMessage());
+  }
+  $login =   $_POST['pseudo'];
+  $sql = mysqli_query($conn, "SELECT * FROM membres WHERE login='$login'");
+    if(ISSET($_POST['submit'])){
+      if (mysqli_num_rows($sql)!=0) {
+          echo '<center><b>Login déja utilisé</b></center>';
+        }
+else {
+//On créer les variables
+$login =   check_input($_POST['pseudo'], "");
+$password = check_input($_POST['pwd'], "");
+$mail = check_input($_POST['mail'], "");
+$sexe = check_input($_POST['gender'], "");
+$age = $_POST['age'];
+$password = hash("sha256", $password);
+
+
+
+
+$req = $bdd->prepare('INSERT INTO membres(login, password, mail, sexe) VALUES (:login, :password, :mail, :sexe)');
+
+
+$req->execute(array("login" => $login, "password" => $password, "mail" => $mail, "sexe" => $sexe));
+
+
+if(!empty($login) && !empty($password) && !empty($mail) && !empty($sexe))
+{
+  echo "<center><b><Inscription terminée.</b></center>";
+
+
+}
+  if(empty($login) || empty($password) || empty($mail) || empty($sexe))
+  {
+  echo "<center><b>Veuillez remplir tout les champs</b></center>";
+
+
+  }
+
+
+}
+   }
+   ?>
+
+
+
 <!DOCTYPE html>
 <head>
 	<html lang="fr">
@@ -54,6 +126,16 @@
 						<label for="" class="show-for-sr">E-mail</label>
 						<input type="email" name="mail" placeholder="E-mail*" class="mail" required/>
 
+						<label for="" class="show-for-sr">Age</label>
+						<select name="age" form="ageoptions" style="border-radius: .6em;">
+							<option>Votre âge...</option>
+  							<option value="under18">Moins de 18</option>
+  							<option value="18-25">18-25</option>
+  							<option value="23-27">26-35</option>
+  							<option value="36-45">36-45</option>
+  							<option value="more46">Plus de 46</option>
+						</select>
+
 						<label for="" class="show-for-sr">Genre</label>
 						<img src="assets/icons/form/wman.png" alt="" class="gndr">
 						<input type="radio" value="homme" name="gender" class="radio"/><span class="radio">&nbsp;&nbsp;Homme</span>
@@ -62,7 +144,7 @@
 
 						<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>
 
-						<button type="submit" name="" value="valider">Valider l'inscription</button>
+						<button type="submit" name="submit" value="valider">Valider l'inscription</button>
 					</form>
 					</div>
 

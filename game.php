@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Le Jeu - Virtuhall</title>
+		<meta name="description" content="VirtuHall est un jeu d’action-aventure de style chibi en 3D, où vous incarnerez Thomas, le héros de ce jeu. À travers de nombreuses quêtes, VirtuHall fera appel à votre habileté, votre réflexion et votre persévérance !">
+		<title>VirtuHall le jeu - Le Jeu</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">
