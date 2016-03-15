@@ -101,11 +101,6 @@
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
-    				<ins class="ad-vertical adsbygoogle"
-    					style="display:inline-block;width:160px;height:100%;"
-    					data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="1415884923">
-    				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
     					style="display:inline-block;width:100%;height:100px;"

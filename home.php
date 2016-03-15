@@ -20,42 +20,43 @@
 			<h1>Accueil</h1>
 		</header>
 		<div class="row" role="main">
-			<div class="main column large-12">
+			<div class="main">
 
 				<!-- MAIN -->
-				<section class="column large-12">
+				<section class="">
 					<h2>Actualités</h2>
 					<article>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto voluptate cumque ea corrupti nostrum accusamus! Iste nam mollitia dolores quos ea maxime? Reiciendis delectus tenetur voluptatibus, officia tempora. Nobis, temporibus.
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto voluptate cumque ea corrupti nostrum accusamus! Iste nam mollitia dolores quos ea maxime? Reiciendis delectus tenetur voluptatibus, officia tempora. Nobis, temporibus.</p>
 					</article>
 
 					<article>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nulla ea, debitis vel magni, sapiente delectus non excepturi veniam consectetur officia? Nobis commodi rerum deleniti eum voluptatibus vero totam animi.
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nulla ea, debitis vel magni, sapiente delectus non excepturi veniam consectetur officia? Nobis commodi rerum deleniti eum voluptatibus vero totam animi.</p>
 					</article>
 
 					<article>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nulla ea, debitis vel magni, sapiente delectus non excepturi veniam consectetur officia? Nobis commodi rerum deleniti eum voluptatibus vero totam animi.
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nulla ea, debitis vel magni, sapiente delectus non excepturi veniam consectetur officia? Nobis commodi rerum deleniti eum voluptatibus vero totam animi.</p>
 					</article>
 
 					<article>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nulla ea, debitis vel magni, sapiente delectus non excepturi veniam consectetur officia? Nobis commodi rerum deleniti eum voluptatibus vero totam animi.
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nulla ea, debitis vel magni, sapiente delectus non excepturi veniam consectetur officia? Nobis commodi rerum deleniti eum voluptatibus vero totam animi.</p>
 					</article>
 				</section>
+				</div>
 
 				<!-- ADVERTIZING -->
 				<aside class="aside">
 					<ins class="ad-vertical adsbygoogle"
-    					style="display:inline-block;width:160px;height:100%;"
+    					style="display:inline-block;width:160px;height:100%;border:solid 5px red;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:100px;border:5px solid red;"
+    					style="display:inline-block;width:100%;height:100px;"
    						data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="5008479721"></ins>
 				</aside>
-			</div>
+			
 		</div>
 
 		<!-- FOOTER -->
