@@ -1,0 +1,42 @@
+@import "_library";
+
+body{
+	font-size: 1.1em;
+	font-family: "SegoeRegular", sans-serif;
+	background-color: @bckgd;
+}
+
+.title-box{
+	background-image: @arches;
+	padding: .5em 0 .5em 0;
+}
+
+h1{
+	font-family: "Candela", sans-serif;
+	font-size: 2em;
+	text-align: center;
+	margin: 0;
+}
+
+.main{
+	h2{
+		font-size: 1.5em;
+		font-family: "Candela", sans-serif;
+	}
+
+	section{
+		width: 100%;
+	}
+
+	article{
+		background-color: @lightgrey;
+		width: 48%;
+		/*display: inline-block;*/
+		padding: 1.2rem;
+		margin-bottom: 3%;
+	}
+
+	article:nth-child(even){
+		margin-right: 3%;
+	}
+}
