@@ -72,32 +72,41 @@ h1 {
   text-align: center;
   margin: 0;
 }
-.main {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .main h2 {
-  font-size: 1.5em;
+  font-size: 1.9em;
   font-family: "Candela", sans-serif;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
 }
-.main section {
-  width: 90%;
-}
-.main section > article {
+.main .articles > div {
+  width: 44.5%;
   float: left;
+  margin: 1.2%;
+  padding: 1em;
   background-color: #ECECEC;
-  width: 40%;
-  /*display: inline-block;*/
-  padding: 1.2rem;
-  margin-bottom: 3%;
 }
-.main article:nth-child(even) {
-  margin-right: 3%;
+.main .articles img {
+  width: 100%;
 }
-.aside .ad-vertical {
-  display: block;
-  margin-left: 3%;
+.main .ad-vertical {
+  margin: 2em 0.8em 2em -1em;
 }
-.aside .ad-horizontal {
-  display: none;
+.main .ad-horizontal {
+  display: none !important;
+}
+@media screen and (max-width: 1025px) {
+  .main .ad-vertical {
+    display: none !important;
+  }
+  .main .ad-horizontal {
+    display: inline-block !important;
+    margin-bottom: 0.7em;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main .articles > div {
+    width: 100%;
+    background-color: #ECECEC;
+    margin-bottom: 1.5em;
+  }
 }

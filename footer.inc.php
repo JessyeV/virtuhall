@@ -2,7 +2,7 @@
 	<div class="vh-menu">
 		<ul>
 			<span>Accueil</span>
-			<li><a>Actualités</a></li>
+			<li><a href="home.php#actu">Actualités</a></li>
 		</ul>
 
 		<ul>
@@ -38,7 +38,7 @@
 			<ul id="accordions" class="nested">
 				<li id="home"  class="sections"><span>Accueil</span>
 					<ul id="home-ctnt" class="menu vertical" >
-						<li><a href="#">Actualités</a></li>
+						<li><a href="home.php#actu">Actualités</a></li>
 					</ul>
 				</li>		
 
@@ -79,7 +79,7 @@
 			<img src="assets/icons/WN_light2.png" class="wn-img" alt="Logo de l'agence Wrong Number">
 				<ul class="ext-links">
 					<li><a href="#">Site internet</a></li>
-					<li><a href="#">Mentions légales</a></li>
+					<li><a href="assets/files/CGU_WN.pdf">Mentions légales</a></li>
 				</ul>
 
 				<ul class="sn-links">

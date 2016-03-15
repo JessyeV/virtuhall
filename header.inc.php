@@ -3,10 +3,10 @@
 		<!-- Responsive <480px -->
 		<div class="container-sm">
 			<div class="nav-icons">
-				<a href="#">
+				<a href="home.php">
 					<img class="vh-icon" src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil">
 				</a>
-				<a href="#">
+				<a>
 					<img id="burger-icon" src="assets/icons/mburger.png" alt="Menu de navigation" title="Accéder au menu">
 				</a>
 			</div>
@@ -26,7 +26,7 @@
 			
 			<nav class="burger-menu" role="navigation">
 				<ul class="inside-burger">
-					<li><a href="#">Accueil</a></li>
+					<li><a href="home.php">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="container-md-lg">
 			<div class="top-nav">
-				<a href="#">
+				<a href="home.php">
 					<img src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil">
 				</a>
 				<ul>
@@ -51,7 +51,7 @@
 			
 			<div class="mid-nav">
 				<ul>
-					<li><a href="#">Accueil</a></li>
+					<li><a href="home.php">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
