@@ -36,7 +36,7 @@
 				<section class="pres">
 					<article class="large-9 column">
 						<span class="column large-3">
-							<img src="assets/images/commu/fb-page.png" style="height:400px;" alt="">
+							<img src="assets/images/game/furasu.png" alt="">
 						</span>
 						<h2>Présentation</h2>
 						<p>VirtuHall est un jeu d’action-aventure en 3D au style chibi, où vous incarnerez Thomas, le héros de ce jeu.
@@ -50,7 +50,7 @@
 				<section class="story">
 					<article class="large-9 column">
 						<span class="column large-3">
-							<img src="assets/images/commu/fb-page.png" style="height:400px;" alt="">
+							<img src="assets/images/game/ninjas.png" alt="">
 						</span>
 						<h2>Histoire</h2>
 						<p>Thomas est un jeune étudiant, passionné par le japon d’antan et amateur de mangas qui s’y réfèrent. Ce qu’il aime par dessus tout dans ces histoires, ce sont les <span class="strike" aria-hidden="true">jolies Geisha</span> samouraïs et les ninjas.<br>
@@ -67,13 +67,13 @@
 
 				<aside class="aside">
 					<ins class="ad-vertical adsbygoogle"
-    					style="display:inline-block;width:160px;height:100%;border:5px solid red;"
+    					style="display:inline-block;width:160px;height:100%;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:100px;border:5px solid red;"
+    					style="display:inline-block;width:100%;height:100px;"
    						data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="5008479721"></ins>
 				</aside>

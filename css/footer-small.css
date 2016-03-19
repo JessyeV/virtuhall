@@ -121,7 +121,7 @@
     background-color: #cf0202;
     transition: all .2s ease;
   }
-  .ext-links li {
+  .ext-links li a {
     transition: all .6s ease;
   }
   .ext-links li:hover {
