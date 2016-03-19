@@ -35,6 +35,8 @@
 				</ul>
 			</nav>
 		</div>
+
+		<!-- Normal size-->
 		<div class="container-md-lg">
 			<div class="top-nav">
 				<a href="home.php">
@@ -70,7 +72,9 @@
 </div>
 <script src="js/jquery.min.js"></script>
 <script>
-$('#burger-icon').on('click',function(){
-	$('.burger-menu').slideToggle('200');
+$(document).ready(function(){
+	$('#burger-icon').on('click',function(){
+		$('.burger-menu').slideToggle('200');
 	});
+});
 </script>

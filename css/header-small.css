@@ -131,7 +131,10 @@
   }
   .navbar .burger-menu .inside-burger li {
     display: block;
-    line-height: 3.2rem;
+    line-height: 3.5rem;
+  }
+  .navbar .burger-menu .inside-burger li:last-child {
+    padding-bottom: .8rem;
   }
   .navbar .container-md-lg {
     display: none;
