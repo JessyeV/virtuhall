@@ -10,13 +10,12 @@
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/signin.css">
+		<link rel="stylesheet" href="css/login.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-
 	</head>
 	<body>
 		<!-- NAVIGATION -->
 		<?php include('header.inc.php'); ?>
-		
 		<!-- MENU -->
 		<header class="title-box">
 			<h1>Inscription</h1>
