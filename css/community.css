@@ -171,4 +171,10 @@
     padding: 5px 5px 5px 10px;
     color: #cbcbcb;
   }
+  .main .ad-vertical {
+    display: none;
+  }
+  .main .ad-horizontal {
+    position: relative;
+  }
 }

@@ -64,15 +64,15 @@
 				<!-- ADVERTIZING -->
 				<aside class="aside column large-2">
 					<ins class="ad-vertical adsbygoogle"
-    					style="display:inline-block;width:160px;height:100%;"
+    					style="display:inline-block;width:160px;height:600px;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:100px;border:5px solid red;"
-   						data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="5008479721"></ins>
+    					style="display:inline-block;width:300px;height:90px"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="6700585321"></ins>
 				</aside>
 				</section>
 			</div>
@@ -82,7 +82,6 @@
 		<span class="space"><?php include('footer.inc.php'); ?></span>
 
 		<!-- SCRIPT -->
-		<script src="js/jquery.min.js"></script>
 		<script src="js/community.js"></script>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>

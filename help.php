@@ -104,9 +104,10 @@
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:100px;"
-   						data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="5008479721"></ins>
+    					style="display:inline-block;width:100%;height:90px"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="6700585321">
+    				</ins>
 				</aside>
 			</div>
 		</div>
@@ -119,7 +120,6 @@
 		<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-		<script src="js/jquery.min.js"></script>
 		<script src="js/signin.js"></script>
 		<script src="js/faq.js"></script>
 	</body>

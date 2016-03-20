@@ -28,7 +28,7 @@
 				<ul class="inside-burger">
 					<li><a href="home.php">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
-					<li><a href="#">Média</a></li>
+					<li><a href="media.php">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
 					<li><a href="help.php">Aide</a></li>
 					<li><a href="signin.php">Télécharger!</a></li>
@@ -55,7 +55,7 @@
 				<ul style="margin-bottom:0px">
 					<li><a href="home.php">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
-					<li><a href="#">Média</a></li>
+					<li><a href="media.php">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
 					<li><a href="help.php">Aide</a></li>
 					<li><a href="download.php">T<span class="forte">é</span>l<span class="forte">é</span>charg<span class="forte">e</span>r!</a></li>
