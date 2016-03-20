@@ -113,3 +113,11 @@
     color: #cbcbcb;
   }
 }
+@media screen and (min-width: 801px) {
+  .ad-vertical {
+    margin-bottom: 1.2em;
+  }
+  .ad-horizontal {
+    display: none !important;
+  }
+}

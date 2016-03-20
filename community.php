@@ -56,7 +56,7 @@
 					</div>
 					
 					<div>
-						<a href=""><img src="assets/images/commu/snap-page.png" alt=""></a>
+						<a><img src="assets/images/commu/snap-page.png" alt=""></a>
 						<p class="column">Ajoutez Virtuhall sur Snapchat</p>
 					</div>
 					</div>
@@ -70,7 +70,7 @@
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:300px;height:90px"
+    					style="display:inline-block;width:320px;height:90px;border:red 5px solid;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="6700585321"></ins>
 				</aside>

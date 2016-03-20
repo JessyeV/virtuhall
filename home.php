@@ -67,7 +67,7 @@
 					</ins>
 				
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:90px"
+    					style="display:inline-block;width:320px;height:90px"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="6700585321">
     				</ins>

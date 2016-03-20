@@ -79,16 +79,16 @@
 					<div class="form-head">Besoin d'aide ?</div>
 					<form action="post.php" method="POST">
 						<label for="" class="show-for-sr">Pseudo</label>
-						<input type="text" name="pseudo" placeholder="Votre super pseudo*" class="user" required/>
+						<input type="text" name="pseudo" placeholder="Votre pseudo*" class="user" required/>
 
 						<label for="" class="show-for-sr">E-mail</label>
-						<input type="email" name="mail" placeholder="Un e-mail, c'est mieux pour répondre*" class="mail" required/>
+						<input type="email" name="mail" placeholder="Votre e-mail*" class="mail" required/>
 
 						<label for="" class="show-for-sr">Sujet</label>
-						<input type="text" name="subject" placeholder="Un sujet intéressant (ou pas)*" class="subject" required/>
+						<input type="text" name="subject" placeholder="Le sujet*" class="subject" required/>
 
 						<label for="" class="show-for-sr">Message</label>
-						<textarea name="message" class="msg" cols="30" rows="10" placeholder="Votre gentil message ici*"></textarea>
+						<textarea name="message" class="msg" cols="30" rows="10" placeholder="Votre message*"></textarea>
 
 						<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>
 
@@ -98,13 +98,13 @@
 
 				<aside class="aside">
 					<ins class="ad-vertical adsbygoogle"
-    					style="display:inline-block;width:160px;height:100%;"
+    					style="display:inline-block;width:160px;height:600px;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:90px"
+    					style="display:inline-block;width:320px;height:90px"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="6700585321">
     				</ins>
