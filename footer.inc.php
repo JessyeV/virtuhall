@@ -7,7 +7,7 @@
 
 		<ul>
 			<span>Le Jeu</span>
-			<li><a href="game.php#intro">Présentation</a></li>
+			<li><a href="game.php#pres">Présentation</a></li>
 			<li><a href="game.php#story">Histoire</a></li>
 			<li><a href="download.php">Téléchargement</a></li>
 		</ul>
@@ -44,7 +44,7 @@
 
 				<li id="game"  class="sections"><span>Le Jeu</span>
 					<ul id="game-ctnt" class="menu vertical" >
-						<li><a href="game.php#intro">Présentation</a></li>
+						<li><a href="game.php#pres">Présentation</a></li>
 						<li><a href="game.php#story">Histoire</a></li>
 						<li><a href="download.php">Téléchargement</a></li>
 					</ul>
