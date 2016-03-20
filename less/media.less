@@ -1,0 +1,50 @@
+@import "_library";
+
+	body{
+		font-size: 1.1em;
+		font-family: "SegoeRegular", sans-serif;
+		background-color: @bckgd;
+	}
+
+	.title-box{
+		background-image: @arches;
+		padding: .5em 0 .5em 0;
+	}
+
+	h1{
+		font-family: "Candela", sans-serif;
+		font-size: 1.8em;
+		text-align: center;
+		margin: 0;
+	}
+
+	.main{
+		.breadcrumbs{
+			li{
+				font-size: .9em;
+				text-transform: capitalize;
+				margin: 1em 0 1em 0;
+			}
+		}
+
+		h2{
+			font-size: 1.5em;
+			font-family: "Candela", sans-serif;
+		}
+
+		.media-wrap{
+			&>div{
+				margin-bottom: 2em;
+			}
+		}
+
+		.popup-gallery, .popup-video, .popup-wallpaper{
+			&>a>img{
+				margin-bottom: 1.3em;
+			}
+		}
+
+		.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+			float: left;
+		}
+	}
