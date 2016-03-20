@@ -26,6 +26,64 @@
 			margin-bottom: 0.6em;
 		}
 
+		.presentation-bloc{
+			padding-top: 1.5em;
+			font-size: 1.5em;
+			color: @blue;
+
+			.buttons{
+				text-align: center;
+				margin-bottom: 5%;
+				display: inline-block;
+				xmargin: 0 3% 0 3%;
+				border-radius: 5px;
+				margin-top: 3%;
+				padding: .5em;
+				background-color: @coalgrey;
+				transition: box-shadow .7s ease;
+			}
+
+			.buttons>a{
+				color: lightgrey;
+				font-family: "ZinHena";
+				font-size: .9em;
+				padding: .5em;
+				transition: color .2s ease-in-out;
+			}
+
+			.buttons>a:hover{
+				-webkit-transition: color .4s ease-in-out;
+				-o-transition: color .4s ease-in-out;
+				transition: color .4s ease-in-out;
+				color: #fff;
+			}
+
+			.buttons>a:active{
+				-webkit-transition: color .4s ease-in-out;
+				-o-transition: color .4s ease-in-out;
+				transition: color .4s ease-in-out;
+				color: #fff;
+			}
+
+			.forte{
+				font-family: "Forte", sans-serif;
+				letter-spacing: 2px;
+			}
+
+			.bluehov {
+			  -webkit-box-shadow: inset 0 0rem @green;
+			  box-shadow: inset 0 0rem @green;
+			}
+
+			.bluehov:hover {
+			  box-shadow: inset 25rem 0rem @blue;
+			}
+
+			.bluehov:active {
+				background-color: @blue;
+			}
+		}
+
 		.articles{
 				&>div{
 					width: 44.5%;
@@ -47,6 +105,11 @@
 		.ad-horizontal{
 			display: none !important;
 		}
+	}
+
+	.main{
+		padding-top: 2em;
+		padding-bottom: 2em;
 	}
 
 @media screen and (max-width: 1025px) {

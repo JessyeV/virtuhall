@@ -3,8 +3,8 @@
 	<html lang="fr">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<meta name="description" content="Suivez VirtuHall sur les réseaux sociaux, que ce soit Facebook, Twitter, Snapchat ou YouTube, on vous attend !" />
-		<title>VirtuHall le jeu - Communauté</title>
+		<meta name="description" content="VirtuHall - jeu d’action-aventure en 3D au style chibi, qui vous transportera dans les couloirs d’une convention atypique et déjantée du Japon féodal. Rejoignez-nous !" />
+		<title>VirtuHall le jeu</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">
@@ -20,12 +20,24 @@
 		?>
 		
 		<!-- MENU -->
-		<header class="title-box">
+		<!--<header class="title-box">
 			<h1>Accueil</h1>
-		</header>
+		</header>-->
 		<div class="row" role="main">
 			<div class="main column large-12">
-
+				<div class="column large-4">
+					<div class="presentation-bloc">
+						<p><b>VirtuHall est un jeu <br/>d’action-aventure en 3D</b><br/> au style chibi, qui vous transportera dans les couloirs d’une convention atypique et déjantée du Japon féodal !</p>
+						<div class="buttons bluehov">
+							<a href="signin.php">Jouer gratuitement!</a>
+						</div>
+					</div>
+				</div>
+				<div class="column large-8">
+					<div class="flex-video widescreen">
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/8eBwXuXCOUk?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
 				<!-- MAIN -->
 				<section class="articles column large-10">
 					<h2 id="actu">Actualités</h2>
