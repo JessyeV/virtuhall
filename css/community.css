@@ -64,7 +64,8 @@
     background-color: #f9f9f9;
   }
   .title-box {
-    background-image: url('../assets/patterns/arches.png');
+    background-image: url('../assets/patterns/darkarches.png');
+    color: white;
     padding: .5em 0 .5em 0;
   }
   h1 {
@@ -119,7 +120,8 @@
     background-color: #f9f9f9;
   }
   .title-box {
-    background-image: url('../assets/patterns/arches.png');
+    background-image: url('../assets/patterns/darkarches.png');
+    color: white;
     padding: .5em 0 .5em 0;
   }
   h1 {

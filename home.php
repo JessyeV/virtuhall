@@ -13,7 +13,10 @@
 	</head>
 	<body>
 		<!-- NAVIGATION -->
-		<?php include('header.inc.php'); ?>
+		<?php 
+			$homepage = true;
+			include('header.inc.php'); 
+		?>
 		
 		<!-- MENU -->
 		<header class="title-box">

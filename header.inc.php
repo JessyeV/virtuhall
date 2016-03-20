@@ -52,7 +52,7 @@
 			</div>
 			
 			<div class="mid-nav">
-				<ul>
+				<ul style="margin-bottom:0px">
 					<li><a href="home.php">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="#">Média</a></li>
@@ -63,14 +63,15 @@
 			</div>
 		</div>
 	</nav>
+	<?php if(isset($homepage) && $homepage): ?>
 	<span class="banner-container">
 		<img class="banner-md" src="assets/images/banner-md.png"
 		alt="">
 		<img class="banner-lg" src="assets/images/banner-lg.png"
 		alt="">
 	</span>
+	<?php endif; ?>
 </div>
-<script src="js/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
 	$('#burger-icon').on('click',function(){
