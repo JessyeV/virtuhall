@@ -1,15 +1,12 @@
 @import "_library";
 
 /*/////// UNDER 559px //////////*/
-@media screen and (max-width: 729px) {
-	body{
-		font-size: 1.2em;
+@media screen and (max-width: 824px) {
+	.container{
+		font-size: 1.1em;
 		font-family: "SegoeRegular", "arial", sans-serif; 
 		background: @coalgrey;
 		color: @footerTxt;
-	}
-	
-	.container{
 		padding-left: .8em;
 		padding-right: .8em;
 		ul{
@@ -24,7 +21,7 @@
 	#accordions{
 		ul{
 			background-color: #474644;
-			/*display: none; */ /*Appelé direct dans html => fonctionne .. ? */
+			display: none;			
 			padding-top: 0.5em;
 			padding-bottom: 0.5em;
 
@@ -49,13 +46,53 @@
 	.sectTitles{
 		color: @footerSect;
 		font-family: "SegoeSemibold";
-		margin-top: 1.4em;
 		margin-bottom: .5em;
+		padding-top: 1em;
+	}
+
+	.vh-links{
+		li{
+			transition: all .6s ease;
+			&:hover{
+				text-indent: .9em;
+				transition: all .6s ease;
+			}
+		}
+	}
+
+	.sn-links{
+		display: inline-flex;
+		flex-shrink: 0;
+		flex-wrap: wrap;
+		&>li{
+			padding-left: 1em;
+			margin-top: .6em;
+			&:first-child{
+				padding-left: 0;
+			}
+			div:hover{
+				border-radius: 100px;
+				background-color: @red;
+				transition: all .2s ease;
+			}
+		}
+	}
+	
+	.ext-links{
+		li{
+			a{
+			transition: all .6s ease;
+			}
+			&:hover{
+				text-indent: .9em;
+				transition: all .6s ease;
+			}
+		}
 	}
 
 	.wn-links{
 		margin-top: 1.2em;
-		img{
+		.wn-img{
 		display: none;
 		}
 		ul{
@@ -70,6 +107,8 @@
 		}
 	}
 
+
+
 	.columns{
 		padding-left: 0;
 	}
@@ -77,7 +116,11 @@
 	.wn-rights{
 		clear: both;
 		color: @footerSect;
-		padding-top: 1.6em;
+		padding-top: 1.5em;
 		font-size: .6em;
+		p{
+			margin-bottom: 0;
+			padding-bottom: 1.2em;
+		}
 	}
 }	

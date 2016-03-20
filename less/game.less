@@ -1,0 +1,90 @@
+@import "_library";
+
+body{
+	font-size: 1.1em;
+	font-family: "SegoeRegular", sans-serif;
+	background-color: @bckgd;
+}
+
+.title-box{
+	background-image: @arches;
+	padding: .5em 0 .5em 0;
+}
+
+h1{
+	font-family: "Candela", sans-serif;
+	font-size: 1.8em;
+	text-align: center;
+	margin: 0;
+}
+
+.main{
+	margin-bottom: 40px;
+	.breadcrumbs{
+		margin-left: 1em;
+		li{
+			font-size: .9em;
+			text-transform: capitalize;
+			margin: 1em 0 1em 0;
+			}
+	}
+
+	h2{
+		font-size: 1.5em;
+		font-family: "Candela", sans-serif;
+	}
+
+	.pres{
+		&>article{
+			margin-bottom: .8em;
+			border-bottom: 2px solid lightgrey;
+		}
+	}
+
+	.strike{
+		text-decoration: line-through;
+	}
+
+	.story{
+		&>article{
+			margin-top: 1em;
+			margin-bottom: 1em;
+			&>span{
+				margin-bottom: 2em;
+			}
+		}
+	}
+
+	article>span{
+		margin: 1em .5em 1em .5em;
+		padding: 0;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.aside{
+		height: 600px;
+		margin-bottom: 40px;
+	}
+
+	.ad-vertical{
+		position: relative;
+		margin: 2em 0 0 2.5em;
+	}
+
+	.ad-horizontal{
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 1023px){
+	.ad-vertical{
+		display: none !important;
+	}
+
+	.ad-horizontal{
+		margin-top: 30px;
+	}
+}
+	

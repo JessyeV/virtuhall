@@ -51,11 +51,18 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
-/*///////// 481px TO 559px ///////////*/
-@media screen and (min-width: 481px) and (max-width: 566px) {
-  body {
-    font-size: 1.3em;
+/* FORTE */
+@font-face {
+  font-family: "Forte";
+  src: url('../assets/fonts/forte/FORTE.TTF');
+  font-weight: normal;
+}
+/*///////// 631px TO 842px ///////////*/
+@media screen and (min-width: 631px) and (max-width: 870px) {
+  #main-header {
+    font-size: 1.2em;
     background-color: #f9f9f9;
+    max-width: 1920px;
   }
   .container-sm,
   #burger-icon {
@@ -72,12 +79,12 @@
     display: inline-block;
     list-style: none;
   }
-  .navbar ul li :hover {
-    color: #2a8ebb;
-  }
   .navbar ul li a {
     text-decoration: none;
     color: #403e3c;
+  }
+  .navbar ul li a:hover {
+    color: #2a8ebb;
   }
   .navbar .top-nav {
     padding: .8rem 0 0 .8rem;
@@ -100,12 +107,14 @@
     text-align: center;
   }
   .navbar .mid-nav ul li {
-    padding: .7rem .8rem 1rem .8rem;
+    padding: .7rem .8rem 0rem .8rem;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
   }
   .navbar .mid-nav ul li:last-child {
     font-family: "ZinHena", "Candela", sans-serif;
     font-size: 1.4rem;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
   }
   .navbar .mid-nav ul li:last-child a {
     text-decoration: none;
@@ -120,11 +129,11 @@
     color: #cf0202;
   }
   .banner-container .banner-sm,
-  .banner-container .banner-lg {
+  .banner-container .banner-md {
     display: none;
   }
-  .banner-container .banner-md {
-    position: absolute;
+  .banner-container .banner-lg {
+    position: relative;
     margin-top: -3rem;
     width: 100%;
   }

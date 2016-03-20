@@ -51,10 +51,16 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
-/*/////// UNDER 480px //////////*/
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 1.4em;
+/* FORTE */
+@font-face {
+  font-family: "Forte";
+  src: url('../assets/fonts/forte/FORTE.TTF');
+  font-weight: normal;
+}
+/*/////// UNDER 630px //////////*/
+@media screen and (max-width: 630px) {
+  #main-header {
+    font-size: 1.3em;
     background-color: #f9f9f9;
   }
   .navbar {
@@ -125,17 +131,20 @@
   }
   .navbar .burger-menu .inside-burger li {
     display: block;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .navbar .burger-menu .inside-burger li:last-child {
+    padding-bottom: .8rem;
   }
   .navbar .container-md-lg {
     display: none;
   }
-  .banner-container .banner-md,
+  .banner-container .banner-sm,
   .banner-container .banner-lg {
     display: none;
   }
-  .banner-container .banner-sm {
-    position: absolute;
+  .banner-container .banner-md {
+    position: relative;
     margin-top: -1.5rem;
     width: 100%;
   }

@@ -51,15 +51,19 @@
   src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
   font-weight: bold;
 }
+/* FORTE */
+@font-face {
+  font-family: "Forte";
+  src: url('../assets/fonts/forte/FORTE.TTF');
+  font-weight: normal;
+}
 /*/////// UNDER 559px //////////*/
-@media screen and (max-width: 729px) {
-  body {
-    font-size: 1.2em;
+@media screen and (max-width: 824px) {
+  .container {
+    font-size: 1.1em;
     font-family: "SegoeRegular", "arial", sans-serif;
     background: #403e3c;
     color: #cbcbcb;
-  }
-  .container {
     padding-left: .8em;
     padding-right: .8em;
   }
@@ -71,8 +75,7 @@
   }
   #accordions ul {
     background-color: #474644;
-    /*display: none; */
-    /*Appelé direct dans html => fonctionne .. ? */
+    display: none;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
@@ -91,13 +94,44 @@
   .sectTitles {
     color: #8e8e8e;
     font-family: "SegoeSemibold";
-    margin-top: 1.4em;
     margin-bottom: .5em;
+    padding-top: 1em;
+  }
+  .vh-links li {
+    transition: all .6s ease;
+  }
+  .vh-links li:hover {
+    text-indent: .9em;
+    transition: all .6s ease;
+  }
+  .sn-links {
+    display: inline-flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+  .sn-links > li {
+    padding-left: 1em;
+    margin-top: .6em;
+  }
+  .sn-links > li:first-child {
+    padding-left: 0;
+  }
+  .sn-links > li div:hover {
+    border-radius: 100px;
+    background-color: #cf0202;
+    transition: all .2s ease;
+  }
+  .ext-links li a {
+    transition: all .6s ease;
+  }
+  .ext-links li:hover {
+    text-indent: .9em;
+    transition: all .6s ease;
   }
   .wn-links {
     margin-top: 1.2em;
   }
-  .wn-links img {
+  .wn-links .wn-img {
     display: none;
   }
   .wn-links ul li a {
@@ -113,7 +147,11 @@
   .wn-rights {
     clear: both;
     color: #8e8e8e;
-    padding-top: 1.6em;
+    padding-top: 1.5em;
     font-size: .6em;
+  }
+  .wn-rights p {
+    margin-bottom: 0;
+    padding-bottom: 1.2em;
   }
 }

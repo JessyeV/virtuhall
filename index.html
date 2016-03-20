@@ -1,68 +1,46 @@
 <!DOCTYPE html>
-<html lang="fr">
 <head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>VirtuHall, le jeu chibi 3D japan-like!</title>
-	<style type="text/css">
-		@font-face{
-			font-family: 'pixelsix';
-  			src: url(pixelsix/pixelsix10.ttf);
-  			font-weight: normal;
-		}
-
-		body{
-			background-color: #2D4762;
-			font-family: 'verdana', arial, sans-serif;
-			color: lightgrey;
-			font-size: 11px;
-		}
-		
-		div{
-			font-family: 'pixelsix';
-			font-size: 30px;
-			text-align: center;
-			color: whitesmoke;
-			margin-top: 8%;
-		}
-		p{
-			margin-top: .5%;
-		}
-
-		.cya{
-			padding-top: 15px;
-			font-size: 22px;
-		}
-
-		.credits{
-			margin-top: 6.5%;
-			margin-right: 1%;
-			float: right;
-		}
-
-		a{
-			color: lightgrey;
-		}
-
-		@media screen and (max-width: 510px){
-			div{
-				font-size: 24px;
-			}
-
-			img{
-				width: 100%;
-			}
-		}
-	</style>
-</head>
-
-<body>
-	<div>
-	<p>Website under construction</p>
-	<p>Site en cours de construction</p>
-	<img src="tumblr_1041uuu.gif" alt="Website under construction/ Site en cours de construction">
-	<p class="cya">Come back later :)</p>
+	<html lang="fr">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="VirtuHall - le jeu d’action-aventure en 3D au style chibi, qui vous transportera dans les couloirs d’une convention atypique et déjantée du japon féodal, rejoignez-nous !"/>
+		<title>VirtuHall Game - Le jeu chibi 3D japan-like !</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/landing.css">
+		<link rel="stylesheet" href="css/foundation.min.css">
+		<link rel="stylesheet" href="css/bjqs/bjqs.css">
+		<link rel="stylesheet" href="css/bjqs/slider.css">
+	</head>
+	<body>
+		<div class="main">
+			<div class="wrapslide">
+			<img class="VH-brand" src="assets/icons/VH.png" alt="">
+			
+			<div id="vh-slider">
+				<ul class="bjqs">
+					<li><div class="embed-container"><iframe width="711" height="400" src="https://www.youtube.com/embed/8eBwXuXCOUk?rel=0" frameborder="0" allowfullscreen></iframe></div></li>
+					<li><img src="assets/images/slider/kata.jpg" /></li>
+					<li><img src="assets/images/slider/tomo.jpg" /></li>
+				</ul>
+			</div>
+			
+			<ul class="buttons">
+				<li class="bluehov"><a href="signin.php">Jouer gratuitement!</a></li>
+				<li class="greenhov"><a href="home.php">Acc<span class="forte">é</span>der au site...</a></li>
+			</ul>
+			</div>
 	</div>
-	<p class="credits">Gif by <a href="http://1041uuu.tumblr.com/">@1041uuu</a></p>
 </body>
+<!-- SCRIPT -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bjqs-1.3.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+$('#vh-slider').bjqs({
+	'height' : 420,
+	'width' : 710,
+	'responsive' : true
+});
+});
+</script>
 </html>

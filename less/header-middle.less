@@ -1,10 +1,11 @@
 @import "_library";
 
-/*///////// 481px TO 559px ///////////*/
-@media screen and (min-width: 481px) and (max-width: 566px) {
-	body{
-		font-size: 1.3em;
+/*///////// 631px TO 842px ///////////*/
+@media screen and (min-width: 631px) and (max-width: 870px) {
+	#main-header{
+		font-size: 1.2em;
 		background-color: @bckgd;
+		max-width: 1920px;
 	}
 
 	.container-sm, #burger-icon{
@@ -20,12 +21,12 @@
 			li{
 				display: inline-block; 
 				list-style: none;
-				:hover{
-					color: @blue;
-				}
 				a{
 					text-decoration: none;
 					color: @coalgrey;
+					&:hover{
+						color: @blue;
+					}
 				}
 			}
 		}
@@ -54,12 +55,14 @@
 			text-align: center;
 			ul{
 				li{
-				padding: .7rem .8rem 1rem .8rem;
+				padding: .7rem .8rem 0rem .8rem;
+				margin-bottom: 0.2rem;
+				margin-top: 1rem;
 
 					&:last-child{
 						font-family: "ZinHena", "Candela", sans-serif;
 						font-size: 1.4rem;
-						margin-bottom: .5rem;
+						margin-bottom: 2rem;
 						a{
 							text-decoration: none;
 							background-color: @red;
@@ -80,11 +83,11 @@
 	}
 
 	.banner-container{
-		.banner-sm, .banner-lg{
+		.banner-sm, .banner-md{
 			display: none;
 		}
-		.banner-md{
-			position: absolute;
+		.banner-lg{
+			position: relative;
 			margin-top: -3rem;
 			width: 100%;
 		}

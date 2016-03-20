@@ -1,10 +1,12 @@
 @import "_library";
 
-/*////////// FIX 584px to 744px //////////////////*/
-@media screen and (min-width: 567px) and (max-width: 797px) {
-	body{
+/*///////// OVER 843px /////////*/
+@media screen and (min-width: 871px) {
+
+	#main-header{
 		font-size: 1.3em;
 		background-color: @bckgd;
+		max-width: 1920px;
 	}
 
 	.container-sm, #burger-icon{
@@ -20,103 +22,12 @@
 			li{
 				display: inline-block; 
 				list-style: none;
-				:hover{
-					color: @blue;
-				}
 				a{
 					text-decoration: none;
 					color: @coalgrey;
-				}
-			}
-		}
-
-		.top-nav{
-			padding: 1rem 1rem 0 1.8rem;
-			ul{
-				float: right;
-				margin: 0;
-				padding: .7rem .8rem 0 0;
-				li{
-					&:nth-child(-n+2){
-						padding-right: 2rem;
+					&:hover{
+						color: @blue;
 					}
-					&:nth-child(n+3){
-						font-family: "SegoeRegular", "arial", sans-serif;
-						font-variant: small-caps;
-						font-size: 1.3rem;
-						padding: 0 .5rem 0 .5rem;
-					}
-				}
-			}
-		}
-
-		.mid-nav{
-			text-align: center;
-			ul{
-				li{
-				padding: .7rem 1rem 1rem 1rem;
-					&:last-child{
-						padding-bottom: 4.2rem;
-						font-family: "ZinHena", "Candela", sans-serif;
-						font-size: 1.5rem;
-						a{
-							text-decoration: none;
-							background-color: @red;
-							color: white;
-							padding: .5rem .8rem .5rem .8rem;
-							transition: all .4s ease-in;
-
-							&:hover{
-								transition: all .3s ease-in;
-								background-color: transparent;
-								color: @red;
-							}
-						}
-					}
-				}			
-			}
-		}	
-	}
-
-	.banner-container{
-		.banner-sm, .banner-md{
-			display: none;
-		}
-		.banner-lg{
-			position: absolute;
-			margin-top: -5rem;
-			width: 100%;
-		}
-	}		
-}
-
-/*/////////480px AND 730px/////////*/
-@media screen and (min-width: 798px) {
-
-	body{
-		font-size: 1.5em;
-		background-color: @bckgd;
-	}
-
-	.container-sm, #burger-icon{
-		display: none;
-	}
-
-	.navbar{
-		background-image: @arches;
-		font-family: "Candela", "SegoeRegular", sans-serif;
-		
-		ul{
-			padding-left: 0;
-			li{
-				display: inline-block; 
-				list-style: none;
-				:hover{
-					color: @blue;
-				}
-				a{
-					text-decoration: none;
-					color: @coalgrey;
 				}
 			}
 		}
@@ -146,10 +57,11 @@
 			ul{
 				li{
 				padding: .7rem 1.5rem 4rem 1.5rem;
+				margin-top: 1.1rem;
 					&:last-child{
-						margin: 0 0 0 .8rem;
 						font-family: "ZinHena", "Candela", sans-serif;
 						font-size: 1.5rem;
+						margin-bottom: 1rem;
 						a{
 							text-decoration: none;
 							background-color: @red;
@@ -174,7 +86,7 @@
 			display: none;
 		}
 		.banner-lg{
-			position: absolute;
+			position: relative;
 			margin-top: -5rem;
 			width: 100%;
 		}

@@ -1,0 +1,171 @@
+/* CANDELA */
+@font-face {
+  font-family: "Candela";
+  src: url('../assets/fonts/candela/CandelaBook.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CandelaBold";
+  src: url('../assets/fonts/candela/CandelaBold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "CandelaItalic";
+  src: url('../assets/fonts/candela/CandelaItalic.otf');
+  font-weight: italic;
+}
+/* ZIN HENA BOKURYU */
+@font-face {
+  font-family: "ZinHena";
+  src: url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.otf'), url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.ttf');
+  font-weight: normal;
+}
+/* SEGOE UI */
+@font-face {
+  font-family: "SegoeRegular";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeLight";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_light.ttf');
+  font-weight: light;
+}
+@font-face {
+  font-family: "SegoeBold";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_bold.ttf'), url('../assets/fonts/segoe_ui/segoe_ui_bold.eot'), url('../assets/fonts/segoe_ui/segoe_ui_bold.woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "SegoeItalic";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_italic.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeSemibold";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_semibold.ttf');
+  font-weight: semibold;
+}
+@font-face {
+  font-family: "SegoeBoldItalic";
+  src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
+  font-weight: bold;
+}
+/* FORTE */
+@font-face {
+  font-family: "Forte";
+  src: url('../assets/fonts/forte/FORTE.TTF');
+  font-weight: normal;
+}
+@media screen and (min-width: 801px) {
+  body {
+    font-size: 1.1em;
+    font-family: "SegoeRegular", sans-serif;
+    background-color: #f9f9f9;
+  }
+  .title-box {
+    background-image: url('../assets/patterns/arches.png');
+    padding: .5em 0 .5em 0;
+  }
+  h1 {
+    font-family: "Candela", sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0;
+  }
+  .main .breadcrumbs li {
+    font-size: .9em;
+    text-transform: capitalize;
+    margin: 1em 0 1em 0;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-family: "Candela", sans-serif;
+  }
+  .main .sn-divs {
+    width: 100%;
+    margin: auto;
+  }
+  .main .sn-divs > div {
+    width: 33%;
+    float: left;
+    margin: 2% 2.5% 2% 2.5%;
+  }
+  .main .sn-divs > div img {
+    width: 100%;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    transition: all .5s ease;
+  }
+  .main .sn-divs > div img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    transition: all .5s ease;
+  }
+  .main .sn-divs .left > div,
+  .main .sn-divs .right > div {
+    margin-bottom: 18%;
+  }
+  .main .sn-divs p {
+    background-color: #403e3c;
+    padding: 5px 5px 5px 10px;
+    color: #cbcbcb;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 1.1em;
+    font-family: "SegoeRegular", sans-serif;
+    background-color: #f9f9f9;
+  }
+  .title-box {
+    background-image: url('../assets/patterns/arches.png');
+    padding: .5em 0 .5em 0;
+  }
+  h1 {
+    font-family: "Candela", sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0;
+  }
+  .main .breadcrumbs li {
+    font-size: .9em;
+    text-transform: capitalize;
+    margin: 1em 0 1em 0;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-family: "Candela", sans-serif;
+  }
+  .main .sn-divs {
+    margin: 5% 0 5% 0;
+    vertical-align: middle;
+  }
+  .main .sn-divs img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    transition: all .5s ease;
+  }
+  .main .sn-divs img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    transition: all .5s ease;
+  }
+  .main .sn-divs > .right {
+    clear: left;
+  }
+  .main .sn-divs > .right,
+  .main .left,
+  .main p {
+    text-align: center;
+  }
+  .main .left > div,
+  .main .right > div {
+    padding-bottom: 14%;
+  }
+  .main p {
+    background-color: #403e3c;
+    padding: 5px 5px 5px 10px;
+    color: #cbcbcb;
+  }
+}

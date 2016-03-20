@@ -1,20 +1,22 @@
 @import "_library";
 
 /*////////// 481px to 559px ///////////////*/
-@media screen and (min-width: 730px){
-	body{
-		font-size: 1.2em;
+@media screen and (min-width: 825px){
+	.container{
+		max-width: 1920px;
+		font-size: .9em;
 		font-family: "SegoeRegular", "arial", sans-serif; 
 		background: @coalgrey;
 		color: @footerTxt;
-	}
-	
-	.container{
 		padding-left: 1.3em;
 		padding-right: 1.3em;
 		ul{
 			list-style: none;
 		}
+	}
+
+	.breadcrumbs a{
+		color: @blue;
 	}
 
 	.vh-menu{
@@ -53,9 +55,6 @@
 			&:first-child{
 				padding-left: 0;
 			}
-			span{
-				display: none;
-			}
 			div:hover{
 				border-radius: 100px;
 				background-color: @red;
@@ -89,13 +88,11 @@
 		text-align: center;
 		color: @footerSect;
 		padding-top: 1.6em;
-		font-size: .6em;
+		font-size: .7em;
+			p{
+			margin-bottom: 0;
+			padding-bottom: 1.2em;
+		}
 	}
 }	
 
-@media screen and (max-width: 940px){
-	.wn-links{
-		float: left;
-		text-align: left;
-	}
-}

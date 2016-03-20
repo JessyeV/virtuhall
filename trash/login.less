@@ -1,0 +1,37 @@
+@import "_library";
+
+body{
+	font-size: 1.1em;
+	font-family: "SegoeRegular", sans-serif;
+	background-color: @bckgd;
+}
+.login-overlay {
+      position: absolute;
+      z-index: 99;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+    }
+    .login-popup {
+		position: absolute;
+		z-index: 999;
+		width: 400px;
+      	height: 300px;
+    	margin-top: 150px;
+    	text-align: center;
+      	background-image: url('../assets/patterns/arches.png');
+      	border-radius: 10px;
+      	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+      	padding: 40px;
+      	display: none;
+    }
+    .login-popup h2 { 
+    	font-size: 2em 
+    	display: none;
+    }
+    .login-popup .popup-close {
+      text-decoration: none;
+      font-size: 1.6em;
+      line-height: 65px;
+      display: none;
+    }

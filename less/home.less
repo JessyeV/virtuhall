@@ -1,0 +1,73 @@
+@import "_library";
+
+	body{
+		font-size: 1.1em;
+		font-family: "SegoeRegular", sans-serif;
+		background-color: @bckgd;
+	}
+
+	.title-box{
+		background-image: @arches;
+		padding: .5em 0 .5em 0;
+	}
+
+	h1{
+		font-family: "Candela", sans-serif;
+		font-size: 2em;
+		text-align: center;
+		margin: 0;
+	}
+
+	.main{
+		h2{
+			font-size: 1.9em;
+			font-family: "Candela", sans-serif;
+			margin-top: 1.2em;
+			margin-bottom: 0.6em;
+		}
+
+		.articles{
+				&>div{
+					width: 44.5%;
+					float: left;
+					margin: 1.2%;
+					padding: 1em;
+					background-color: @lightgrey;
+				}
+
+				img{
+					width: 100%;
+				}
+			
+		}
+		
+		.ad-vertical{
+			margin: 2em 0.8em 2em -1em;
+		}
+		.ad-horizontal{
+			display: none !important;
+		}
+	}
+
+@media screen and (max-width: 1025px) {
+	.main .ad-vertical{
+		display: none !important;
+	}
+
+	.main .ad-horizontal{
+		display: inline-block !important;
+		margin-bottom: 0.7em;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.main{
+		.articles{
+				&>div{
+					width: 100%;
+					background-color: @lightgrey;
+					margin-bottom: 1.5em;
+				}
+		}
+	}
+}
