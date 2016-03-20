@@ -13,7 +13,7 @@
 			<div class="log">
 				<ul>
 					<li><a href="signin.php">Inscription</a></li>
-					<li><a href="#">Connexion</a></li>
+					<li><a class="popup-trigger">Connexion</a></li>
 				</ul>
 			</div>
 			<div class="lang">
@@ -44,7 +44,7 @@
 				</a>
 				<ul>
 					<li><a href="signin.php">Inscription</a></li>
-					<li><a href="#">Connexion</a></li>
+					<li><a class="popup-trigger">Connexion</a></li>
 					<li class="disabled">fr</li>
 					<span>|</span>
 					<li><a href="#" class="underlined">en</a></li>

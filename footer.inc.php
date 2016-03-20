@@ -91,5 +91,19 @@
 				<div class="wn-rights"><p>© 2015-2016 Wrong Number. VirtuHall est une marque de Wrong Number.</p></div>
 		</div>
 </footer>
+
+<div class="popup">
+	<p class="title">Connexion</p>
+	<label for="pseudo" class="show-for-sr">Pseudo</label>
+  	<input type="text" name="pseudo" placeholder="Pseudo" required>
+	
+	<label for="pwd" class="show-for-sr">Mot de passe</label>
+  	<input type="password" name="pwd" placeholder="Mot de passe" required>
+
+  	<input type="submit" value="Se connecter">
+  <span class="popup-btn-close">fermer</span>
+</div>
+
 	<script src="js/jquery.min.js"></script>
+	<script src="js/login.js"></script>
 	<script src="js/footer.js"></script>

@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/help.css">
 		<link rel="stylesheet" href="css/faq.css">
+		<link rel="stylesheet" href="css/login.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
