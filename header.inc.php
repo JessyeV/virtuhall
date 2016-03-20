@@ -72,10 +72,3 @@
 	</span>
 	<?php endif; ?>
 </div>
-<script>
-$(document).ready(function(){
-	$('#burger-icon').on('click',function(){
-		$('.burger-menu').slideToggle('200');
-	});
-});
-</script>
