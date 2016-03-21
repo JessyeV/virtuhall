@@ -82,6 +82,7 @@ if(!empty($login) && !empty($password) && !empty($mail) && !empty($sexe))
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/signin.css">
+		<link rel="stylesheet" href="css/login.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	</head>
@@ -151,15 +152,16 @@ if(!empty($login) && !empty($password) && !empty($mail) && !empty($sexe))
 					<!-- ADVERTIZING -->
 					<aside class="aside">
 					<ins class="ad-vertical adsbygoogle"
-    					style="display:inline-block;width:160px;height:100%;"
+    					style="display:inline-block;width:160px;height:600px;"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="1415884923">
     				</ins>
 
 					<ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:100%;height:100px;border:5px solid red;"
-   						data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="5008479721"></ins>
+    					style="display:inline-block;width:320px;height:90px"
+    					data-ad-client="ca-pub-8371934832180859"
+    					data-ad-slot="6700585321">
+    				</ins>
 					</aside>
 				</div>
 			</div>
@@ -167,7 +169,6 @@ if(!empty($login) && !empty($password) && !empty($mail) && !empty($sexe))
 			<!-- FOOTER -->
 			<span class="space"><?php include('footer.inc.php'); ?></span>
 
-			<script src="js/jquery.min.js"></script>
 			<script src="js/signin.js"></script>
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<script>

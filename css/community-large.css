@@ -113,7 +113,7 @@
     color: #cbcbcb;
   }
 }
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1024px) {
   .ad-vertical {
     margin-bottom: 1.2em;
   }

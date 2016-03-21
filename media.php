@@ -36,26 +36,26 @@
 				<!-- MAIN -->
 				<section class="column large-10 media-wrap">
 					
-					<div class="popup-gallery column large-12">
+					<div id="screen" class="popup-gallery column large-12">
 						<h2>Captures d'écran</h2>
-						<a href="assets/images/slider/kata.jpg" title="Kata's women day" class="column small-12 medium-6 large-4"><img src="assets/images/slider/kata.jpg"></a>
+						<a href="assets/images/slider/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/kata.jpg"></a>
 						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
-						<a href="assets/images/slider/room.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/room.jpg" alt=""></a>
-						<a href="assets/images/slider/room.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/room.jpg" alt=""></a>
+						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
+						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
 					</div>
 					
-					<div class="popup-video column large-12">
+					<div id="video" class="popup-video column large-12">
 						<h2>Vidéos</h2>
 						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
 						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
 					</div>
 
-					<div class="popup-wallpaper column large-12">
+					<div id="wallpaper" class="popup-wallpaper column large-12">
 						<h2>Fonds d'écran</h2>
-						<a href="assets/images/slider/kata.jpg" title="Kata is strong" class="column small-12 medium-6 large-4"><img src="assets/images/slider/kata.jpg"></a>
+						<a href="assets/images/slider/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/kata.jpg"></a>
 						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
-						<a href="assets/images/slider/room.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/room.jpg" alt=""></a>
-						<a href="assets/images/slider/room.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/room.jpg" alt=""></a>
+						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
+						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
 					</div>
 				</section>
 

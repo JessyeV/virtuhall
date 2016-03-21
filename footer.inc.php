@@ -14,9 +14,9 @@
 
 		<ul>
 			<span>Média</span>
-			<li><a>Captures d'écran</a></li>
-			<li><a>Vidéos</a></li>
-			<li><a>Fonds d'écran</a></li>
+			<li><a href="media.php#screen">Captures d'écran</a></li>
+			<li><a href="media.php#video">Vidéos</a></li>
+			<li><a href="media.php#wallpaper">Fonds d'écran</a></li>
 		</ul>
 		
 		<ul>	
@@ -52,9 +52,9 @@
 
 				<li id="media" class="sections"><span>Média</span>
 					<ul id="media-ctnt" class="menu vertical" >
-						<li><a href="#">Captures d'écran</a></li>
-						<li><a href="#">Vidéos</a></li>
-						<li><a href="#">Fonds d'écran</a></li>
+						<li><a href="media.php#screen">Captures d'écran</a></li>
+						<li><a href="media.php#video">Vidéos</a></li>
+						<li><a href="media.php#wallpaper">Fonds d'écran</a></li>
 					</ul>
 				</li>	
 
@@ -78,7 +78,7 @@
 			<span class="sectTitles">Wrong Number, l'agence</span>
 			<img src="assets/icons/WN_light2.png" class="wn-img" alt="Logo de l'agence Wrong Number">
 				<ul class="ext-links">
-					<li><a href="#">Site internet</a></li>
+					<li><a href="WrongNumber/index.html">Site internet</a></li>
 					<li><a href="assets/files/CGU_WN.pdf">Mentions légales</a></li>
 				</ul>
 
