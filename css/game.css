@@ -100,10 +100,11 @@ h1 {
   margin-bottom: 1em;
 }
 .main .story > article > span {
+  margin-top: 2.5em;
   margin-bottom: 2em;
 }
 .main article > span {
-  margin: 1em .5em 1em .5em;
+  margin: 1em .5em 1em 0;
   padding: 0;
   text-align: center;
 }

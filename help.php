@@ -48,14 +48,14 @@
 
 					<article>
 						<h3>Que dois-je faire pour m'inscrire ?</h3>
-						<div><p>Pour s’inscrire c’est simple ! Il suffit de cliquer sur “Inscription” en haut de page et de remplir le formulaire qui permettra de créer le compte.</p></div>
+						<div><p>Pour s’inscrire c’est simple ! Il suffit de cliquer sur “<a href="signin.php">Inscription</a>” en haut de page et de remplir le formulaire qui permettra de créer le compte.</p></div>
 					</article>
 
 					<article>
 						<h3>Comment jouer à VirtuHall ?</h3>
-						<div><p>Pour jouer à VirtuHall, il faut tout d'abord créer un compte pour pouvoir télécharger le jeu : <a href="signin.php">Créer un compte</a>.<br>
-						Une fois le compté créé, le page de téléchargement s'affichera et vous pourrez télécharger le client du jeu.<br>
-						Vous pouvez également télécharger le jeu sur la page de téléchargement : <a href="">Télécharger le jeu</a>.<br>
+						<div><p>Pour jouer à VirtuHall, il faut tout d'abord <a href="signin.php">créer un compte</a> pour pouvoir télécharger le jeu.<br>
+						Une fois le compte créé, la page de téléchargement s'affichera et vous pourrez télécharger le client du jeu.<br>
+						Si vous êtes <b>déjà connecté</b>, vous pouvez télécharger le jeu directement, sur la <a href="download.php">page de téléchargement</a>.<br>
 						Une fois téléchargé, il suffit de se rendre dans le dossier de destination du téléchargement et d’installer le jeu grâce au client exécutable (.exe).
 					</p></div>
 				</article>
