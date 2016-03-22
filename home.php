@@ -42,19 +42,16 @@
 				<section class="articles column large-10">
 					<h2 id="actu">Actualités</h2>
 					<div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil reprehenderit, sit, consectetur tenetur ullam, praesentium itaque ab repudiandae voluptas facilis exercitationem nesciunt ipsum porro! Ab ea, ipsa doloribus. Id, amet!</p>
+						<h3>VirtuHall arrive bientôt...</h3>
+						<img src="assets/images/articles/vh-soon.jpg" alt="">
+						<p>L'attente touche bientôt à sa fin ! <br>L'aventure déjantée de Tomo-san fera son arrivée dans quelques jours... Stay tuned!</p>
 					</div>
 					
 					<div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quod optio voluptatibus, accusamus consectetur. Quis hic numquam quo nostrum laborum quibusdam dicta id nesciunt, voluptates quos suscipit accusamus. Ipsa, omnis?</p>
-					</div>
-					
-					<div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eum laborum debitis placeat sequi amet optio saepe deserunt, inventore recusandae, sunt expedita asperiores mollitia dolorem corporis ut consequuntur! Modi, commodi?</p>
-					</div>
-					
-					<div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, amet, saepe. Alias itaque, quo et laboriosam impedit, culpa corporis perferendis. Quidem laudantium tenetur laboriosam velit dolorem consequuntur, architecto error voluptatibus.</p>
+						<h3>L'agence Wrong Number présente son site internet !</h3>
+						<img src="assets/images/articles/wn-site.jpg" alt="">
+						<p>Le site de notre est agence en ligne ! <br> Venez découvrir ceux qui composent le projet de VirtuHall :)<br>
+						<a href="http://virtuhall-game.com/WrongNumber/">virtuhall-game.com/WrongNumber</a></p>
 					</div>
 				</section>
 

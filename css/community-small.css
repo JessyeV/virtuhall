@@ -116,7 +116,7 @@
     color: #cbcbcb;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
   .ad-vertical {
     display: none !important;
   }
