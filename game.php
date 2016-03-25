@@ -73,11 +73,11 @@
     					data-ad-slot="1415884923">
     				</ins>
 
-					<ins class="ad-horizontal adsbygoogle"
+					<!-- <ins class="ad-horizontal adsbygoogle"
     					style="display:inline-block;width:320px;height:90px"
     					data-ad-client="ca-pub-8371934832180859"
     					data-ad-slot="6700585321">
-    				</ins>
+    				</ins> -->
 				</aside>
 			</div>	
 		</div>

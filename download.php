@@ -58,11 +58,12 @@
 					<h3>Je télécharge VirtuHall</h3>
 						<button class="dl-btn">
 							<img class="dl-img" src="assets/icons/dl-32.png" alt="">
-							<p>Télécharger le jeu</p>
-							<p>Version Windows (x64)</p>
+							<!-- <p>Télécharger le jeu</p>
+							<p>Version Windows (x64)</p> -->
+							<p>Bientôt disponible !</p>
 						</button>
 						
-						<div class="dl-btn-vsn">
+						<!-- <div class="dl-btn-vsn">
 							<p>Télécharger une autre version</p>
 							
 							<ul id="dl-versions">
@@ -70,7 +71,7 @@
 								<li><img src="assets/icons/dl/apple.png" alt=""><a href="#">Version Mac</a></li>
 								<li><img src="assets/icons/dl/linux.png" alt=""><a href="#">Version Linux</a></li>
 							</ul>
-						</div>
+						</div> -->
 					</div>
 				</section>
 
@@ -82,10 +83,10 @@
     					data-ad-slot="1415884923">
     				</ins>
 
-					<ins class="ad-horizontal adsbygoogle"
+					<!-- <ins class="ad-horizontal adsbygoogle"
    						style="display:inline-block;width:320px;height:90px"
     					data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="6700585321">
+    					data-ad-slot="6700585321"> -->
     				</ins>
 				</aside>
 			</div>
