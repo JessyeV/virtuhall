@@ -51,7 +51,7 @@
 
 					<form id="signup" action="" method="POST">
 						<label for="" class="show-for-sr">Pseudo</label>
-						<input type="text" name="pseudo" placeholder="Pseudo*" class="user" required/>
+						<input type="text" name="pseudo" placeholder="Pseudo*" class="user"  required/>
 
 						<label for="" class="show-for-sr">Mot de Passe</label>
 						<input type="password" name="pwd" placeholder="Mot de Passe*" class="pwd" required/>
