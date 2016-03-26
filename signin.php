@@ -1,3 +1,9 @@
+<?php
+	if (isset($_COOKIE['pseudo'])) {
+	      header('Location: index.php');
+	}
+?>
+
 <!DOCTYPE html>
 <head>
 	<html lang="fr">
@@ -43,7 +49,7 @@
 					<!-- FORM -->
 					<div class="form-head">C'est par ici !</div>
 
-					<form action="" method="POST">
+					<form id="signup" action="" method="POST">
 						<label for="" class="show-for-sr">Pseudo</label>
 						<input type="text" name="pseudo" placeholder="Pseudo*" class="user" required/>
 
@@ -52,14 +58,24 @@
 
 						<label for="" class="show-for-sr">E-mail</label>
 						<input type="email" name="mail" placeholder="E-mail*" class="mail" required/>
+						
+						<label for="" class="show-for-sr">Age</label>
+						<select name="age" form="ageoptions" style="border-radius: .6em;">
+							<option value="none">Votre âge...</option>
+  							<option value="under18">Moins de 18</option>
+  							<option value="18-25">18-25</option>
+  							<option value="26-35">26-35</option>
+  							<option value="36-45">36-45</option>
+  							<option value="more46">Plus de 46</option>
+						</select>
 
 						<label for="" class="show-for-sr">Genre</label>
 						<img src="assets/icons/form/wman.png" alt="" class="gndr">
-						<input type="radio" value="homme" name="gender" class="radio"/><span class="radio">&nbsp;&nbsp;Homme</span>
 
+						<input type="radio" value="homme" name="gender" class="radio"/><span class="radio">&nbsp;&nbsp;Homme</span>
 						<input type="radio" value="femme" name="gender" class="radiobr"/>&nbsp;&nbsp;Femme<br/>
 
-						<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>
+						<!--<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>-->
 
 						<button type="submit" name="" value="valider">Valider l'inscription</button>
 					</form>
@@ -81,7 +97,9 @@
 					</aside>
 				</div>
 			</div>
+			<div id="test">
 
+			</div>
 			<!-- FOOTER -->
 			<span class="space"><?php include('footer.inc.php'); ?></span>
 			<script src="js/signin.js"></script>

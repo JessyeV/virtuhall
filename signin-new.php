@@ -1,74 +1,69 @@
 <?php
-include('connect.php');
-if (isset($_COOKIE['pseudo'])) {
-      header('Location: index.php');
-    }
-function check_input($data, $problem='')
-{
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    if ($problem && strlen($data) == 0)
+
+	include('connect.php');
+
+	if (isset($_COOKIE['pseudo'])) {
+	      header('Location: index.php');
+	}
+
+	function check_input($data, $problem='')
+	{
+	    $data = trim($data);
+	    $data = stripslashes($data);
+	    $data = htmlspecialchars($data);
+	    if ($problem && strlen($data) == 0)
+	    {
+	        show_error($problem);
+	    }
+	    return $data;
+	}
+
+	//Connexion à la BDD
+	try
+	{
+		$bdd = new PDO ('mysql:host=virtuhaldv80085.mysql.db;dbname=virtuhaldv80085', 'virtuhaldv80085', 'Wrongnumber7');
+	}
+	
+	catch(Exception $e)
+	{
+		die('Erreur :'.$e->getMessage());
+	}
+
+  	$login =   $_POST['pseudo'];
+  
+  	$sql = mysqli_query($conn, "SELECT * FROM membres WHERE login='$login'");
+    
+    if(ISSET($_POST['submit']))
     {
-        show_error($problem);
-    }
-    return $data;
-}
-//Connexion à la BDD
-  try
-  {
-  
-   $bdd = new PDO ('mysql:host=virtuhaldv80085.mysql.db;dbname=virtuhaldv80085', 'virtuhaldv80085', 'Wrongnumber7');
-  
-    }
-  
-  catch(Exception $e)
-  {
-   die('Erreur :'.$e->getMessage());
-  }
-  $login =   $_POST['pseudo'];
-  $sql = mysqli_query($conn, "SELECT * FROM membres WHERE login='$login'");
-    if(ISSET($_POST['submit'])){
-      if (mysqli_num_rows($sql)!=0) {
-          echo '<center><b>Login déja utilisé</b></center>';
-        }
-else {
-//On créer les variables
-$login =   check_input($_POST['pseudo'], "");
-$password = check_input($_POST['pwd'], "");
-$mail = check_input($_POST['mail'], "");
-$sexe = check_input($_POST['gender'], "");
-$age = $_POST['age'];
-$password = hash("sha256", $password);
+	    if (mysqli_num_rows($sql)!=0) {
+	    	echo '<center><b>Login déja utilisé</b></center>';
+	    }
+		else
+		{
+			//On créer les variables
+			$login =   check_input($_POST['pseudo'], "");
+			$password = check_input($_POST['pwd'], "");
+			$mail = check_input($_POST['mail'], "");
+			$sexe = check_input($_POST['gender'], "");
+			$age = $_POST['age'];
+			$password = hash("sha256", $password);
 
+			$req = $bdd->prepare('INSERT INTO membres(login, password, mail, sexe) VALUES (:login, :password, :mail, :sexe)');
 
+			$req->execute(array("login" => $login, "password" => $password, "mail" => $mail, "sexe" => $sexe));
 
+			if(!empty($login) && !empty($password) && !empty($mail) && !empty($sexe))
+			{
+			  echo "<center><b><Inscription terminée.</b></center>";
+			}
 
-$req = $bdd->prepare('INSERT INTO membres(login, password, mail, sexe) VALUES (:login, :password, :mail, :sexe)');
-
-
-$req->execute(array("login" => $login, "password" => $password, "mail" => $mail, "sexe" => $sexe));
-
-
-if(!empty($login) && !empty($password) && !empty($mail) && !empty($sexe))
-{
-  echo "<center><b><Inscription terminée.</b></center>";
-
-
-}
-  if(empty($login) || empty($password) || empty($mail) || empty($sexe))
-  {
-  echo "<center><b>Veuillez remplir tout les champs</b></center>";
-
-
-  }
-
-
-}
-   }
-   ?>
-
-
+			if(empty($login) || empty($password) || empty($mail) || empty($sexe))
+			{
+			  echo "<center><b>Veuillez remplir tout les champs</b></center>";
+			}
+		}
+	}
+?>
 
 <!DOCTYPE html>
 <head>
@@ -132,7 +127,7 @@ if(!empty($login) && !empty($password) && !empty($mail) && !empty($sexe))
 							<option>Votre âge...</option>
   							<option value="under18">Moins de 18</option>
   							<option value="18-25">18-25</option>
-  							<option value="23-27">26-35</option>
+  							<option value="26-35">26-35</option>
   							<option value="36-45">36-45</option>
   							<option value="more46">Plus de 46</option>
 						</select>
