@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="description" content="Un problème, une question, une information ? Envoyez-nous un message ici, nous tâcherons de vous répondre dans les plus brefs délais !">
 		<title>VirtuHall le jeu - Aide</title>
+		<link rel="icon" type="image/png" href="assets/favicon.png" />
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">

@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="description" content="Retrouvez toutes les images, vidéos et fonds d'écran du jeu VirtuHall !" />
 		<title>VirtuHall le jeu - Média</title>
+		<link rel="icon" type="image/png" href="assets/favicon.png" />
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/magnific-pp/magnific-popup.css">
@@ -46,8 +47,8 @@
 					
 					<div id="video" class="popup-video column large-12">
 						<h2>Vidéos</h2>
-						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
-						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo-miniature.jpg" alt=""></a>
+						<a href="https://www.youtube.com/watch?v=dwJeSkBlSLU" class="column small-12 medium-6 large-4"><img src="assets/images/media/wn-miniature.jpg" alt=""></a>
 					</div>
 
 					<div id="wallpaper" class="popup-wallpaper column large-12">

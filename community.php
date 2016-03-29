@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="description" content="Suivez VirtuHall sur les réseaux sociaux, que ce soit Facebook, Twitter, Snapchat ou YouTube, on vous attend !" />
 		<title>VirtuHall le jeu - Communauté</title>
+		<link rel="icon" type="image/png" href="assets/favicon.png" />
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">
