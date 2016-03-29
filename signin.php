@@ -77,7 +77,8 @@
 
 						<!--<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>-->
 
-						<button type="submit" name="" value="valider">Valider l'inscription</button>
+						<button type="submit" name="" value="valider">Valider l'inscription</button><br/>
+						<p class="info">En cliquant sur valider, vous acceptez les <a href="assets/files/CGU_WN.pdf">conditions d'utilisation</a>.</p>
 					</form>
 					</div>
 

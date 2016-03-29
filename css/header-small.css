@@ -139,13 +139,12 @@
   .navbar .container-md-lg {
     display: none;
   }
-  .banner-container .banner-sm,
   .banner-container .banner-lg {
     display: none;
   }
-  .banner-container .banner-md {
+  .banner-container .banner-sm {
     position: relative;
-    margin-top: -1.5rem;
+    margin-top: -1.7rem;
     width: 100%;
   }
 }

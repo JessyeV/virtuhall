@@ -38,24 +38,24 @@
 					
 					<div id="screen" class="popup-gallery column large-12">
 						<h2>Captures d'écran</h2>
-						<a href="assets/images/slider/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/kata.jpg"></a>
-						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
-						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
-						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/kata.jpg"></a>
+						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
 					</div>
 					
 					<div id="video" class="popup-video column large-12">
 						<h2>Vidéos</h2>
-						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
-						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
+						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
 					</div>
 
 					<div id="wallpaper" class="popup-wallpaper column large-12">
 						<h2>Fonds d'écran</h2>
-						<a href="assets/images/slider/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/kata.jpg"></a>
-						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
-						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
-						<a href="assets/images/slider/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/slider/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/kata.jpg"></a>
+						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
 					</div>
 				</section>
 

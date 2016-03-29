@@ -19,6 +19,9 @@
 	}
 
 	.main{
+		padding-top: 2em;
+		padding-bottom: 2em;
+
 		h2{
 			font-size: 1.9em;
 			font-family: "Candela", sans-serif;
@@ -33,7 +36,6 @@
 		}
 
 		.presentation-bloc{
-			padding-top: 1.5em;
 			font-size: 1.4em;
 			color: @blue;
 
@@ -43,7 +45,7 @@
 				text-align: center;
 				border-radius: 5px;
 				margin-top: 1.5em;
-				margin-left: auto;
+				margin-left: 0;
 				margin-right: auto;
 				margin-bottom: 5%;
 				padding: .5em;
@@ -54,7 +56,7 @@
 			.buttons>a{
 				color: lightgrey;
 				font-family: "ZinHena";
-				font-size: .9em;
+				font-size: 1.1em;
 				padding: .5em;
 				transition: color .2s ease-in-out;
 			}
@@ -93,20 +95,19 @@
 		}
 
 		.articles{
-				&>div{
-					width: 44.5%;
-					float: left;
-					margin: 1.2%;
-					padding: 1em;
-					background-color: #f2f2f2;
-				}
+			&>div{
+				width: 44.5%;
+				float: left;
+				margin: 1.2%;
+				padding: 1em;
+				background-color: #f2f2f2;
+			}
 
-				img{
-					margin-bottom: .6em;
-					margin-top: .3em;
-					width: 100%;
-				}
-			
+			img{
+				margin-bottom: .6em;
+				margin-top: .3em;
+				width: 100%;
+			}
 		}
 		
 		.ad-vertical{
@@ -115,11 +116,6 @@
 		.ad-horizontal{
 			display: none !important;
 		}
-	}
-
-	.main{
-		padding-top: 2em;
-		padding-bottom: 2em;
 	}
 
 @media screen and (max-width: 1025px) {
@@ -136,11 +132,11 @@
 @media screen and (max-width: 620px) {
 	.main{
 		.articles{
-				&>div{
-					width: 100%;
-					background-color: @lightgrey;
-					margin-bottom: 1.5em;
-				}
+			&>div{
+				width: 100%;
+				background-color: @lightgrey;
+				margin-bottom: 1.5em;
+			}
 		}
 	}
 }

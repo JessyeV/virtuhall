@@ -3,7 +3,7 @@
 		<!-- Responsive <480px -->
 		<div class="container-sm">
 			<div class="nav-icons">
-				<a href="home.php">
+				<a href="index.php">
 					<img class="vh-icon" src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil">
 				</a>
 				<a>
@@ -24,9 +24,10 @@
 				</ul>
 			</div>
 			
+			<!-- Collapsed menu -->
 			<nav class="burger-menu" role="navigation">
 				<ul class="inside-burger">
-					<li><a href="home.php">Accueil</a></li>
+					<li><a href="index.php">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="media.php">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
@@ -39,7 +40,7 @@
 		<!-- Normal size-->
 		<div class="container-md-lg">
 			<div class="top-nav">
-				<a href="home.php">
+				<a href="index.php">
 					<img src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil">
 				</a>
 				<ul>
@@ -53,7 +54,7 @@
 			
 			<div class="mid-nav">
 				<ul style="margin-bottom:0px">
-					<li><a href="home.php">Accueil</a></li>
+					<li><a href="index.php">Accueil</a></li>
 					<li><a href="game.php">Le jeu</a></li>
 					<li><a href="media.php">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
@@ -63,12 +64,21 @@
 			</div>
 		</div>
 	</nav>
+
+	<!-- Detect if the page as the variable homeset, if yes; displays the banner-->
 	<?php if(isset($homepage) && $homepage): ?>
+
+	<!-- Parallax banner -->
 	<span class="banner-container">
-		<img class="banner-md" src="assets/images/banner-md.png"
-		alt="">
-		<img class="banner-lg" src="assets/images/banner-lg.png"
-		alt="">
+	<div id="prx-container" class="prx-container banner-lg">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="0.00"><img src="assets/images/banner/fond.png"></li>
+			<li class="layer resp" data-depth="0.50"><img src="assets/images/banner/feuilles.png"></li>
+			<li class="layer resp" data-depth="0.08"><img src="assets/images/banner/tomo.png"></li>
+			<li class="layer resp" data-depth="0.30"><img src="assets/images/banner/vh.png"></li>
+		</ul>
+	</div>
+	<div class="banner-sm"><img src="assets/images/banner/banner-sm.png" alt=""></div>
 	</span>
 	<?php endif; ?>
 </div>

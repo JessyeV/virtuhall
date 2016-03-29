@@ -1,0 +1,44 @@
+.prx-container {
+  position: relative;
+}
+
+.prx-container .scene {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/*.prx-container .scene .resp{
+  display: block;
+  width: 100%;
+}*/
+
+/*Modifie chaque couche de la bannière*/ 
+.scene .layer:nth-child(1) {
+ position: absolute;
+}
+
+.scene .layer:nth-child(2) {
+  width: 18%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 64%;
+  margin-top: 2%;
+}
+
+.scene .layer:nth-child(3) {
+  width: 24%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 63%;
+  margin-top: 0.4%;
+}
+
+.scene .layer:nth-child(4) {
+  width: 50%;
+  position: absolute;
+  margin-left: 10%;
+}
+

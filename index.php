@@ -2,7 +2,8 @@
 <head>
 	<html lang="fr">
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="VirtuHall - jeu d’action-aventure en 3D au style chibi, qui vous transportera dans les couloirs d’une convention atypique et déjantée du Japon féodal. Rejoignez-nous !" />
 		<title>VirtuHall le jeu</title>
 		<link rel="stylesheet" href="css/normalize.css">
@@ -11,6 +12,7 @@
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/prx-style.css">
 	</head>
 	<body>
 		<!-- NAVIGATION -->
@@ -25,7 +27,7 @@
 		</header>-->
 		<div class="row" role="main">
 			<div class="main column large-12">
-				<div class="column large-4">
+				<div class="column large-5">
 					<div class="presentation-bloc">
 						<p><b>VirtuHall est un jeu <br/>d’action-aventure en 3D</b><br/> au style chibi, qui vous transportera dans les couloirs d’une convention atypique et déjantée du Japon féodal !</p>
 						<div class="buttons bluehov">
@@ -33,7 +35,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="column large-8">
+				<div class="column large-7">
 					<div class="flex-video widescreen">
 						<iframe width="640" height="360" src="https://www.youtube.com/embed/8eBwXuXCOUk?rel=0" frameborder="0" allowfullscreen></iframe>
 					</div>
@@ -79,5 +81,10 @@
 		<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
+		<script src="js/jquery.parallax.js"></script>
+	<script>
+	// Yep, that's it!
+	$('#scene').parallax();
+	</script>
 	</body>
 </html>

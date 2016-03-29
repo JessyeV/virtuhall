@@ -128,13 +128,12 @@
     background-color: transparent;
     color: #cf0202;
   }
-  .banner-container .banner-sm,
-  .banner-container .banner-md {
+  .banner-container .banner-sm {
     display: none;
   }
   .banner-container .banner-lg {
     position: relative;
-    margin-top: -3rem;
+    margin-top: -1.8rem;
     width: 100%;
   }
 }
