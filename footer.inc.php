@@ -76,16 +76,16 @@
 
 		<div class="wn-links">
 			<span class="sectTitles">Wrong Number, l'agence</span>
-			<img src="assets/icons/WN_light2.png" class="wn-img" alt="Logo de l'agence Wrong Number">
+			<img src="assets/icons/WN_light2.png" class="wn-img" alt="Logo de l'agence Wrong Number" width="200" height="68">
 				<ul class="ext-links">
-					<li><a href="WrongNumber/index.html">Site internet</a></li>
+					<li><a href="WrongNumber/">Site internet</a></li>
 					<li><a href="assets/files/CGU_WN.pdf">Mentions légales</a></li>
 				</ul>
 
 				<ul class="sn-links">
-					<li><a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><div><img src="assets/icons/sn/facebook3.png" alt="Accéder à la page Facebook"></div><span class="show-for-sr">Facebook</span></a></li>
-					<li><a href="https://twitter.com/virtuhall_game"><div><img src="assets/icons/sn/twitter.png" alt="Accéder à la page Twitter"></div><span class="show-for-sr">Twitter</span></a></li>
-					<li><a href="https://www.youtube.com/channel/UCNzNSFP1D69-F2sG7sDnVTA"><div><img src="assets/icons/sn/youtube30.png" alt="Accéder à la chaîne YouTube"><span class="show-for-sr">YouTube</span></div></a></li>
+					<li><a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><div><img src="assets/icons/sn/facebook3.png" alt="" title="Accéder à la page Facebook" width="40" height="40"></div><span class="show-for-sr">Facebook</span></a></li>
+					<li><a href="https://twitter.com/virtuhall_game"><div><img src="assets/icons/sn/twitter.png" alt="" title="Accéder à la page Twitter" width="40" height="40"></div><span class="show-for-sr">Twitter</span></a></li>
+					<li><a href="https://www.youtube.com/channel/UCNzNSFP1D69-F2sG7sDnVTA"><div><img src="assets/icons/sn/youtube30.png" alt="" title="Accéder à la chaîne YouTube" width="40" height="40"><span class="show-for-sr">YouTube</span></div></a></li>
 				</ul>
 		</div>
 				<div class="wn-rights"><p>© 2015-2016 Wrong Number. VirtuHall est une marque de Wrong Number.</p></div>

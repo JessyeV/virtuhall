@@ -22,7 +22,7 @@
 			<h1>Communauté</h1>
 		</header>
 		<div class="row" role="main">
-			<div class="main column large-12">
+			<div class="main column large-offset-1 large-10">
 
 				<!-- BREADCRUMB -->
 				<nav aria-label="Vous êtes ici:" role="navigation">
@@ -40,24 +40,24 @@
 				<section class="sn-divs column large-10">
 					<div class="left">
 					<div>
-						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><img src="assets/images/commu/fb-page.png" alt=""></a>
+						<a href="https://www.facebook.com/VirtuHall-751664391636022/?fref=ts"><img src="assets/images/commu/fb-page.png" alt="Image de la page Facebook de VirtuHall"></a>
 						<p class="column">Accéder à la page Facebook</p>
 					</div>
 					
 					<div>
-						<a href="https://www.youtube.com/channel/UCNzNSFP1D69-F2sG7sDnVTA"><img src="assets/images/commu/youtube-page.png" alt=""></a>
+						<a href="https://www.youtube.com/channel/UCNzNSFP1D69-F2sG7sDnVTA"><img src="assets/images/commu/youtube-page.png" alt="Image de la page Youtube de VirtuHall"></a>
 						<p class="column">Accéder à la chaîne YouTube</p>
 					</div>	
 					</div>
 
 					<div class="right">
 					<div>
-						<a href="https://twitter.com/virtuhall_game"><img src="assets/images/commu/twitter-page.png" alt=""></a>
+						<a href="https://twitter.com/virtuhall_game"><img src="assets/images/commu/twitter-page.png" alt="Image de la page Twitter de VirtuHall"></a>
 						<p class="column">Accéder à la page Twitter</p>
 					</div>
 					
 					<div>
-						<a><img src="assets/images/commu/snap-page.png" alt=""></a>
+						<a><img src="assets/images/commu/snap-page.png" alt="Image du compte Snapchat de VirtuHall"></a>
 						<p class="column">Ajoutez Virtuhall sur Snapchat</p>
 					</div>
 					</div>
@@ -70,10 +70,12 @@
     					data-ad-slot="1415884923">
     				</ins>
 
-					<!-- <ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:320px;height:90px;"
-    					data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="6700585321"></ins> -->
+					<ins class="ad-horizontal adsbygoogle"
+     					style="display:block"
+     					data-ad-client="ca-pub-8371934832180859"
+     					data-ad-slot="2868717721"
+     					data-ad-format="link">
+     				</ins>
 				</aside>
 				</section>
 			</div>

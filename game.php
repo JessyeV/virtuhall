@@ -22,7 +22,7 @@
 			<h1>Le Jeu</h1>
 		</header>
 		<div class="row" role="main">
-			<div class="main column large-12">
+			<div class="main column large-offset-1 large-10">
 
 				<!-- BREADCRUMB -->
 				<nav aria-label="Vous êtes ici:" role="navigation">
@@ -74,11 +74,12 @@
     					data-ad-slot="1415884923">
     				</ins>
 
-					<!-- <ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:320px;height:90px"
-    					data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="6700585321">
-    				</ins> -->
+					<ins class="ad-horizontal adsbygoogle"
+     					style="display:block"
+     					data-ad-client="ca-pub-8371934832180859"
+     					data-ad-slot="2868717721"
+     					data-ad-format="link">
+     				</ins>
 				</aside>
 			</div>	
 		</div>

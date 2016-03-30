@@ -4,58 +4,20 @@
   src: url('../assets/fonts/candela/CandelaBook.otf');
   font-weight: normal;
 }
+/* GYOSHO */
 @font-face {
-  font-family: "CandelaBold";
-  src: url('../assets/fonts/candela/CandelaBold.otf');
-  font-weight: bold;
-}
-@font-face {
-  font-family: "CandelaItalic";
-  src: url('../assets/fonts/candela/CandelaItalic.otf');
-  font-weight: italic;
-}
-/* ZIN HENA BOKURYU */
-@font-face {
-  font-family: "ZinHena";
-  src: url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.otf'), url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.ttf');
+  font-family: "Gyosho";
+  src: url('../assets/fonts/gyosho/Gyosho.ttf');
   font-weight: normal;
 }
-/* SEGOE UI */
+/* ROBOTO 2014 */
 @font-face {
-  font-family: "SegoeRegular";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_regular.ttf');
-  font-weight: normal;
+  font-family: "RobotoLight";
+  src: url('../assets/fonts/roboto-2014/Roboto-Light.ttf');
 }
 @font-face {
-  font-family: "SegoeLight";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_light.ttf');
-  font-weight: light;
-}
-@font-face {
-  font-family: "SegoeBold";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_bold.ttf'), url('../assets/fonts/segoe_ui/segoe_ui_bold.eot'), url('../assets/fonts/segoe_ui/segoe_ui_bold.woff');
-  font-weight: bold;
-}
-@font-face {
-  font-family: "SegoeItalic";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_italic.ttf');
-  font-weight: normal;
-}
-@font-face {
-  font-family: "SegoeSemibold";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_semibold.ttf');
-  font-weight: semibold;
-}
-@font-face {
-  font-family: "SegoeBoldItalic";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
-  font-weight: bold;
-}
-/* FORTE */
-@font-face {
-  font-family: "Forte";
-  src: url('../assets/fonts/forte/FORTE.TTF');
-  font-weight: normal;
+  font-family: "RobotoMedium";
+  src: url('../assets/fonts/roboto-2014/Roboto-Medium.ttf');
 }
 .accordeon {
   margin-bottom: 3em;
@@ -64,7 +26,7 @@
   font-size: 1em;
   padding: .8em;
   margin-bottom: 0;
-  font-family: "SegoeRegular", sans-serif;
+  font-family: "RobotoLight", "Segoe UI", "Helvetica", sans-serif;
   cursor: pointer;
 }
 .accordeon h3:hover {

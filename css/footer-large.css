@@ -4,65 +4,27 @@
   src: url('../assets/fonts/candela/CandelaBook.otf');
   font-weight: normal;
 }
+/* GYOSHO */
 @font-face {
-  font-family: "CandelaBold";
-  src: url('../assets/fonts/candela/CandelaBold.otf');
-  font-weight: bold;
-}
-@font-face {
-  font-family: "CandelaItalic";
-  src: url('../assets/fonts/candela/CandelaItalic.otf');
-  font-weight: italic;
-}
-/* ZIN HENA BOKURYU */
-@font-face {
-  font-family: "ZinHena";
-  src: url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.otf'), url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.ttf');
+  font-family: "Gyosho";
+  src: url('../assets/fonts/gyosho/Gyosho.ttf');
   font-weight: normal;
 }
-/* SEGOE UI */
+/* ROBOTO 2014 */
 @font-face {
-  font-family: "SegoeRegular";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_regular.ttf');
-  font-weight: normal;
+  font-family: "RobotoLight";
+  src: url('../assets/fonts/roboto-2014/Roboto-Light.ttf');
 }
 @font-face {
-  font-family: "SegoeLight";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_light.ttf');
-  font-weight: light;
-}
-@font-face {
-  font-family: "SegoeBold";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_bold.ttf'), url('../assets/fonts/segoe_ui/segoe_ui_bold.eot'), url('../assets/fonts/segoe_ui/segoe_ui_bold.woff');
-  font-weight: bold;
-}
-@font-face {
-  font-family: "SegoeItalic";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_italic.ttf');
-  font-weight: normal;
-}
-@font-face {
-  font-family: "SegoeSemibold";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_semibold.ttf');
-  font-weight: semibold;
-}
-@font-face {
-  font-family: "SegoeBoldItalic";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
-  font-weight: bold;
-}
-/* FORTE */
-@font-face {
-  font-family: "Forte";
-  src: url('../assets/fonts/forte/FORTE.TTF');
-  font-weight: normal;
+  font-family: "RobotoMedium";
+  src: url('../assets/fonts/roboto-2014/Roboto-Medium.ttf');
 }
 /*////////// 481px to 559px ///////////////*/
 @media screen and (min-width: 825px) {
   .container {
     max-width: 1920px;
-    font-size: 1em;
-    font-family: "SegoeRegular", "arial", sans-serif;
+    font-size: 0.9em;
+    font-family: "RobotoLight", "Segoe UI", "Helvetica", sans-serif;
     background: #403e3c;
     color: #cbcbcb;
     padding-left: 1.3em;
@@ -85,7 +47,7 @@
   }
   .vh-menu > ul span {
     color: #8e8e8e;
-    font-family: "SegoeSemibold";
+    font-family: "RobotoMedium", "Segoe UI", "Helvetica", sans-serif;
   }
   .vh-menu > ul li a {
     color: #cbcbcb;
@@ -131,7 +93,7 @@
     text-align: center;
     color: #8e8e8e;
     padding-top: 1.6em;
-    font-size: .7em;
+    font-size: .8em;
   }
   .wn-rights p {
     margin-bottom: 0;

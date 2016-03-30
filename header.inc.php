@@ -4,10 +4,10 @@
 		<div class="container-sm">
 			<div class="nav-icons">
 				<a href="index.php">
-					<img class="vh-icon" src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil">
+					<img class="vh-icon" src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil" width="50" height="50">
 				</a>
 				<a>
-					<img id="burger-icon" src="assets/icons/mburger.png" alt="Menu de navigation" title="Accéder au menu">
+					<img id="burger-icon" src="assets/icons/mburger.png" alt="Menu de navigation" title="Accéder au menu" width="35" height="23">
 				</a>
 			</div>
 			<div class="log">
@@ -32,7 +32,7 @@
 					<li><a href="media.php">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
 					<li><a href="help.php">Aide</a></li>
-					<li><a href="signin.php">Télécharger!</a></li>
+					<li><a href="signin.php">Télécharger !</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -59,7 +59,7 @@
 					<li><a href="media.php">Média</a></li>
 					<li><a href="community.php">Communauté</a></li>
 					<li><a href="help.php">Aide</a></li>
-					<li><a href="download.php">T<span class="forte">é</span>l<span class="forte">é</span>charg<span class="forte">e</span>r!</a></li>
+					<li><a href="download.php">Télécharger!</a></li>
 				</ul>
 			</div>
 		</div>

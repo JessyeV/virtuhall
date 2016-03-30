@@ -27,7 +27,7 @@
 			<h1>Accueil</h1>
 		</header>-->
 		<div class="row" role="main">
-			<div class="main column large-12">
+			<div class="main column large-offset-1 large-10">
 				<div class="column large-5">
 					<div class="presentation-bloc">
 						<p><b>VirtuHall est un jeu <br/>d’action-aventure en 3D</b><br/> au style chibi, qui vous transportera dans les couloirs d’une convention atypique et déjantée du Japon féodal !</p>
@@ -46,13 +46,13 @@
 					<h2 id="actu">Actualités</h2>
 					<div>
 						<h3>VirtuHall arrive bientôt...</h3>
-						<img src="assets/images/articles/vh-soon.jpg" alt="">
+						<img src="assets/images/articles/vh-soon.jpg" alt="" width="300" height="200">
 						<p>L'attente touche bientôt à sa fin ! <br>L'aventure déjantée de Tomo-san fera son arrivée dans quelques jours... Stay tuned!</p>
 					</div>
 					
 					<div>
 						<h3>L'agence Wrong Number présente son site internet !</h3>
-						<img src="assets/images/articles/wn-site.jpg" alt="">
+						<img src="assets/images/articles/wn-site.jpg" alt="" width="400" height="266">
 						<p>Le site de notre est agence en ligne ! <br> Venez découvrir ceux qui composent le projet de VirtuHall :)<br>
 						<a href="http://virtuhall-game.com/WrongNumber/">virtuhall-game.com/WrongNumber</a></p>
 					</div>
@@ -66,11 +66,12 @@
 						data-ad-slot="1415884923">
 					</ins>
 				
-					<!-- <ins class="ad-horizontal adsbygoogle"
-    					style="display:inline-block;width:320px;height:90px"
-    					data-ad-client="ca-pub-8371934832180859"
-    					data-ad-slot="6700585321">
-    				</ins> -->
+					<ins class="ad-horizontal adsbygoogle"
+     					style="display:block"
+     					data-ad-client="ca-pub-8371934832180859"
+     					data-ad-slot="2868717721"
+     					data-ad-format="link">
+     				</ins>
 				</aside>
 			</div>
 		</div>

@@ -4,63 +4,25 @@
   src: url('../assets/fonts/candela/CandelaBook.otf');
   font-weight: normal;
 }
+/* GYOSHO */
 @font-face {
-  font-family: "CandelaBold";
-  src: url('../assets/fonts/candela/CandelaBold.otf');
-  font-weight: bold;
-}
-@font-face {
-  font-family: "CandelaItalic";
-  src: url('../assets/fonts/candela/CandelaItalic.otf');
-  font-weight: italic;
-}
-/* ZIN HENA BOKURYU */
-@font-face {
-  font-family: "ZinHena";
-  src: url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.otf'), url('../assets/fonts/zinhenaboku/ZinHenaBokuryu-CRF.ttf');
+  font-family: "Gyosho";
+  src: url('../assets/fonts/gyosho/Gyosho.ttf');
   font-weight: normal;
 }
-/* SEGOE UI */
+/* ROBOTO 2014 */
 @font-face {
-  font-family: "SegoeRegular";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_regular.ttf');
-  font-weight: normal;
+  font-family: "RobotoLight";
+  src: url('../assets/fonts/roboto-2014/Roboto-Light.ttf');
 }
 @font-face {
-  font-family: "SegoeLight";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_light.ttf');
-  font-weight: light;
-}
-@font-face {
-  font-family: "SegoeBold";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_bold.ttf'), url('../assets/fonts/segoe_ui/segoe_ui_bold.eot'), url('../assets/fonts/segoe_ui/segoe_ui_bold.woff');
-  font-weight: bold;
-}
-@font-face {
-  font-family: "SegoeItalic";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_italic.ttf');
-  font-weight: normal;
-}
-@font-face {
-  font-family: "SegoeSemibold";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_semibold.ttf');
-  font-weight: semibold;
-}
-@font-face {
-  font-family: "SegoeBoldItalic";
-  src: url('../assets/fonts/segoe_ui/segoe_ui_bold_italic.ttf');
-  font-weight: bold;
-}
-/* FORTE */
-@font-face {
-  font-family: "Forte";
-  src: url('../assets/fonts/forte/FORTE.TTF');
-  font-weight: normal;
+  font-family: "RobotoMedium";
+  src: url('../assets/fonts/roboto-2014/Roboto-Medium.ttf');
 }
 @media screen and (max-width: 455px) {
   body {
     font-size: 1.1em;
-    font-family: "SegoeRegular", sans-serif;
+    font-family: "RobotoLight", "Segoe UI", "Helvetica", sans-serif;
     background-color: #f9f9f9;
   }
   .title-box {
@@ -69,7 +31,7 @@
     padding: .5em 0 .5em 0;
   }
   h1 {
-    font-family: "Candela", sans-serif;
+    font-family: "Candela", "RobotoMedium", sans-serif;
     font-size: 1.8em;
     text-align: center;
     margin: 0;
@@ -81,10 +43,10 @@
   }
   .main h2 {
     font-size: 1.5em;
-    font-family: "Candela", sans-serif;
+    font-family: "Candela", "RobotoMedium", sans-serif;
   }
   .main h3 {
-    font-family: "Candela", sans-serif;
+    font-family: "Candela", "RobotoMedium", sans-serif;
     font-size: 1.3em;
     padding-bottom: .8em;
   }
@@ -120,7 +82,8 @@
     margin-top: 0.5em;
     text-transform: uppercase;
     color: #f4f4f4;
-    font-family: "SegoeSemibold", sans-serif;
+    font-family: "RobotoMedium", sans-serif;
+    font-weight: 600;
   }
   .main .dl-btn p:nth-of-type(2) {
     margin-top: -0.8em;

@@ -24,7 +24,7 @@
 			<h1>Aide</h1>
 		</header>
 		<div class="row" role="main">
-			<div class="main column large-12">
+			<div class="main column large-offset-1 large-10">
 				
 				<!-- BREADCRUMB -->
 				<nav aria-label="Vous êtes ici:" role="navigation">

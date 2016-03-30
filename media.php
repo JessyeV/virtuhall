@@ -23,7 +23,7 @@
 			<h1>Média</h1>
 		</header>
 		<div class="row" role="main">
-			<div class="main column large-12">
+			<div class="main column large-offset-1 large-10">
 				<!-- BREADCRUMB -->
 				<nav aria-label="Vous êtes ici:" role="navigation">
 					<ul class="breadcrumbs">
@@ -36,23 +36,22 @@
 				</nav>
 				<!-- MAIN -->
 				<section class="column large-10 media-wrap">
-					
+					<h2>Captures d'écran</h2>
 					<div id="screen" class="popup-gallery column large-12">
-						<h2>Captures d'écran</h2>
 						<a href="assets/images/media/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/kata.jpg"></a>
 						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
 						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
 						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
 					</div>
 					
+					<h2>Vidéos</h2>
 					<div id="video" class="popup-video column large-12">
-						<h2>Vidéos</h2>
 						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo-miniature.jpg" alt=""></a>
 						<a href="https://www.youtube.com/watch?v=dwJeSkBlSLU" class="column small-12 medium-6 large-4"><img src="assets/images/media/wn-miniature.jpg" alt=""></a>
 					</div>
 
+					<h2>Fonds d'écran</h2>
 					<div id="wallpaper" class="popup-wallpaper column large-12">
-						<h2>Fonds d'écran</h2>
 						<a href="assets/images/media/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/kata.jpg"></a>
 						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
 						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
@@ -67,10 +66,13 @@
 					data-ad-client="ca-pub-8371934832180859"
 					data-ad-slot="1415884923">
 					</ins>
-					<!-- <ins class="ad-horizontal adsbygoogle"
-					style="display:inline-block;width:320px;height:90px"
-					data-ad-client="ca-pub-8371934832180859"
-					data-ad-slot="6700585321"></ins> -->
+					
+					<ins class="ad-horizontal adsbygoogle"
+     					style="display:block"
+     					data-ad-client="ca-pub-8371934832180859"
+     					data-ad-slot="2868717721"
+     					data-ad-format="link">
+     				</ins>
 				</aside>				
 			</div>
 		</div>

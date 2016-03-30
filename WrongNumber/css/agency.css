@@ -256,10 +256,10 @@ header {
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
-    -webkit-background-size: 400px;
-    -moz-background-size: 400px;
-    background-size: 400px;
-    -o-background-size: 400px;
+    -webkit-background-size: 380px;
+    -moz-background-size: 380px;
+    background-size: 380px;
+    -o-background-size: 380px;
     text-align: center;
     color: #fff
 }
