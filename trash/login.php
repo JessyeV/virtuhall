@@ -1,5 +1,5 @@
 <?php
-include('../phptest/connexion.php');
+include('connect.php');
 if (isset($_COOKIE['pseudo'])) {
 	header('Location: index.php');
 }

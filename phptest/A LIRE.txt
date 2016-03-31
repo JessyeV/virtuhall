@@ -1,0 +1,7 @@
+Dans ce dossier :
+
+Jessye qui fait des test
+
+login.php -> Ma version de la connexion avec un tuto de openclassroom et plein de trucs pris un peu partt, mais bon ça a pas trop l'air de fonctionner donc lol.
+
+connexion.php -> pour me logger à la bbd mais celle du localhost
