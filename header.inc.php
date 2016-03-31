@@ -10,19 +10,29 @@
 					<img id="burger-icon" src="assets/icons/mburger.png" alt="Menu de navigation" title="Accéder au menu" width="35" height="23">
 				</a>
 			</div>
-			<div class="log">
+
+			<?php
+			//Vérifier si utilisateur est logged in
+			if (isset($_SESSION['pseudo'])) {
+				echo('Bienvenue '.$_SESSION['pseudo'].' !');
+			}
+			else{
+				echo('<div class="log">
 				<ul>
 					<li><a href="signin.php">Inscription</a></li>
 					<li><a class="popup-trigger">Connexion</a></li>
 				</ul>
-			</div>
-			<div class="lang">
-				<ul>
-					<li class="disabled">fr</li>
-					<span>|</span>
-					<li><a href="#" class="underlined">en</a></li>
+				</div>');
+			}
+			?>
+
+			<!-- <div class="lang">
+			 	<ul>
+			 		<li class="disabled">fr</li>
+			 		<span>|</span>
+			 		<li><a href="#" class="underlined">en</a></li>
 				</ul>
-			</div>
+			</div> -->
 			
 			<!-- Collapsed menu -->
 			<nav class="burger-menu" role="navigation">

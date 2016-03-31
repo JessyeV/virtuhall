@@ -1,0 +1,151 @@
+/* CANDELA */
+@font-face {
+  font-family: "Candela";
+  src: url('../assets/fonts/candela/CandelaBook.otf');
+  font-weight: normal;
+}
+/* GYOSHO */
+@font-face {
+  font-family: "Gyosho";
+  src: url('../assets/fonts/gyosho/Gyosho.ttf');
+  font-weight: normal;
+}
+/* ROBOTO 2014 */
+@font-face {
+  font-family: "RobotoLight";
+  src: url('../assets/fonts/roboto-2014/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: "RobotoMedium";
+  src: url('../assets/fonts/roboto-2014/Roboto-Medium.ttf');
+}
+html {
+  width: 100%;
+}
+body {
+  background-image: url('../assets/images/land-bckgd-1.png') !important;
+  background-repeat: no-repeat !important;
+  background-color: #f9f9f9 !important;
+  font-size: 2em;
+}
+.main {
+  margin: 0;
+}
+.wrapslide {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 5% 0 5%;
+}
+#vh-slider {
+  margin: auto;
+  margin-bottom: 5%;
+}
+.VH-brand {
+  display: block;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+.buttons {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.buttons > li {
+  display: inline-block;
+  margin: 0 3% 0 3%;
+  border-radius: 5px;
+  margin-top: 3%;
+  padding: .5em;
+}
+.buttons > li > a {
+  color: lightgrey;
+  font-family: "ZinHena";
+  font-size: 1.8em;
+  padding: 1.5em;
+  transition: color 0.2s ease-in-out;
+}
+.buttons > li > a:hover {
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+  color: #fff;
+}
+.buttons > li > a:active {
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+  color: #fff;
+}
+.forte {
+  font-family: "Forte", sans-serif;
+  letter-spacing: 2px;
+}
+.buttons > li {
+  background-color: #403e3c;
+  transition: box-shadow 0.7s ease;
+}
+.bluehov {
+  -webkit-box-shadow: inset 0 0rem #a9c627;
+  box-shadow: inset 0 0rem #a9c627;
+}
+.bluehov:hover {
+  box-shadow: inset 25rem 0rem #2a8ebb;
+}
+.bluehov:active {
+  background-color: #2a8ebb;
+}
+.greenhov {
+  -webkit-box-shadow: inset 0 0rem #2a8ebb;
+  box-shadow: inset 0 0rem #2a8ebb;
+}
+.greenhov:hover {
+  box-shadow: inset 25rem 0rem #a9c627;
+}
+.greenhov:active {
+  background-color: #a9c627;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 440px) and (max-width: 550px) {
+  #vh-slider {
+    margin-bottom: 16%;
+    margin-top: 6%;
+  }
+  .buttons > li {
+    display: block;
+    margin-bottom: 5%;
+    margin-top: 8%;
+  }
+  .buttons > li > a {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 439px) {
+  #vh-slider {
+    margin-bottom: 20%;
+    margin-top: 6%;
+  }
+  .buttons > li {
+    display: block;
+    margin-bottom: 5%;
+    margin-top: 9%;
+  }
+  .buttons > li > a {
+    font-size: 1.4em;
+    padding: 0;
+  }
+}

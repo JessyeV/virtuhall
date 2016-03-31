@@ -12,19 +12,22 @@ $(document).ready(function() {
 	{
 		e.preventDefault();
 		
+		//Récupère les valeurs des champs du formulaire
 		var pseudo = $("input[name=pseudo]").val();
 		var pwd = $("input[name=pwd]").val();
 		var mail = $("input[name=mail]").val();
 		var age = $("select[name=age]").val();
 		var gender = $("input[name=gender]:checked").val();
 
+		//Requête ajax qui permet d'envoyer les données récupérées, en POST
 		$.ajax({
 	       url : 'signup.php',
 	       type : 'POST',
 	       data : 'pseudo='+pseudo+'&pwd='+pwd+'&mail='+mail+'&age='+age+'&gender='+gender,
 	       dataType : 'html',
 	       success : function(code_html, statut){
-	       		alert(code_html);
+	       		swal({title:'',
+	       			text: code_html});
            },
 	       error : function(resultat, statut, erreur){
 	       		alert(erreur);

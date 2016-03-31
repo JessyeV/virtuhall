@@ -94,14 +94,19 @@
 
 <div class="popup">
 	<p class="title">Connexion</p>
+	<form action="trash/login.php" method="POST">
 	<label for="pseudo" class="show-for-sr">Pseudo</label>
-  	<input type="text" name="pseudo" placeholder="Pseudo" required>
+  	<input type="text" name="pseudo" placeholder="Pseudo" value="<?php if (isset($_POST['pseudo'])) echo htmlentities(trim($_POST['pseudo'])); ?>" required>
 	
 	<label for="pwd" class="show-for-sr">Mot de passe</label>
-  	<input type="password" name="pwd" placeholder="Mot de passe" required>
+  	<input type="password" name="pwd" placeholder="Mot de passe" value="<?php if (isset($_POST['pwd'])) echo htmlentities(trim($_POST['pwd'])); ?>" required>
 
-  	<input type="submit" class="success button" value="Se connecter">
+  	<input type="submit" name="connexion" class="success button" value="Se connecter">
+  	</form>
   <span class="popup-btn-close">✖</span>
+  <?php
+	if (isset($erreur)) echo '<br /><br />',$erreur;
+	?>
 </div>
 
 	<script src="js/jquery.min.js"></script>

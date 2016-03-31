@@ -1,5 +1,5 @@
 <?php
-	if (isset($_COOKIE['pseudo'])) {
+	if (isset($_SESSION['pseudo'])) {
 	      header('Location: index.php');
 	}
 ?>
@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/signin.css">
 		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/sweetalert/sweetalert.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
@@ -77,8 +78,8 @@
 
 						<!--<div id="recaptcha" class="g-recaptcha" data-size="normal" data-sitekey="6LcoMRcTAAAAAAbZLuYjxQ7IlVFcguGgV4o4tRPl"></div>-->
 
-						<button type="submit" name="" value="valider">Valider l'inscription</button><br/>
 						<p class="info">En cliquant sur valider, vous acceptez les <a href="assets/files/CGU_WN.pdf">conditions d'utilisation</a>.</p>
+						<button type="submit" name="" value="valider">Valider l'inscription</button><br/>
 					</form>
 					</div>
 
@@ -103,6 +104,7 @@
 			</div>
 			<!-- FOOTER -->
 			<span class="space"><?php include('footer.inc.php'); ?></span>
+			<script src="js/sweetalert.min.js"></script>
 			<script src="js/signin.js"></script>
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<script>
