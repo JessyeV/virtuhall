@@ -23,7 +23,12 @@
 			}
 			else{
 				// echo('Bienvenue '.$_SESSION['pseudo'].' !');
-				echo $message;
+				echo ('<div class="log">
+					<ul>
+					<li>Bienvenue'.$_SESSION['pseudo'].'!</li>
+					<li><a href="">Mon compte</a></li>
+					</ul>
+					</div>');
 			}
 			?>
 

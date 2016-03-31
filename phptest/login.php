@@ -8,9 +8,10 @@ if (isset($_SESSION['pseudo'])) {
 // On teste si le visiteur a soumis le formulaire de connexion
 // if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 
+	$message = '';
 	//Test si champs vides
 	if (empty($_POST['pseudo']) || empty($_POST['pwd'])){
-		echo "Un ou plusieurs champs sont vides";
+		$message = "Un ou plusieurs champs sont vides";
 	}
 
 	//Initialisation de variables pour les champs
@@ -18,8 +19,8 @@ if (isset($_SESSION['pseudo'])) {
 	// $password = $_POST['pwd'];
 
 	//Sinon vérification des pseudo et mdp
-	else if ((isset($_POST['pseudo']) && (isset($_POST['pwd'])) {
-		$sql = $db -> prepare('SELECT id, login, password FROM membres WHERE login = :pseudo AND password = :password');
+	if ((isset($_POST['pseudo']) && (isset($_POST['pwd'])) {
+		$sql = $db -> prepare('SELECT * FROM membres WHERE login = :pseudo AND password = :password');
 		$sql -> bindValue(':pseudo',$_POST['pseudo'], PDO::PARAM_STR);
 		$sql -> bindValue(':password',$_POST['pwd'], PDO::PARAM_STR);
         $sql -> execute();
