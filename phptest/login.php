@@ -1,17 +1,16 @@
 <?php
 session_start();
 include('connexion.php');
-if (isset($_COOKIE['pseudo'])) {
+if (isset($_SESSION['pseudo'])) {
 	header('Location: ../index.php');
 }
 
 // On teste si le visiteur a soumis le formulaire de connexion
-if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
+// if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 
 	//Test si champs vides
 	if (empty($_POST['pseudo']) || empty($_POST['pwd'])){
-		echo "Les champs sont vides";
-		exit();
+		echo "Un ou plusieurs champs sont vides";
 	}
 
 	//Initialisation de variables pour les champs
@@ -19,32 +18,32 @@ if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 	// $password = $_POST['pwd'];
 
 	//Sinon vérification des pseudo et mdp
-	if ((isset($_POST['pseudo']) && (isset($_POST['pwd'])) {
-		$sql = $db -> prepare('SELECT login, password FROM membres WHERE login = :pseudo');
+	else if ((isset($_POST['pseudo']) && (isset($_POST['pwd'])) {
+		$sql = $db -> prepare('SELECT id, login, password FROM membres WHERE login = :pseudo AND password = :password');
 		$sql -> bindValue(':pseudo',$_POST['pseudo'], PDO::PARAM_STR);
+		$sql -> bindValue(':password',$_POST['pwd'], PDO::PARAM_STR);
         $sql -> execute();
-        $data = $sql -> fetch();
+        $user_data = $sql -> fetchColumn();
     }
-    // Si le mdp correspond au pseudo, alors accès OK
-	if ($data['password'] == md5($_POST['pwd'])){
-		$_SESSION['pseudo'] = $data['login'];
-	    $_SESSION['id'] = $data['id_membre'];
-	    echo'<p>Bienvenue '.$data['login'].', 
+    // Si le mdp correspond au mdp hashé dans la bdd, alors accès OK
+	if ($user_data['password'] == md5($_POST['pwd'])){
+		$_SESSION['pseudo'] = $user_data['login'];
+	    $message = '<p>Bienvenue '.$user_data['login'].', 
 			vous êtes maintenant connecté!</p>
-			<p>Cliquez <a href="./index.php">ici</a> 
+			<p>Cliquez <a href="../index.php">ici</a> 
 			pour revenir à la page d\'accueil</p>';  
 	}
 
 	//Si ce n'est pas le cas, alors accès pas OK
 	else{
-	    echo '<p>Une erreur s\'est produite 
+	    $message = '<p>Une erreur s\'est produite 
 	    pendant votre identification.<br /> Le mot de passe ou le pseudo 
             entré n\'est pas correcte.</p>
 	    <br /><br />Cliquez <a href="../index.php">ici</a> 
 	    pour revenir à la page d accueil</p>';
 	}
     $query->CloseCursor();   
-}
+// }
 
 
 

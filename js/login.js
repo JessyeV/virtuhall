@@ -1,29 +1,4 @@
 $(document).ready(function(){
-	// var Wmarges = ((window.innerWidth - 400)/2);
-	// $('.main').css({'margin-left': Wmarges ,'margin-right': Wmarges});
-
-	// if($(window).resize == true){
-	// 	$('.main').css({'margin-left': marges ,'margin-right': marges});
-	// }
-
-	// //refresh page on browser resize
-	// $(window).bind('resize', function(e){
-	// 	if (window.RT) clearTimeout(window.RT);
-	// 	window.RT = setTimeout(function(){
-	// 	this.location.reload(false); /* false to get page from cache */
-	// 	}, 200);
-	// });
-
-	// $('.login').on('click',function(){
- //    	$('.wrap').show();
- //    	$('.main').show();
- //  	});
-
- //  	$('.popup-close').on('click',function(){
- //    	$('.wrap').fadeOut();
- //    	$('.main').fadeOut();
- //  	});
-
 // Popup Window
 var scrollTop = '';
 var newHeight = '100';
@@ -55,4 +30,30 @@ $('html, .popup-btn-close').click(function(e) {
 $('.popup').click(function(e){
   e.stopPropagation();
 });
+
+
+//Envoi des données en ajax
+// $("#log-in").submit(function(e)
+//   {
+//     e.preventDefault();
+    
+//     //Récupère les valeurs des champs du formulaire
+//     var pseudo = $("input[name=pseudo]").val();
+//     var pwd = $("input[name=pwd]").val();
+
+//     //Requête ajax qui permet d'envoyer les données récupérées, en POST
+//     $.ajax({
+//          url : '../trash/login.php',
+//          type : 'POST',
+//          data : 'pseudo='+pseudo+'&pwd='+pwd,
+//          dataType : 'html',
+//          // success : function(code_html, statut){
+//          //    // swal({title:'',
+//          //    //   text: code_html});
+//          //   },
+//          // error : function(resultat, statut, erreur){
+//          //    alert(erreur);
+//          // }
+//       });
+//   });
 });

@@ -13,16 +13,17 @@
 
 			<?php
 			//Vérifier si utilisateur est logged in
-			if (isset($_SESSION['pseudo'])) {
-				echo('Bienvenue '.$_SESSION['pseudo'].' !');
-			}
-			else{
+			if (!isset($_SESSION['pseudo'])) {
 				echo('<div class="log">
 				<ul>
 					<li><a href="signin.php">Inscription</a></li>
 					<li><a class="popup-trigger">Connexion</a></li>
 				</ul>
 				</div>');
+			}
+			else{
+				// echo('Bienvenue '.$_SESSION['pseudo'].' !');
+				echo $message;
 			}
 			?>
 
