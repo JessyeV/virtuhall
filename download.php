@@ -1,4 +1,10 @@
-<?php session_start(); ?>
+<?php session_start(); 
+
+	if (!isset($_SESSION['pseudo'])) {
+	      header('Location: signin.php');
+	}
+	
+?>
 <!DOCTYPE html>
 <head>
 	<html lang="fr">
