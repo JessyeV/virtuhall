@@ -13,7 +13,7 @@
 
 	function throwError($msg)
 	{
-		header('HTTP', true, 200);
+		header('HTTP', true, 500);
 		echo $msg;
 		exit;
 	}
@@ -64,7 +64,7 @@
     }
     else
     {
-    	throwError("<span style='color:crimson'>Une erreur est survenue.</span>");
+    	header('Location: index.php'); //Redirection vers index.php si rien POST
     }
 
 ?>

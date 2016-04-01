@@ -11,27 +11,6 @@
 				</a>
 			</div>
 
-			<?php
-			//Vérifier si utilisateur est logged in
-			if (!isset($_SESSION['pseudo'])) {
-				echo('<div class="log">
-				<ul>
-					<li><a href="signin.php">Inscription</a></li>
-					<li><a class="popup-trigger">Connexion</a></li>
-				</ul>
-				</div>');
-			}
-			else{
-				// echo('Bienvenue '.$_SESSION['pseudo'].' !');
-				echo ('<div class="log">
-					<ul>
-					<li>Bienvenue'.$_SESSION['pseudo'].'!</li>
-					<li><a href="">Mon compte</a></li>
-					</ul>
-					</div>');
-			}
-			?>
-
 			<!-- <div class="lang">
 			 	<ul>
 			 		<li class="disabled">fr</li>
@@ -60,8 +39,14 @@
 					<img src="assets/icons/VH-icon.png" alt="Icône du site de VirtuHall" title="Retour à l'accueil">
 				</a>
 				<ul>
-					<li><a href="signin.php">Inscription</a></li>
-					<li><a class="popup-trigger">Connexion</a></li>
+					<?php 
+						if(isset($_SESSION['pseudo'])){
+							echo '<li>Bienvenue '.$_SESSION['pseudo'].' !</li> <li><a href="#">Mon compte</a></li> <li><a href="logout.php">Déconnexion</a></li>';
+						}
+						else{
+							echo '<li><a href="signin.php">Inscription</a></li> <li><a class="popup-trigger">Connexion</a></li>';
+						}
+					?>
 					<li class="disabled">fr</li>
 					<span>|</span>
 					<li><a href="#" class="underlined">en</a></li>

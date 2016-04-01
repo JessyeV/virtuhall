@@ -105,4 +105,7 @@
 			throwError("Les informations fournies sont incorrectes, ou votre pseudo est déjà pris.");
 		}
 	}
+	else{
+		header('Location: signin.php'); //Redirection vers signin.php si rien POST
+	}
 ?>

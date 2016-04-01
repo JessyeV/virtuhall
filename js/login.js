@@ -48,9 +48,9 @@ $("#log-in").submit(function(e){
          dataType : 'html',
          success : function(code_html, statut){
           $("#login-msg").html(code_html); // Affiche le message de bienvenue
-          setTimeout(function(){ location.reload(); }, 500); //Rafraichi la page au bout de 0.5 secondes
+          setTimeout(function(){ window.location.reload(); }, 500); //Rafraichi la page au bout de 0.5 secondes
         },
-         error : function(resultat, statut, erreur){$("#login-msg").html(erreur);} //Affiche le message d'erreur
+         error : function(resultat, statut, erreur){$("#login-msg").html(resultat.responseText);} //Affiche le message d'erreur
       });
   });
 
