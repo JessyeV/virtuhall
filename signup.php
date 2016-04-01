@@ -26,7 +26,7 @@
 	//Connexion à la BDD
 	try
 	{
-		$bdd = new PDO ('mysql:host=localhost;dbname=virtuhaldv80085', 'root', '');
+		$bdd = new PDO ('mysql:host=virtuhaldv80085.mysql.db;dbname=virtuhaldv80085', 'virtuhaldv80085', 'Wrongnumber7');
 	}	
 	catch(Exception $e)
 	{
@@ -99,7 +99,8 @@
 			$req = $bdd->prepare('INSERT INTO membres(login, password, mail, age, sexe) VALUES (:login, :password, :mail, :age, :sexe)');
 			$req->execute(array("login" => $login, "password" => $password, "mail" => $mail, "age" => $age, "sexe" => $sexe));
 
-			throwSuccess();
+			echo "Votre inscription a été prise en compte !";
+			//throwSuccess(); // ne reconnaît pas la fonction
 		}
 		else{
 			throwError("Les informations fournies sont incorrectes, ou votre pseudo est déjà pris.");

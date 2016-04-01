@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="description" content="Pour jouer à VirtuHall, il vous faut vous inscrire afin d'accéder au téléchargement du client du jeu. C'est rapide et facile, alors n’attendez plus ! ">
 		<title>VirtuHall le jeu - Inscription</title>
+		<link rel="icon" type="image/png" href="assets/favicon.png" />
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="css/header.css">

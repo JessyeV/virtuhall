@@ -72,10 +72,13 @@
     margin: .5rem 0 1.3rem 0;
   }
   .navbar .log ul li {
-    padding: 0 .8rem 0 .8rem;
+    padding: 0 .8rem .8rem .8rem;
   }
   .navbar .log ul li a {
     padding: .2rem .1rem .2rem .1rem;
+  }
+  .navbar .log ul li .red {
+    color: #cf0202;
   }
   .navbar .lang {
     text-align: center;
@@ -118,7 +121,7 @@
   }
   .banner-container .banner-sm {
     position: relative;
-    margin-top: -1.7rem;
+    margin-top: -2.5rem;
     width: 100%;
   }
 }
@@ -160,15 +163,17 @@
     margin: 0;
     padding: .5rem .8rem 0 0;
   }
-  .navbar .top-nav ul li:nth-child(-n+2) {
+  .navbar .top-nav ul li {
     padding-right: 2rem;
   }
-  .navbar .top-nav ul li:nth-child(n+3) {
-    font-family: "RobotoMedium", "Segoe UI", "Helvetica", sans-serif;
-    font-weight: 600;
+  .navbar .top-nav ul .language {
+    font-family: "RobotoLight", "Segoe UI", "Helvetica", sans-serif;
     font-variant: small-caps;
     font-size: 1.3rem;
     padding: 0 .5rem 0 .5rem;
+  }
+  .navbar .top-nav ul .red {
+    color: #cf0202;
   }
   .navbar .mid-nav {
     text-align: center;
@@ -242,14 +247,17 @@
     margin: 0;
     padding: .7rem .8rem 0 0;
   }
-  .navbar .top-nav ul li:nth-child(-n+2) {
+  .navbar .top-nav ul li {
     padding-right: 2rem;
   }
-  .navbar .top-nav ul li:nth-child(n+3) {
+  .navbar .top-nav ul .language {
     font-family: "RobotoLight", "Segoe UI", "Helvetica", sans-serif;
     font-variant: small-caps;
     font-size: 1.3rem;
     padding: 0 .5rem 0 .5rem;
+  }
+  .navbar .top-nav ul .red {
+    color: #cf0202;
   }
   .navbar .mid-nav {
     text-align: center;

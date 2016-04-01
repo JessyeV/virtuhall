@@ -56,14 +56,17 @@
     margin: 0;
     padding: .7rem .8rem 0 0;
   }
-  .navbar .top-nav ul li:nth-child(-n+2) {
+  .navbar .top-nav ul li {
     padding-right: 2rem;
   }
-  .navbar .top-nav ul li:nth-child(n+3) {
+  .navbar .top-nav ul .language {
     font-family: "RobotoLight", "Segoe UI", "Helvetica", sans-serif;
     font-variant: small-caps;
     font-size: 1.3rem;
     padding: 0 .5rem 0 .5rem;
+  }
+  .navbar .top-nav ul .red {
+    color: #cf0202;
   }
   .navbar .mid-nav {
     text-align: center;

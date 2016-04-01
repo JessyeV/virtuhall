@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <div id="main-header">
 	<nav class="navbar" role="navigation">
 		<!-- Responsive <480px -->
@@ -11,6 +14,19 @@
 				</a>
 			</div>
 
+			<div class="log">
+				<ul>
+					<?php 
+						if(isset($_SESSION['pseudo'])){
+							echo '<li>Bienvenue <span class="red">'.$_SESSION['pseudo'].'</span> !</li> <li><a href="#">Mon compte</a></li> <li><a href="logout.php">Déconnexion</a></li>';
+						}
+						else{
+							echo '<li><a href="signin.php">Inscription</a></li> <li><a class="popup-trigger">Connexion</a></li>';
+						}
+					?>
+				</ul>
+			</div>
+			<!-- DESACTIVE EN ATTENDANT LA VERSION ANGLAISE-->
 			<!-- <div class="lang">
 			 	<ul>
 			 		<li class="disabled">fr</li>
@@ -41,15 +57,16 @@
 				<ul>
 					<?php 
 						if(isset($_SESSION['pseudo'])){
-							echo '<li>Bienvenue '.$_SESSION['pseudo'].' !</li> <li><a href="#">Mon compte</a></li> <li><a href="logout.php">Déconnexion</a></li>';
+							echo '<li>Bienvenue <span class="red">'.$_SESSION['pseudo'].'</span> !</li> <li><a href="#">Mon compte</a></li> <li><a href="logout.php">Déconnexion</a></li>';
 						}
 						else{
 							echo '<li><a href="signin.php">Inscription</a></li> <li><a class="popup-trigger">Connexion</a></li>';
 						}
 					?>
-					<li class="disabled">fr</li>
+					<!-- DESACTIVE EN ATTENDANT LA VERSION ANGLAISE -->
+					<!-- <li class="disabled language">fr</li>
 					<span>|</span>
-					<li><a href="#" class="underlined">en</a></li>
+					<li class="language"><a href="#" class="underlined">en</a></li> -->
 				</ul>
 			</div>
 			

@@ -30,7 +30,7 @@
 	}
 	
 	try{
-		$db = new PDO('mysql:host=localhost;dbname=virtuhaldv80085', 'root', '');
+		$db = new PDO('mysql:host=virtuhaldv80085.mysql.db;dbname=virtuhaldv80085', 'virtuhaldv80085', 'Wrongnumber7');
 	}
 	catch (Exception $e){
 	   die('Erreur : ' . $e->getMessage());
@@ -52,7 +52,8 @@
         	if ($user_data['password'] == hash("sha256",$_POST['pwd']))
         	{
 				$_SESSION['pseudo'] = $user_data['login'];
-			    throwSuccess('<span style="color:mediumseagreen">Bienvenue '.$user_data['login'].' !</span>');  
+			    //throwSuccess('<span style="color:mediumseagreen">Bienvenue '.$user_data['login'].' !</span>'); // ne reconnait pas la fonction
+			    echo('<span style="color:mediumseagreen">Bienvenue '.$user_data['login'].' !</span>');  
 			}
 			else
 			{
