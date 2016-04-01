@@ -94,14 +94,15 @@
 
 <div class="popup">
 	<p class="title">Connexion</p>
-	<form action="phptest/login.php" method="POST">
-	<label for="pseudo" class="show-for-sr">Pseudo</label>
-  	<input type="text" name="pseudo" placeholder="Pseudo" required>
-	
-	<label for="pwd" class="show-for-sr">Mot de passe</label>
-  	<input type="password" name="pwd" placeholder="Mot de passe" required>
+	<p id="login-msg"></p>
+	<form action="login.php" id="log-in" method="POST">
+		<label for="pseudo" class="show-for-sr">Pseudo</label>
+	  	<input id="login-pseudo" type="text" name="pseudo" placeholder="Pseudo" required>
+		
+		<label for="pwd" class="show-for-sr">Mot de passe</label>
+	  	<input id="login-pwd" type="password" name="pwd" placeholder="Mot de passe" required>
 
-  	<input type="submit" name="connexion" class="success button" value="Se connecter">
+	  	<input type="submit" name="connexion" class="success button" value="Se connecter">
   	</form>
   <span class="popup-btn-close">✖</span>
 </div>

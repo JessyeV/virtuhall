@@ -33,27 +33,25 @@ $('.popup').click(function(e){
 
 
 //Envoi des données en ajax
-// $("#log-in").submit(function(e)
-//   {
-//     e.preventDefault();
+$("#log-in").submit(function(e){
+    e.preventDefault();
     
-//     //Récupère les valeurs des champs du formulaire
-//     var pseudo = $("input[name=pseudo]").val();
-//     var pwd = $("input[name=pwd]").val();
+    //Récupère les valeurs des champs du formulaire
+    var pseudo = $("#login-pseudo").val();
+    var pwd = $("#login-pwd").val();
 
-//     //Requête ajax qui permet d'envoyer les données récupérées, en POST
-//     $.ajax({
-//          url : '../trash/login.php',
-//          type : 'POST',
-//          data : 'pseudo='+pseudo+'&pwd='+pwd,
-//          dataType : 'html',
-//          // success : function(code_html, statut){
-//          //    // swal({title:'',
-//          //    //   text: code_html});
-//          //   },
-//          // error : function(resultat, statut, erreur){
-//          //    alert(erreur);
-//          // }
-//       });
-//   });
+    //Requête ajax qui permet d'envoyer les données récupérées, en POST
+    $.ajax({
+         url : 'login.php',
+         type : 'POST',
+         data : 'pseudo='+pseudo+'&pwd='+pwd,
+         dataType : 'html',
+         success : function(code_html, statut){
+          $("#login-msg").html(code_html); // Affiche le message de bienvenue
+          setTimeout(function(){ location.reload(); }, 500); //Rafraichi la page au bout de 0.5 secondes
+        },
+         error : function(resultat, statut, erreur){$("#login-msg").html(erreur);} //Affiche le message d'erreur
+      });
+  });
+
 });

@@ -26,8 +26,16 @@ $(document).ready(function() {
 	       data : 'pseudo='+pseudo+'&pwd='+pwd+'&mail='+mail+'&age='+age+'&gender='+gender,
 	       dataType : 'html',
 	       success : function(code_html, statut){
-	       		swal({title:'',
-	       			text: code_html});
+	       		swal({
+	       			title:'',
+	       			text: code_html,
+	       			closeOnConfirm:false
+	       		},
+	       			function(){
+	       				swal.close(); //ferme la pop-up
+	       				setTimeout(function(){window.location.assign("index.php");},1000); //remplace le document courant par index.php
+	       			}
+	       		);
            },
 	       error : function(resultat, statut, erreur){
 	       		alert(erreur);
