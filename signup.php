@@ -99,11 +99,22 @@
 			$req = $bdd->prepare('INSERT INTO membres(login, password, mail, age, sexe) VALUES (:login, :password, :mail, :age, :sexe)');
 			$req->execute(array("login" => $login, "password" => $password, "mail" => $mail, "age" => $age, "sexe" => $sexe));
 
-			echo "Votre inscription a été prise en compte !";
+			//Send mail
+				
+
+				$to = $mail;
+				$subject = 'Votre inscription sur le site de VirtuHall';
+				$message = 'Bonjour '.$login.' !'."\r\n\r\n".'Vous avez reçu cet e-mail en confirmation de votre inscription à VirtuHall.'."\r\n".'Il ne vous reste plus qu\'à vous connecter sur le site pour pouvoir télécharger le jeu. :)'."\r\n\r\n".'Merci et à bientôt sur VirtuHall !'."\r\n\r\n".'L\'équipe Wrong Number.'."\r\n\r\n\r\n". 'Ce mail est généré automatiquement, merci de ne pas y répondre ;).';
+				$headers = 'From: noreply@virtuhall-game.com' . "\r\n" .'X-Mailer: PHP/' . phpversion();
+
+				mail($to, $subject, htmlspecialchars($message, $encoding = ini_get("utf-8")),$headers."\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n");
+
+			echo "Votre inscription a été prise en compte !\r\nUn email de confirmation vous a été envoyé.";
 			//throwSuccess(); // ne reconnaît pas la fonction
 		}
 		else{
-			throwError("Les informations fournies sont incorrectes, ou votre pseudo est déjà pris.");
+			//throwError("Les informations fournies sont incorrectes, ou votre pseudo est déjà pris."); // ne reconnait pas
+			echo("Les informations fournies sont incorrectes, ou votre pseudo est déjà pris.");
 		}
 	}
 	else{

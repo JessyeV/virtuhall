@@ -57,7 +57,8 @@
 			}
 			else
 			{
-				throwError('<span style="color:crimson">Les identifiants sont incorrects.</span>');
+				//throwError('<span style="color:crimson">Les identifiants sont incorrects.</span>'); // ne reconnait pas
+				echo('<span style="color:crimson">Les identifiants sont incorrects.</span>');
 			}
 
 			$sql->CloseCursor();  
