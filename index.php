@@ -50,7 +50,7 @@ session_start();
 					<div>
 						<h3>VirtuHall arrive bientôt...</h3>
 						<img src="assets/images/articles/vh-soon.jpg" alt="" width="300" height="200">
-						<p>L'attente touche bientôt à sa fin ! <br>L'aventure déjantée de Tomo-san fera son arrivée dans quelques jours... Stay tuned!</p>
+						<p>L'attente touche bientôt à sa fin ! <br>L'aventure déjantée de Tomo-kun fera son arrivée dans quelques jours... Stay tuned!</p>
 					</div>
 					
 					<div>

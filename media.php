@@ -39,24 +39,20 @@
 				<section class="column large-10 media-wrap">
 					<h2>Captures d'écran</h2>
 					<div id="screen" class="popup-gallery column large-12">
-						<a href="assets/images/media/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/kata.jpg"></a>
-						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
-						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
-						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/kata.jpg" alt="Image du personnage de Kata pour la journée de la femme"></a>
+						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt="Image de présentation de Tomo"></a>
 					</div>
 					
 					<h2>Vidéos</h2>
 					<div id="video" class="popup-video column large-12">
-						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo-miniature.jpg" alt=""></a>
-						<a href="https://www.youtube.com/watch?v=dwJeSkBlSLU" class="column small-12 medium-6 large-4"><img src="assets/images/media/wn-miniature.jpg" alt=""></a>
+						<a href="https://www.youtube.com/watch?v=8eBwXuXCOUk" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo-miniature.jpg" alt="Lien vers la vidéo du trailer de VirtuHall"></a>
+						<a href="https://www.youtube.com/watch?v=dwJeSkBlSLU" class="column small-12 medium-6 large-4"><img src="assets/images/media/wn-miniature.jpg" alt="Lien vers la vidéo d'agence de Wrong Number"></a>
 					</div>
 
 					<h2>Fonds d'écran</h2>
 					<div id="wallpaper" class="popup-wallpaper column large-12">
-						<a href="assets/images/media/kata.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/kata.jpg"></a>
-						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
-						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
-						<a href="assets/images/media/tomo.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo.jpg" alt=""></a>
+						<a href="assets/images/media/cubee-tomo.png" class="column small-12 medium-6 large-4"><img src="assets/images/media/cubee-tomo.png" alt="Fond d'écran de Tomo en Cubeecraft" title="Cubeecraft Tomo - 1281x803" width="1281" height="803"></a>
+						<a href="assets/images/media/furasu-wp" class="column small-12 medium-6 large-4"><img src="assets/images/media/furasu-wp" alt="Fond d'écran de Furasu-sama" title="Wise Furasu-sama - 1303x745" width="1303" height="745"></a>
 					</div>
 				</section>
 
