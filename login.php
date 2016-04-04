@@ -30,7 +30,7 @@
 	}
 	
 	try{
-		$db = new PDO('mysql:host=virtuhaldv80085.mysql.db;dbname=virtuhaldv80085', 'virtuhaldv80085', 'Wrongnumber7');
+		$db = new PDO('mysql:host=xxxx;dbname=xxxx', 'xxxx', 'xxxx');
 	}
 	catch (Exception $e){
 	   die('Erreur : ' . $e->getMessage());
