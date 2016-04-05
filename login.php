@@ -30,7 +30,7 @@
 	}
 	
 	try{
-		$db = new PDO('mysql:host=xxxx;dbname=xxxx', 'xxxx', 'xxxx');
+		$db = new PDO('mysql:host=localhost;dbname=virtuhaldv80085', 'root', '');
 	}
 	catch (Exception $e){
 	   die('Erreur : ' . $e->getMessage());

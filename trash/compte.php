@@ -2,7 +2,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Mon compte</title>
@@ -13,26 +13,30 @@ session_start();
 <body>
 	<?php 
 		if(isset($_SESSION['pseudo'])){
-			echo '<h1>Bienvenue sur ton compte'.$_SESSION['pseudo'].' !</h1>';
-			}
-			else{
-				header('Location : index.php');
-			}
+		echo '<h1>Bienvenue sur ton compte '.$_SESSION['pseudo'].' !</h1>';
+		}
+		else{
+			header('Location : index.php');
+		}
 	?>
-		<div>	
-			Voici les possibilités actuelles:
-			<ul>
-				<a href="modify.php"><li>Modifier le pass</li></a>
-				<a href="modify-mail.php"><li>Modifier le mail</li></a>
-			</ul>
-		</div>	
-
+			
+	Voici les possibilités actuelles:
+	<h2>Modifier l'email :</h2>
+	<div>
 		<form action="modify_mail.php" role="form" class="form-signin" method="post">
-			<div>
-				<label >Nouvelle Adresse E-Mail</label>
-				<input type="mail" name="mail" placeholder="exemple@mail.com">
-				<button  type="submit" value="send" name="submit">Confirmer</button>
-			</form>			
-</div>
+			<label >Nouvelle adresse e-mail</label>
+			<input type="mail" name="mail" placeholder="exemple@mail.com">
+			<button  type="submit" value="send" name="submit">Confirmer</button>
+		</form>
+	</div>	
+
+	<h2>Modifier le mot de passe :</h2>
+	<div>
+		<form action="modify_mail.php" role="form" class="form-signin" method="post">
+			<label >Nouveau mot de passe</label>
+			<input type="password" name="pwd">
+			<button  type="submit" value="send" name="submit">Confirmer</button>
+		</form>
+	</div>
 </body>
 </html>

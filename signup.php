@@ -26,7 +26,7 @@
 	//Connexion à la BDD
 	try
 	{
-		$bdd = new PDO ('mysql:host=xxxx;dbname=xxxx', 'xxxx', 'xxxx');
+		$bdd = new PDO ('mysql:host=localhost;dbname=virtuhaldv80085', 'root', '');
 	}	
 	catch(Exception $e)
 	{

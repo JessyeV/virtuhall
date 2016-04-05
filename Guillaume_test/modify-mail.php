@@ -1,21 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Document</title>
-	</head>
-	<body>
-		<?php
-			if (!(isset($_COOKIE['pseudo']) || $_COOKIE['pseudo'] == '')) {
-				header('Location: index.php');
-			}
-			else{
-				if(ISSET($_POST['submit'])){
-					include('connect.php');
-					if(ISSET($_POST['mail'])){		// MODIFIER LE PASS
-						$mail = mysqli_real_escape_string($conn, $_POST['mail']);
-						$username = mysqli_real_escape_string($conn, $_COOKIE['pseudo']);
-						if (mysqli_query($conn, "UPDATE membres SET mail='$mail' WHERE login='$username'"))
+<?php
+function sanitize($data)
+	{
+		$data = trim($data);
+	    $data = stripslashes($data);
+	    $data = htmlspecialchars($data);
+
+	    return $data;
+	}
+	
+	// if (!isset($_SESSION['pseudo'])) {
+	// 	header('Location: index.php');
+	// }
+	
+	try{
+		$db = new PDO('mysql:host=virtuhaldv80085.mysql.db;dbname=virtuhaldv80085', 'virtuhaldv80085', 'Wrongnumber7');
+	}
+	catch (Exception $e){
+	   die('Erreur : ' . $e->getMessage());
+	   throwError("<span style='color:crimson'>Impossible de modifier l'email.</span>");
+	}
+
+	//Connexion BDD
+	// $host = 'localhost';
+	// $user = 'root';
+	// $pwd = '';
+	// $database = 'virtuhaldv80085'; // Nom de la base de données
+	// $db = mysqli_connect($host, $user, $database, $pwd);
+
+	//Modifier mail
+	if(ISSET($_POST['submit'])){
+		if(ISSET($_POST['mail'])){		// MODIFIER LE MAIL
+			$mail = mysqli_real_escape_string($db, $_POST['mail']);
+			$username = mysqli_real_escape_string($db, $_SESSION['pseudo']);
+						if (mysqli_query($db, "UPDATE membres SET mail='$mail' WHERE login='$username'"))
 						{
 							echo "Email changé.";
 						}
@@ -33,9 +50,5 @@
 				<button  type="submit" value="send" name="submit">Confirmer</button>
 			</form></br>
 			<a href="index.php">Retour accueil</a>
-
-		<?php
-			}
-		?>
 		</body>
 </html>
