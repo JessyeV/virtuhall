@@ -1,4 +1,4 @@
-// <?php
+<?php
 // session_start();
 ?>
 <div id="main-header">
@@ -57,7 +57,7 @@
 				<ul>
 					<?php 
 						if(isset($_SESSION['pseudo'])){
-							echo '<li>Bienvenue <span class="red">'.$_SESSION['pseudo'].'</span> !</li> <li><a href="#">Mon compte</a></li> <li><a href="logout.php">Déconnexion</a></li>';
+							echo '<li>Bienvenue <span class="red">'.$_SESSION['pseudo'].'</span> !</li> <li><a href="account.php">Mon compte</a></li> <li><a href="logout.php">Déconnexion</a></li>';
 						}
 						else{
 							echo '<li><a href="signin.php">Inscription</a></li> <li><a class="popup-trigger">Connexion</a></li>';

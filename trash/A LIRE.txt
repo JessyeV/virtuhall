@@ -1,3 +1,0 @@
-login.php de ce dossier -> le login qu'a fait Guillaume en mode sqli/pdo on sait pas trop mais ça fonctionnait
-
-form-test-connect -> les trucs à rajouter dans les input pour que ça fonctionne avec le fichier login.php de guillaume

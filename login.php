@@ -52,6 +52,7 @@
         	if ($user_data['password'] == hash("sha256",$_POST['pwd']))
         	{
 				$_SESSION['pseudo'] = $user_data['login'];
+				$_SESSION['mail'] = $user_data['mail'];
 			    //throwSuccess('<span style="color:mediumseagreen">Bienvenue '.$user_data['login'].' !</span>'); // ne reconnait pas la fonction
 			    echo('<span style="color:mediumseagreen">Bienvenue '.$user_data['login'].' !</span>');  
 			}

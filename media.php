@@ -28,7 +28,7 @@
 				<!-- BREADCRUMB -->
 				<nav aria-label="Vous êtes ici:" role="navigation">
 					<ul class="breadcrumbs">
-						<li><a href="#">Accueil</a></li>
+						<li><a href="index.php">Accueil</a></li>
 						<li>
 							<span class="show-for-sr">Page actuelle: </span>
 							Média
@@ -51,8 +51,9 @@
 
 					<h2>Fonds d'écran</h2>
 					<div id="wallpaper" class="popup-wallpaper column large-12">
-						<a href="assets/images/media/cubee-tomo.png" class="column small-12 medium-6 large-4"><img src="assets/images/media/cubee-tomo.png" alt="Fond d'écran de Tomo en Cubeecraft" title="Cubeecraft Tomo - 1281x803" width="1281" height="803"></a>
-						<a href="assets/images/media/furasu-wp" class="column small-12 medium-6 large-4"><img src="assets/images/media/furasu-wp" alt="Fond d'écran de Furasu-sama" title="Wise Furasu-sama - 1303x745" width="1303" height="745"></a>
+						<a href="assets/images/media/cubee-tomo-wp.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo-cubee-min.jpg" alt="Fond d'écran de Tomo en Cubeecraft" title="Cubeecraft Tomo - 1920x1080" width="780" height="488"></a>
+						<a href="assets/images/media/furasu-wp.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/furasu-min.jpg" alt="Fond d'écran de Furasu-sama" title="Wise Furasu-sama - 1920x1080" width="780" height="439"></a>
+						<a href="assets/images/media/tomo-draw-wp.jpg" class="column small-12 medium-6 large-4"><img src="assets/images/media/tomo-draw-min.jpg" alt="Fond d'écran de Tomo en illustration" title="Brave student - 1920x1080" width="780" height="439"></a>
 					</div>
 				</section>
 
