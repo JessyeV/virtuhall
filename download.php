@@ -63,7 +63,7 @@
 					<div class="column large-5">
 					<h3>Je télécharge VirtuHall</h3>
 					<!--Commenté en attente de l'upload du jeu -->
-						<button class="dl-btn">
+						<button class="dl-btn"> <!--  href="download/VirtuHall_setup.exe" -->
 							<img class="dl-img" src="assets/icons/dl-32.png" alt="">
 							<!-- <p>Télécharger le jeu</p>
 							<p>Version Windows (x64)</p> -->
