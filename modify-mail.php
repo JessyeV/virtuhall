@@ -47,6 +47,14 @@
 
 	    	echo "<span style='color:mediumseagreen'>L'e-mail a bien été changé !</span>";
 	    	$_SESSION['mail'] = $_POST['mail'];
+
+	    	//Send mail to check the mail has been changed correctly
+				$to = $_POST['mail'];
+				$subject = 'Votre changement d\'e-mail sur le site de VirtuHall';
+				$message = 'Bonjour '.$_SESSION['pseudo'].' !'."\r\n\r\n".'Vous avez récemment modifié l\'adresse e-mail de votre compte sur VirtuHall.'."\r\n".'Désormais vous recevrez tous les mails en rapport avec VirtuHall sur cette adresse. Si vous n\'avez pas effectué ce changement vous-même, merci de nous contacter sur le site et de nous envoyer un message à ce propos.'."\r\n\r\n".'Bien cordialement,'."\r\n\r\n".'L\'équipe Wrong Number.'."\r\n\r\n\r\n". 'Ce mail est généré automatiquement, merci de ne pas y répondre ;).';
+				$headers = 'From: noreply@virtuhall-game.com' . "\r\n" .'X-Mailer: PHP/' . phpversion();
+
+				mail($to, $subject, htmlspecialchars($message, $encoding = ini_get("utf-8")),$headers."\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n");
 	    	exit();
     	}
     }

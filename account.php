@@ -6,6 +6,7 @@ session_start();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Mon compte</title>
+	<link rel="icon" type="image/png" href="assets/favicon.png" />
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/foundation.min.css">
 	<link rel="stylesheet" href="css/header.css">
